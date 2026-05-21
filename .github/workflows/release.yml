@@ -122,6 +122,8 @@ jobs:
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
+          echo "previous_tag=$PREV_TAG" >> "$GITHUB_OUTPUT"
+
       - name: Validate release inputs
         if: steps.changed.outputs.has_changes == 'true'
         env:
@@ -160,6 +162,7 @@ jobs:
           set -euo pipefail
 
           MAX_RETRY=3
+          mkdir -p release-assets
           > /tmp/success_list.txt
           > /tmp/failed_list.txt
 
@@ -173,7 +176,7 @@ jobs:
 
             ATTEMPT=0
             SUCCESS=false
-            OUTPUT_FILE="$(basename "${FILE%.xml}.mp3")"
+            OUTPUT_FILE="release-assets/$(basename "${FILE%.xml}.mp3")"
 
             while [ $ATTEMPT -lt $MAX_RETRY ]; do
               ATTEMPT=$((ATTEMPT + 1))
@@ -221,8 +224,71 @@ jobs:
           while IFS= read -r MP3; do
             [ -z "$MP3" ] && continue
             echo "Uploading $MP3..."
-            gh release upload "$TAG" "$MP3" --clobber
+            LABEL="$(basename "$MP3")"
+            gh release upload "$TAG" "$MP3#$LABEL" --clobber
           done < /tmp/success_list.txt
+
+      - name: Package complete MP3 archive
+        if: steps.convert.outputs.has_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ needs.prepare-release.outputs.tag }}
+          PREVIOUS_TAG: ${{ steps.changed.outputs.previous_tag }}
+        run: |
+          set -euo pipefail
+
+          ARCHIVE_DIR="archive-mp3"
+          DOWNLOAD_DIR="previous-release-assets"
+          ARCHIVE_FILE="software-english-podcast-${TAG}-mp3.zip"
+
+          rm -rf "$ARCHIVE_DIR" "$DOWNLOAD_DIR"
+          mkdir -p "$ARCHIVE_DIR" "$DOWNLOAD_DIR"
+
+          if [ -n "$PREVIOUS_TAG" ]; then
+            gh release download "$PREVIOUS_TAG" --pattern "*.mp3" --dir "$DOWNLOAD_DIR" || true
+          fi
+
+          find "$DOWNLOAD_DIR" release-assets -maxdepth 1 -type f -name "*.mp3" -print0 | while IFS= read -r -d '' MP3; do
+            BASENAME="$(basename "$MP3")"
+            if [[ "$BASENAME" =~ ^Episode[.\ ]([0-9]{2})[.\ ] ]]; then
+              EPISODE_NUMBER="${BASH_REMATCH[1]}"
+              TRANSCRIPT="$(find transcripts -maxdepth 1 -type f -name "Episode ${EPISODE_NUMBER} - *.xml" | head -n 1)"
+
+              if [ -n "$TRANSCRIPT" ]; then
+                TARGET_NAME="$(basename "${TRANSCRIPT%.xml}.mp3")"
+              else
+                TARGET_NAME="$BASENAME"
+              fi
+            else
+              TARGET_NAME="$BASENAME"
+            fi
+
+            cp "$MP3" "$ARCHIVE_DIR/$TARGET_NAME"
+          done
+
+          while IFS= read -r TRANSCRIPT; do
+            TARGET_MP3="$ARCHIVE_DIR/$(basename "${TRANSCRIPT%.xml}.mp3")"
+
+            if [ ! -f "$TARGET_MP3" ]; then
+              echo "Missing MP3 for transcript: $TRANSCRIPT" >&2
+              exit 1
+            fi
+          done < <(find transcripts -maxdepth 1 -type f -name "Episode *.xml" | sort)
+
+          python3 - "$ARCHIVE_FILE" <<'PY'
+          import sys
+          from pathlib import Path
+          from zipfile import ZIP_DEFLATED, ZipFile
+
+          archive_dir = Path("archive-mp3")
+          archive_file = Path(sys.argv[1])
+
+          with ZipFile(archive_file, "w", compression=ZIP_DEFLATED) as zip_file:
+              for mp3 in sorted(archive_dir.glob("*.mp3")):
+                  zip_file.write(mp3, arcname=mp3.name)
+          PY
+
+          gh release upload "$TAG" "$ARCHIVE_FILE#Software English Podcast ${TAG} MP3.zip" --clobber
 
       - name: Report failures
         if: steps.convert.outputs.has_failures == 'true'
