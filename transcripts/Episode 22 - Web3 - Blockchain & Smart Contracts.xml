@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -195,6 +195,19 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    穩定幣
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Stablecoin...
+    A stablecoin is a crypto token pegged to a stable asset like the US dollar.
+    Teams settle cross-border payments in stablecoins to avoid the volatility of other tokens.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    穩定幣是一種與美元等穩定資產掛鉤的加密代幣。
+    團隊用穩定幣結算跨境付款，以避開其他代幣的波動。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     非同質化代幣
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -318,6 +331,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     重新質押允許驗證者重複使用其質押資產，同時為多個協議提供安全保障並獲得額外收益。
     EigenLayer 在以太坊上推廣了重新質押，讓節點運營商無需鎖定額外資本就能為新服務擴展其經濟安全性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    現實世界資產
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    R W A...
+    R W A stands for Real World Assets.
+    Tokenizing R W A like real estate or government bonds is one of the fastest-growing on-chain use cases in 2026.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    RWA 是 Real World Assets 的縮寫。
+    把房地產或政府債券這類現實世界資產代幣化，是 2026 年鏈上成長最快的應用之一。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

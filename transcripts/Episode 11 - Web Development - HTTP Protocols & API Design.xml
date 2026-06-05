@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -138,14 +138,14 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    GraphQL
+    <sub alias="graph cue el">GraphQL</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <sub alias="graph cue el">GraphQL</sub>...
     <sub alias="graph cue el">GraphQL</sub> is a query language for APIs that allows clients to request exactly what they need.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    GraphQL 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
+    <sub alias="graph cue el">GraphQL</sub> 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -183,6 +183,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     HTTP/3 運作在 QUIC 之上，以減少不穩定網路中的延遲。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    WebSocket
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    WebSocket...
+    WebSocket opens a persistent, two-way connection so the server can push data to the client instantly.
+    Use WebSocket for a live chat or trading dashboard where polling would be too slow and wasteful.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    WebSocket 開啟一條持久的雙向連線，讓伺服器可以即時把資料推送給客戶端。
+    即時聊天或交易看板適合用 WebSocket，因為輪詢會太慢又浪費資源。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -304,11 +317,11 @@
     Kestrel
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Kestrel is the cross-platform web server for ASP.NET Core.
+    Kestrel is the cross-platform web server for <sub alias="A S P Dot Net">ASP.NET</sub> Core.
     It's blazing fast but typically sits behind a reverse proxy.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Kestrel 是 ASP.NET Core 的跨平台網頁伺服器。
+    Kestrel 是 <sub alias="A S P Dot Net">ASP.NET</sub> Core 的跨平台網頁伺服器。
     它速度極快，但通常位於反向代理之後。
   </voice>
 
@@ -360,6 +373,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     JWT 是 JSON Web Token 的縮寫。
     使用 JWT 在服務之間傳遞已驗證的使用者宣告，無需在每次請求時查詢資料庫。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OAuth 2.0
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    OAuth 2.0...
+    OAuth 2.0 is an authorization framework that lets an app access resources on behalf of a user without seeing their password.
+    Use OAuth 2.0 so users can log in with Google instead of creating yet another password.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    OAuth 2.0 是一套授權框架，讓 App 能代表使用者存取資源，而不會看到他們的密碼。
+    用 OAuth 2.0 讓使用者能用 Google 登入，而不必再建立一組新密碼。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -442,9 +468,35 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    OpenAPI
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    OpenAPI...
+    OpenAPI is a standard, language-agnostic specification that describes your REST A P I.
+    Generate the client SDK straight from the OpenAPI document so the frontend always matches the backend.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenAPI 是一套標準、與語言無關的規格，用來描述你的 REST API。
+    直接從 OpenAPI 文件產生用戶端 SDK，前端就能永遠與後端保持一致。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Webhook
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Webhook...
+    A webhook lets one system notify another by sending an H T T P request when an event happens.
+    Register a webhook so your service reacts the moment a payment succeeds, instead of polling the gateway.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Webhook 讓一個系統在事件發生時，透過發送 HTTP 請求來通知另一個系統。
+    註冊一個 Webhook，付款一成功你的服務就立即反應，而不必一直輪詢金流閘道。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我們設計 API 的時候，到底要選 REST 還是 GraphQL？
+        我們設計 API 的時候，到底要選 REST 還是 <sub alias="graph cue el">GraphQL</sub>？
       </prosody>
     </mstts:express-as>
   </voice>

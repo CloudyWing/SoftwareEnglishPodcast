@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -110,6 +110,18 @@
   <voice name="zh-TW-HsiaoChenNeural">
     SwiftUI 是 Apple 現代的宣告式 UI 框架，取代了 UIKit 用於大多數新 iOS App。
     SwiftUI 在 Xcode 中的即時預覽讓你無需運行完整模擬器即可即時看到 UI 變更。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Jetpack Compose
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Jetpack Compose is Android's modern declarative UI toolkit, the counterpart to SwiftUI on iOS.
+    Jetpack Compose lets you build screens with composable functions instead of XML layouts.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Jetpack Compose 是 Android 現代的宣告式 UI 工具組，對應 iOS 上的 SwiftUI。
+    Jetpack Compose 讓你用可組合函式來建構畫面，而不是用 XML 佈局。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

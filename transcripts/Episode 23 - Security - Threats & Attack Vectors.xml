@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -68,7 +68,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Zero-day...
-    A zero-day attack occurs on the same day a weakness is discovered, before a fix is Phoebeilable.
+    A zero-day attack occurs on the same day a weakness is discovered, before a fix is available.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     零時差攻擊發生在弱點被發現的同一天，在修復方案可用之前。
@@ -170,13 +170,114 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Prompt Injection...
     Prompt injection manipulates the AI model to ignore its safety rules.
+    Review every prompt injection report as a security issue, not just a bad answer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     提示詞注入操弄 AI 模型以忽略其安全規則。
+    審查每一份提示詞注入報告時，應把它視為安全問題，而不只是回答品質不佳。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-     這也是一種注入攻擊。但別忘了，傳統的注入手法依然是排行榜上的常客。
+    間接提示詞注入
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Indirect Prompt Injection...
+    Indirect prompt injection hides malicious instructions inside content the AI system reads.
+    The agent summarized a web page that secretly told it to send private ticket data to an attacker.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    間接提示詞注入把惡意指令藏在 AI 系統讀取的內容中。
+    代理人摘要一個網頁時，頁面暗中要求它把私人工單資料傳給攻擊者。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    越獄
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Jailbreak...
+    A jailbreak tries to bypass an AI system's safety instructions or policy limits.
+    The red team wrote jailbreak prompts to test whether the support bot would reveal restricted procedures.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    越獄嘗試繞過 AI 系統的安全指令或政策限制。
+    紅隊撰寫越獄提示詞，測試客服機器人是否會透露受限流程。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        攻擊不只出現在對話框，訓練資料、檢索資料和工具權限也都會變成攻擊面。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料投毒
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Poisoning...
+    Data poisoning corrupts training or reference data so the system learns the wrong behavior.
+    Do not import public support examples into the training set until the team checks them for poisoned content.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料投毒破壞訓練或參考資料，讓系統學到錯誤行為。
+    團隊檢查公開支援案例是否含有投毒內容前，不應匯入訓練資料集。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    模型投毒
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Model Poisoning...
+    Model poisoning compromises a model so it behaves incorrectly or exposes hidden behavior.
+    Verify model artifacts and their source before deploying a downloaded model into production.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    模型投毒破壞模型，使其行為錯誤或暴露隱藏行為。
+    將下載的模型部署到正式環境前，應驗證模型成品與來源。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    向量儲存投毒
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vector Store Poisoning...
+    Vector store poisoning inserts malicious or misleading documents into a retrieval system.
+    Filter and review indexed documents so the AI assistant does not retrieve attacker-controlled instructions.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    向量儲存投毒把惡意或誤導性文件插入檢索系統。
+    過濾並審查索引文件，避免 AI 助理檢索到攻擊者控制的指令。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    工具濫用
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tool Misuse...
+    Tool misuse happens when an AI system calls an approved tool for an unsafe or unintended purpose.
+    Limit the refund tool so the agent can draft a request but cannot issue payment without approval.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    工具濫用指 AI 系統把已核准工具用在不安全或非預期目的上。
+    限制退款工具，讓代理人只能草擬申請，不能未經核准直接付款。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    過度授權代理
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Excessive Agency...
+    Excessive agency gives an AI system more autonomy or permissions than the task requires.
+    Remove production write access from the agent if it only needs to summarize incident data.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    過度授權代理給 AI 系統超出任務需要的自主性或權限。
+    若代理人只需要摘要事件資料，就移除它的正式環境寫入權限。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這些都是 AI 時代的新攻擊面。但別忘了，傳統的注入手法依然是排行榜上的常客。
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">

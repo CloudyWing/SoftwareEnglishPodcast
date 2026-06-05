@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -38,7 +38,7 @@
     Azure Active Directory integrates with enterprise identity providers to enable single sign-on across all company applications.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    我們將 .NET 應用程式部署到 Microsoft Azure App Service。
+    我們將 <sub alias="Dot Net">.NET</sub> 應用程式部署到 Microsoft Azure App Service。
     Azure Active Directory 與企業身份供應商整合，讓所有公司應用程式能夠使用單一登入。
   </voice>
 
@@ -273,6 +273,27 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    AI 基礎設施
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    A I Infrastructure...
+    A I infrastructure includes compute, storage, networking, and orchestration for training and serving models.
+    The platform team built shared A I infrastructure so product teams do not manage G P U clusters by themselves.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 基礎設施包含訓練與服務模型所需的運算、儲存、網路與調度。
+    平台團隊建立共用 AI 基礎設施，讓產品團隊不必自行管理 GPU 叢集。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        算力只是底層，真正交付給產品時，還要把模型包成可擴展的服務。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     無伺服器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -292,6 +313,32 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將模型 API 部署到可擴展的推論端點。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    模型服務
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Model Serving...
+    Model serving exposes a trained model as a reliable API for applications.
+    Model serving needs autoscaling, versioning, and monitoring because model latency affects user experience.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    模型服務將訓練好的模型以可靠的 API 提供給應用程式使用。
+    模型服務需要自動擴展、版本控管與監控，因為模型延遲會影響使用者體驗。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 閘道
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    A I Gateway...
+    An A I gateway routes model requests, applies policies, and tracks usage across providers.
+    Put an A I gateway in front of multiple model providers to control cost, rate limits, and fallbacks.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 閘道負責路由模型請求、套用政策，並追蹤跨供應商的使用量。
+    在多個模型供應商前放置 AI 閘道，可以控管成本、速率限制與備援。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -399,6 +446,32 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     雲端財務管理 (FinOps) 協助組織管理與最佳化雲端成本。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    私有 AI
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Private A I...
+    Private A I keeps sensitive data inside a controlled environment while still using AI capabilities.
+    Use private A I for customer support analysis when transcripts contain personal information.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    私有 AI 在受控環境內保留敏感資料，同時仍使用 AI 能力。
+    當客服逐字稿包含個人資訊時，可使用私有 AI 進行分析。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    主權雲
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sovereign Cloud...
+    Sovereign cloud helps organizations meet data residency, legal, and operational control requirements.
+    A government agency may choose a sovereign cloud to keep regulated workloads within national boundaries.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    主權雲協助組織滿足資料落地、法律與營運控制需求。
+    政府機關可能選擇主權雲，讓受監管工作負載保留在國家邊界內。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

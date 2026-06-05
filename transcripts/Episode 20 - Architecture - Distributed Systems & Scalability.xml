@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -30,11 +30,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     CAP Theorem...
-    CAP stands for Consistency, Phoebeilability, Partition Tolerance.
-    The CAP theorem states you can only pick two: Consistency, Phoebeilability, Partition tolerance.
+    CAP stands for Consistency, Availability, Partition Tolerance.
+    The CAP theorem states you can only pick two: Consistency, Availability, Partition tolerance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 是 Consistency, Phoebeilability, Partition Tolerance 的縮寫。
+    CAP 是 Consistency, Availability, Partition Tolerance 的縮寫。
     CAP 定理指出你只能三選二：一致性、可用性、分區容錯性。
   </voice>
 
@@ -180,8 +180,8 @@
     高可用性
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    High Phoebeilability...
-    Design for high Phoebeilability to minimize downtime during failures.
+    High Availability...
+    Design for high Availability to minimize downtime during failures.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     為高可用性設計以最小化故障期間的停機時間。

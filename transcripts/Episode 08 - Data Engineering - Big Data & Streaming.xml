@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -70,6 +70,34 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     資料湖倉結合了倉儲的結構化與湖泊的靈活性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache Iceberg
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache Iceberg is an open table format that brings reliable transactions to data lakes.
+    We moved to Apache Iceberg so analysts can run schema changes and time travel queries without rewriting the whole table.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache Iceberg 是一種開放資料表格式，為資料湖帶來可靠的交易能力。
+    我們改用 Apache Iceberg，分析師就能做綱要變更與時間旅行查詢，而不必重寫整張表。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    獎章架構
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Medallion Architecture...
+    Medallion architecture organizes data into bronze, silver, and gold layers of increasing quality.
+    Land raw events in the bronze layer, then promote cleaned data to silver before business teams build gold tables.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    獎章架構把資料組織成品質遞增的銅、銀、金三層。
+    原始事件先落在銅層，清理後提升到銀層，業務團隊再以此建立金層資料表。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     存下來只是冷數據，我們要讓它流動起來。在這個講求即時的時代，Batch 已經太慢了。
   </voice>
 
@@ -110,6 +138,18 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    DuckDB
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DuckDB is an in-process analytical database that runs fast queries right inside your application.
+    Before spinning up a cluster, try DuckDB; it can crunch a few gigabytes on your laptop in seconds.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    DuckDB 是一種在程序內執行的分析型資料庫，直接在你的應用程式裡跑高速查詢。
+    在動用叢集之前先試試 DuckDB，它能在你的筆電上幾秒內處理數 GB 的資料。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     Apache Airflow
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -145,6 +185,32 @@
   <voice name="zh-TW-HsiaoChenNeural">
     資料合約是一種正式協議，定義資料集的綱要、品質和交付保證。
     採用資料合約的團隊能夠在破壞性變更默默損毀下游儀表板之前就發現問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料網格
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Mesh...
+    Data mesh decentralizes ownership, letting each domain team publish its own data as a product.
+    Data mesh works only when every team treats its datasets as products with clear contracts and SLAs.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料網格將所有權去中心化，讓每個領域團隊把自己的資料當成產品發布。
+    資料網格只有在每個團隊都把自己的資料集當成有明確合約與 SLA 的產品時才行得通。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    反向 ETL
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Reverse E T L...
+    Reverse E T L pushes data from the warehouse back into operational tools like CRM and ad platforms.
+    Use reverse E T L to sync the cleaned customer segments from the warehouse into Salesforce.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    反向 ETL 把資料從倉儲推回 CRM、廣告平台這類營運工具。
+    用反向 ETL 把倉儲裡整理好的客戶分群同步到 Salesforce。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

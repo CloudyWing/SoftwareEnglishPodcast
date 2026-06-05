@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -203,6 +203,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Saga 模式來管理跨多個服務的分散式交易。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    發件匣模式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Outbox Pattern...
+    The outbox pattern writes events to a database table in the same transaction as your data, then publishes them reliably.
+    Use the outbox pattern so an order and its OrderCreated event can never get out of sync.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    發件匣模式在與資料相同的交易中，把事件寫入資料庫表格，再可靠地把它們發布出去。
+    用發件匣模式，訂單和它的 OrderCreated 事件就永遠不會不同步。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

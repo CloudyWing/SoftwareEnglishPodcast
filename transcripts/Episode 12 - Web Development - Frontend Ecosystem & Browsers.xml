@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -43,10 +43,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     V8 Engine...
-    Node.js is built on Chrome's V8 JPhoebeScript engine.
+    Node.js is built on Chrome's V8 JavaScript engine.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Node.js 是建立在 Chrome 的 V8 JPhoebeScript 引擎之上。
+    Node.js 是建立在 Chrome 的 V8 JavaScript 引擎之上。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -107,6 +107,32 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    Web Components
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Web Components...
+    Web Components let you build reusable custom elements that work in any framework, or none at all.
+    Package the design system as Web Components so React, Vue, and plain HTML pages can all share it.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Web Components 讓你建立可重複使用的自訂元素，在任何框架、甚至沒有框架時都能運作。
+    把設計系統包裝成 Web Components，React、Vue 和純 HTML 頁面就能共用。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    漸進式網頁應用程式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    P W A...
+    P W A stands for Progressive Web App.
+    A P W A can work offline and be installed to the home screen, blurring the line between web and native.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    PWA 是 Progressive Web App 的縮寫。
+    PWA 可以離線運作並安裝到主畫面，模糊了 Web 與原生 App 的界線。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         現在前端工具真的好多，從打包到語言，Phoebe 妳覺得哪些是現代開發絕對不能少的？
@@ -134,11 +160,11 @@
     TypeScript
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    TypeScript adds static typing to JPhoebeScript, reducing runtime errors.
+    TypeScript adds static typing to JavaScript, reducing runtime errors.
     TypeScript's strict mode catches null reference errors and unchecked type casts that would otherwise surface at runtime.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    TypeScript 為 JPhoebeScript 增加了靜態型別，減少了執行階段錯誤。
+    TypeScript 為 JavaScript 增加了靜態型別，減少了執行階段錯誤。
     TypeScript 的嚴格模式能夠捕捉 null 參考錯誤和未檢查的型別轉換，否則這些問題只會在執行時期才浮現。
   </voice>
 
@@ -146,11 +172,11 @@
     Node.js
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Node.js allows developers to use JPhoebeScript for backend services, unifying the language stack.
+    Node.js allows developers to use JavaScript for backend services, unifying the language stack.
     Node.js is the runtime that powers build tools like Vite and package managers like npm, even for projects that run in a browser.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Node.js 允許開發者使用 JPhoebeScript 進行後端服務開發，統一了語言堆疊。
+    Node.js 允許開發者使用 JavaScript 進行後端服務開發，統一了語言堆疊。
     Node.js 是驅動 Vite 等建置工具和 npm 等套件管理員的執行環境，即便是為瀏覽器執行的專案也不例外。
   </voice>
 
@@ -171,10 +197,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Bundler...
-    Webpack is a module bundler that compiles your JPhoebeScript.
+    Webpack is a module bundler that compiles your JavaScript.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Webpack 是一個編譯你 JPhoebeScript 的模組打包工具。
+    Webpack 是一個編譯你 JavaScript 的模組打包工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -383,10 +409,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Island Architecture...
-    Island architecture reduces JPhoebeScript bloat by only hydrating interactive components.
+    Island architecture reduces JavaScript bloat by only hydrating interactive components.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    島嶼架構藉由只對互動元件進行水合來減少 JPhoebeScript 的肥大。
+    島嶼架構藉由只對互動元件進行水合來減少 JavaScript 的肥大。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -398,6 +424,53 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     網頁設計必須對手機和平板裝置具響應性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        傳統渲染策略之外，這幾年又冒出更貼近伺服器與邊緣的新做法，連反應式的寫法也跟著進化了。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    React 伺服器元件
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    React Server Components...
+    React Server Components render on the server and send zero JavaScript for the non-interactive parts.
+    Move the data-heavy dashboard to React Server Components so the browser downloads far less code.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    React 伺服器元件在伺服器上渲染，對非互動的部分送出零 JavaScript。
+    把資料量大的儀表板改成 React 伺服器元件，瀏覽器要下載的程式碼就少很多。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    訊號
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Signals...
+    A signal is a reactive value that automatically updates any part of the UI that reads it.
+    Frameworks like Solid and Angular use signals for fine-grained updates without re-rendering the whole component.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    訊號是一種反應式的值，會自動更新所有讀取它的 UI 部分。
+    Solid 和 Angular 這類框架用訊號做細粒度更新，不必重新渲染整個元件。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    邊緣渲染
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Edge Rendering...
+    Edge rendering runs your server-side rendering on edge nodes close to the user.
+    Move SSR to edge rendering so users in Asia and Europe get the first byte just as fast.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    邊緣渲染把伺服器端渲染放到靠近使用者的邊緣節點上執行。
+    把 SSR 改成邊緣渲染，亞洲和歐洲的使用者也能一樣快拿到第一個位元組。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

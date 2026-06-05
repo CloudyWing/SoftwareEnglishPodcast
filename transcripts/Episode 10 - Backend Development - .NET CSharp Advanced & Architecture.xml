@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -32,11 +32,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Async Await...
     Async and Await allow non-blocking operations, releasing the thread for other requests.
-    Always await async calls in ASP.NET Core to prevent thread pool starvation under high load.
+    Always await async calls in <sub alias="A S P Dot Net">ASP.NET</sub> Core to prevent thread pool starvation under high load.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Async 與 Await 允許非阻塞操作，釋放執行緒給其他請求使用。
-    在 ASP.NET Core 中務必 await 非同步呼叫，以防止在高負載下發生執行緒集區耗盡。
+    在 <sub alias="A S P Dot Net">ASP.NET</sub> Core 中務必 await 非同步呼叫，以防止在高負載下發生執行緒集區耗盡。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -66,6 +66,32 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    原生 AOT 編譯
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Native AOT...
+    Native AOT compiles your app to a single self-contained binary ahead of time, with no JIT at runtime.
+    We ship the CLI tool as Native AOT so it starts in milliseconds and needs no installed runtime.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    原生 AOT 會預先把應用程式編譯成單一的自包含二進位檔，執行時不再需要 JIT。
+    我們把這個 CLI 工具用原生 AOT 發布，啟動只要幾毫秒，也不需要預先安裝執行階段。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    凍結集合
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Frozen Collections...
+    A frozen collection is immutable and optimized for extremely fast repeated lookups.
+    Build a FrozenDictionary once at startup for lookup tables that never change at runtime.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    凍結集合是不可變的，並針對極快的重複查找做了最佳化。
+    對於執行階段不會改變的查找表，在啟動時建立一次 FrozenDictionary。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         高效能很重要，但可維護性也是關鍵。在大型專案中，我們怎麼管理物件之間的依賴？
@@ -87,7 +113,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Dependency Injection...
-    .NET has built-in support for Dependency Injection to achieve loose coupling.
+    <sub alias="Dot Net">.NET</sub> has built-in support for Dependency Injection to achieve loose coupling.
     Register services with the correct lifetime (transient, scoped, singleton) to avoid subtle memory and concurrency bugs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -120,13 +146,13 @@
     語言整合查詢
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    LINQ...
-    LINQ stands for Language Integrated Query.
-    LINQ allows you to query collections using a <sub alias="sequel">SQL</sub>-like syntax in C#.
+    <sub alias="link">LINQ</sub>...
+    <sub alias="link">LINQ</sub> stands for Language Integrated Query.
+    <sub alias="link">LINQ</sub> allows you to query collections using a <sub alias="sequel">SQL</sub>-like syntax in C#.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    LINQ 是 Language Integrated Query 的縮寫。
-    LINQ 允許你在 C# 中使用類似 SQL 的語法來查詢集合。
+    <sub alias="link">LINQ</sub> 是 Language Integrated Query 的縮寫。
+    <sub alias="link">LINQ</sub> 允許你在 C# 中使用類似 SQL 的語法來查詢集合。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -135,11 +161,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Extension Method...
     Extension methods enable you to "add" methods to existing types without creating a new derived type.
-    LINQ's Where, Select, and OrderBy are all extension methods on IEnumerable, which is why they compose so cleanly.
+    <sub alias="link">LINQ</sub>'s Where, Select, and OrderBy are all extension methods on IEnumerable, which is why they compose so cleanly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     擴充方法讓你能在不建立新衍生型別的情況下，為現有型別「新增」方法。
-    LINQ 的 Where、Select 和 OrderBy 都是 IEnumerable 的擴充方法，這就是它們能夠如此優雅地組合的原因。
+    <sub alias="link">LINQ</sub> 的 Where、Select 和 OrderBy 都是 IEnumerable 的擴充方法，這就是它們能夠如此優雅地組合的原因。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -156,14 +182,27 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    非同步可列舉
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    IAsyncEnumerable...
+    IAsyncEnumerable lets you stream items asynchronously and consume them with await foreach.
+    Return IAsyncEnumerable from the repository so the A P I streams rows instead of buffering the whole result set.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    IAsyncEnumerable 讓你非同步地串流項目，並用 await foreach 逐一取用。
+    讓儲存庫回傳 IAsyncEnumerable，API 就能串流資料列，而不是把整個結果集都緩衝在記憶體。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     Minimal API
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Minimal APIs in ASP.NET Core allow you to define H T T P endpoints with minimal boilerplate code.
+    Minimal APIs in <sub alias="A S P Dot Net">ASP.NET</sub> Core allow you to define H T T P endpoints with minimal boilerplate code.
     Startup latency drops significantly when you replace a full MVC controller with a minimal A P I for lightweight microservices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ASP.NET Core 中的 Minimal API 讓你可以以最少的樣板程式碼定義 HTTP 端點。
+    <sub alias="A S P Dot Net">ASP.NET</sub> Core 中的 Minimal API 讓你可以以最少的樣板程式碼定義 HTTP 端點。
     對於輕量級微服務，將完整的 MVC Controller 替換為 Minimal API 能顯著降低啟動延遲。
   </voice>
 
@@ -177,7 +216,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It might seem verbose at first, but Dependency Injection makes your code testable and decoupled. It's essential for modern Middleware pipelines in ASP.NET Core.
+        It might seem verbose at first, but Dependency Injection makes your code testable and decoupled. It's essential for modern Middleware pipelines in <sub alias="A S P Dot Net">ASP.NET</sub> Core.
       </prosody>
     </mstts:express-as>
   </voice>

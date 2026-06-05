@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -129,6 +129,45 @@
   <voice name="zh-TW-HsiaoChenNeural">
     模式比對允許在 switch 運算式中使用具表現力的邏輯。
     C# 11 引入的清單模式讓你可以直接在 switch 運算式中解構集合。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    必要成員
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Required Members...
+    The required modifier forces callers to set a property during object initialization.
+    Mark the Id and Email as required so the compiler rejects any object created without them.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    required 修飾詞強制呼叫端在物件初始化時設定某個屬性。
+    把 Id 與 Email 標記為 required，編譯器就會拒絕任何未設定它們的物件。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    主要建構函式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Primary Constructor...
+    A primary constructor lets you declare constructor parameters directly in the class or struct header.
+    Primary constructors cut boilerplate, but be careful: the captured parameters stay alive for the whole object.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    主要建構函式讓你直接在類別或結構的標頭宣告建構函式參數。
+    主要建構函式能減少樣板程式碼，但要小心：被捕捉的參數會在整個物件存續期間保留。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    集合運算式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Collection Expressions...
+    Collection expressions give you one concise bracket syntax to create arrays, lists, and spans.
+    Replace the old new List with a collection expression to make the initializer easier to read.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    集合運算式提供一致且簡潔的中括號語法來建立陣列、清單與 span。
+    把舊的 new List 改成集合運算式，初始化的程式碼更好讀。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

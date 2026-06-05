@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -347,6 +347,19 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    蒸餾
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Distillation...
+    Distillation trains a small student model to mimic a larger teacher model.
+    Distill the large model into a smaller one to cut inference cost while keeping most of the accuracy.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    蒸餾訓練一個小的學生模型去模仿較大的老師模型。
+    把大模型蒸餾成小模型，在保留大部分準確度的同時降低推論成本。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         近年來，大型語言模型的發展引領了新一波的 AI 革命。
@@ -394,6 +407,19 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    專家混合
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Mixture of Experts...
+    A mixture of experts model activates only a few specialized sub-networks for each input, so it runs faster than its total size suggests.
+    Models like Mixtral use a mixture of experts to reach large-model quality at a lower inference cost.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    專家混合模型對每個輸入只啟用少數幾個專門的子網路，因此跑起來比它的總參數量還快。
+    Mixtral 這類模型用專家混合，以較低的推論成本達到大模型的品質。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     大型語言模型
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -404,6 +430,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     LLM 是 Large Language Model 的縮寫。
     GPT-4 是一個強大的大型語言模型。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    推理模型
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Reasoning Model...
+    A reasoning model spends extra compute to think step by step before giving a final answer.
+    Use a reasoning model for math or multi-step planning, but expect higher latency and token cost.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    推理模型會花額外的運算逐步思考，再給出最終答案。
+    數學或多步驟規劃用推理模型，但要預期更高的延遲與 Token 成本。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -703,6 +742,14 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        接著看模型如何取得資料。Embedding、檢索和快取，會影響 AI 回答的根據與成本。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     檢索增強生成
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -713,6 +760,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     RAG 是 Retrieval-Augmented Generation 的縮寫。
     透過在生成答案前檢索相關資料來提升準確度。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    語意快取
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Semantic Cache...
+    A semantic cache reuses previous AI responses when a new request has similar meaning.
+    Add a semantic cache for repeated support questions to reduce latency and token usage.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    語意快取會在新請求語意相近時重用先前的 AI 回應。
+    對重複出現的支援問題加入語意快取，可以降低延遲與 Token 使用量。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -740,6 +800,14 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        如果模型開始能規劃與行動，重點就從「怎麼問」變成「怎麼管住它」。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     AI 代理人
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -750,6 +818,27 @@
   <voice name="zh-TW-HsiaoChenNeural">
     AI 代理人以語言模型作為大腦，自主地推理、規劃並執行多步驟任務。
     AI 代理人可以瀏覽網頁、撰寫並執行程式碼，以及呼叫外部 API，無需人工介入即可完成複雜目標。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    代理式 AI
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Agentic AI...
+    Agentic AI describes systems that can plan, use tools, and take actions toward a goal.
+    Treat agentic AI as a junior teammate with clear permissions, checkpoints, and audit logs.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    代理式 AI 指的是能夠規劃、使用工具，並朝目標採取行動的系統。
+    把代理式 AI 視為需要明確權限、檢查點與稽核紀錄的初階隊友。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        要讓代理人可靠，角色、情境、工具和輸出格式都要先定義清楚。
+      </prosody>
+    </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -766,6 +855,19 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    情境工程
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Context Engineering...
+    Context engineering designs what information enters the model before it generates an answer.
+    Good context engineering keeps the prompt focused, retrieves the right documents, and avoids leaking private data.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    情境工程設計模型在生成答案前能取得哪些資訊。
+    良好的情境工程會讓提示保持聚焦、檢索正確文件，並避免洩漏私人資料。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     函式呼叫
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -779,6 +881,40 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    工具呼叫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tool Calling...
+    Tool calling lets a model invoke approved tools instead of pretending it knows the answer.
+    The agent used tool calling to search the ticket system and update the incident timeline.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    工具呼叫讓模型呼叫已核准的工具，而不是假裝自己知道答案。
+    代理人透過工具呼叫搜尋工單系統，並更新事件時間線。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    結構化輸出
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Structured Outputs...
+    Structured outputs force the model response to follow a schema that your application can parse.
+    Ask for structured outputs when the model must return JSON for an automated workflow.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    結構化輸出要求模型回應遵循應用程式可解析的 Schema。
+    當模型必須回傳 JSON 給自動化流程時，應要求結構化輸出。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        接上外部系統後，標準介面、評測與防護欄會決定它能不能安全上線。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     MCP
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -789,6 +925,32 @@
   <voice name="zh-TW-HsiaoChenNeural">
     MCP 是 Model Context Protocol 的縮寫。
     MCP 是一個開放標準，讓 AI 模型能透過統一介面安全地連接外部資料來源與工具。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    評測
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Evals...
+    Evals measure whether an AI system behaves correctly across representative test cases.
+    Add evals before changing the prompt so you can catch regressions in answer quality.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    評測用代表性的測試案例衡量 AI 系統是否表現正確。
+    修改提示詞前先加入評測，才能抓到回答品質的退化。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    防護欄
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Guardrails...
+    Guardrails constrain what an AI system can say or do in risky situations.
+    Use guardrails to block unsafe tool calls and require human approval for high-impact actions.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    防護欄限制 AI 系統在高風險情境中能說什麼、做什麼。
+    使用防護欄阻擋不安全的工具呼叫，並要求高影響行動先經人工核准。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

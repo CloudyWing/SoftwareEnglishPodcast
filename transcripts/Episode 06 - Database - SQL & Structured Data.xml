@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -143,6 +143,45 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    視窗函式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Window Function...
+    A window function performs a calculation across a set of rows related to the current row, without collapsing them into one.
+    Use ROW_NUMBER over partition by customer to grab each customer's latest order in a single query.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    視窗函式會對與目前列相關的一組列進行計算，而不會把它們合併成一列。
+    用 ROW_NUMBER 搭配 partition by customer，一個查詢就能取出每位客戶的最新訂單。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    通用資料表運算式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    C T E...
+    C T E stands for Common Table Expression.
+    Refactor that nested subquery into a C T E so the report query is readable in code review.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CTE 是 Common Table Expression 的縮寫。
+    把巢狀子查詢改寫成 CTE，報表查詢在 Code Review 時就更好讀。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    執行計畫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Execution Plan...
+    The execution plan shows how the database engine actually runs your query.
+    Check the execution plan first when a query is slow; a missing index usually shows up as a full table scan.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    執行計畫顯示資料庫引擎實際上如何執行你的查詢。
+    查詢變慢時先看執行計畫，缺少索引通常會以全資料表掃描的形式出現。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     交易
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -167,6 +206,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     ACID 是 Atomicity, Consistency, Isolation, Durability 的縮寫。在處理金融交易時，ACID 合規性是真正的關聯式資料庫與更簡單的資料儲存之間的區別所在。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    隔離層級
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Isolation Level...
+    The isolation level controls how much one transaction can see the uncommitted changes of another.
+    Raise the isolation level to Serializable for the billing job, but watch out for the extra locking overhead.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    隔離層級控制一個交易能看到另一個交易多少未提交的變更。
+    把帳務作業的隔離層級提高到 Serializable，但要留意額外的鎖定開銷。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

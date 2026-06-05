@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -65,6 +65,33 @@
     現代搜尋引擎使用向量資料庫來驅動語意搜尋與推薦系統。
     檢索增強生成架構依賴向量資料庫，在呼叫語言模型前獲取相關上下文。
   </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    嵌入向量
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Embedding...
+    An embedding turns text, images, or audio into a vector that captures its meaning.
+    Generate embeddings for every support article so the chatbot can retrieve the closest match.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    嵌入向量把文字、圖片或音訊轉換成能表達其語意的向量。
+    為每篇支援文件產生嵌入向量，聊天機器人就能檢索出最接近的內容。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    圖形資料庫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Graph Database...
+    A graph database stores data as nodes and relationships, making connected queries fast.
+    Use a graph database like Neo4j when fraud detection depends on tracing relationships between accounts.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    圖形資料庫以節點與關係的形式儲存資料，讓關聯查詢變得很快。
+    當詐欺偵測需要追蹤帳戶之間的關係時，就用 Neo4j 這類圖形資料庫。
+  </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -102,6 +129,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     CAP 是 Consistency, Availability, and Partition tolerance 的縮寫。
     CAP 定理指出，在一致性、可用性與分區容錯性中，你只能同時滿足其中兩項。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    最終一致性
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Eventual Consistency...
+    With eventual consistency, replicas may briefly disagree but converge to the same value over time.
+    A shopping cart can tolerate eventual consistency, but the payment ledger cannot.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    在最終一致性下，各複本可能短暫不一致，但會隨時間收斂到相同的值。
+    購物車可以容忍最終一致性，但付款帳本不行。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -172,6 +212,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     Elasticsearch 使用倒排索引提供強大的全文檢索能力。
     使用 Elasticsearch 實作全文檢索，以支援模糊比對和容錯功能。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    混合搜尋
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hybrid Search...
+    Hybrid search combines keyword matching with vector similarity to improve relevance.
+    Switch to hybrid search when pure vector results keep missing exact product codes.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    混合搜尋結合關鍵字比對與向量相似度，以提升相關性。
+    當純向量結果一直漏掉精確的產品代碼時，就改用混合搜尋。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

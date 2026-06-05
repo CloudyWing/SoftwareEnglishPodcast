@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -513,6 +513,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     六角形架構使用連接埠和轉接器，將核心領域邏輯與資料庫和 API 等外部系統隔離。
     因為業務邏輯不依賴資料庫，所以你可以從 SQL Server 換到 PostgreSQL，而不需要對領域層做任何更動。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    垂直切片架構
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vertical Slice Architecture...
+    Vertical slice architecture organizes code by feature instead of by technical layer.
+    Each vertical slice holds its own request, handler, and data access, so a feature change touches one folder, not five layers.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    垂直切片架構以功能為單位組織程式碼，而不是依技術分層。
+    每個垂直切片包含自己的請求、處理器與資料存取，所以改一個功能只會動到一個資料夾，而不是五個分層。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

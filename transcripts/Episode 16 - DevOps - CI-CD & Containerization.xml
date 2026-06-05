@@ -1,4 +1,4 @@
-﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -170,6 +170,40 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    平台即產品
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Platform as a Product...
+    Platform as a product treats internal platform capabilities as a product for developers.
+    Interview developers before changing the deployment template so the platform solves real team pain.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    平台即產品把內部平台能力視為提供給開發者的產品。
+    修改部署範本前先訪談開發者，讓平台解決團隊真實痛點。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    黃金路徑
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Golden Path...
+    A golden path is the recommended workflow for shipping software safely and consistently.
+    The team documented a golden path for new microservices, including logging, alerts, and deployment defaults.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    黃金路徑是安全且一致交付軟體的建議流程。
+    團隊為新微服務記錄黃金路徑，包含日誌、警示與部署預設值。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        平台提供路徑後，下一步是把環境變更放進可審查、可回滾的流程。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     GitOps
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -178,6 +212,32 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     GitOps 使用 Git 儲存庫作為基礎設施的唯一真理來源。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    漸進式交付
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Progressive Delivery...
+    Progressive delivery releases changes gradually using canary deployments or feature flags.
+    Roll out the new checkout service to five percent of users before enabling it for everyone.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    漸進式交付透過金絲雀部署或功能旗標逐步釋出變更。
+    先將新的結帳服務開放給百分之五的使用者，再啟用給所有人。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    臨時環境
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ephemeral Environment...
+    An ephemeral environment is created for a short-lived task and destroyed when the task is done.
+    Create an ephemeral environment for each pull request so reviewers can test the feature in isolation.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    臨時環境是為短期任務建立，任務完成後即銷毀的環境。
+    為每個 Pull Request 建立臨時環境，讓審查者能隔離測試功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -222,6 +282,45 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CPU 使用率是決定擴展與否的關鍵指標。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    持續驗證
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Continuous Verification...
+    Continuous verification checks production signals automatically during and after a release.
+    Pause the rollout when continuous verification detects higher error rates in the canary deployment.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    持續驗證會在發布期間與發布後自動檢查正式環境訊號。
+    當持續驗證偵測到金絲雀部署的錯誤率升高時，應暫停推出。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    eBPF
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    eBPF...
+    eBPF lets programs run safely inside the Linux kernel to observe or control system behavior.
+    Use eBPF-based observability when the team needs network and runtime signals without changing application code.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    eBPF 讓程式能安全地在 Linux 核心內執行，以觀察或控制系統行為。
+    當團隊需要網路與執行期訊號，又不想修改應用程式碼時，可使用 eBPF 型可觀測性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    生成式 AI 可觀測性
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    GenAI Observability...
+    GenAI observability tracks prompts, model responses, latency, token usage, and tool calls.
+    Monitor token usage and tool failures so the agent does not silently become expensive or unreliable.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    生成式 AI 可觀測性追蹤提示詞、模型回應、延遲、Token 使用量與工具呼叫。
+    監控 Token 使用量與工具失敗，避免代理人默默變貴或變得不可靠。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -378,7 +477,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Replica...
-    Set the replica count to 3 to ensure high Phoebeilability.
+    Set the replica count to 3 to ensure high Availability.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將副本數設為 3 以確保高可用性。
@@ -404,6 +503,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將敏感的 API Key 儲存在 K8s Secrets 中，而非明文儲存。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    KServe
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    KServe...
+    KServe is a Kubernetes-native platform for serving machine learning and generative AI models.
+    Use KServe when the team needs autoscaling, canary rollout, and standardized model inference on Kubernetes.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    KServe 是 Kubernetes 原生的平台，用於服務機器學習與生成式 AI 模型。
+    當團隊需要在 Kubernetes 上自動擴展、金絲雀釋出與標準化模型推論時，可以使用 KServe。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
