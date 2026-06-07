@@ -213,23 +213,15 @@ jobs:
             echo "has_failures=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Upload MP3 to Release
-        if: steps.convert.outputs.has_success == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Report failures
+        if: steps.convert.outputs.has_failures == 'true'
         run: |
-          set -euo pipefail
+          echo "❌ The following files failed to convert after 3 retries:"
+          cat /tmp/failed_list.txt
+          exit 1
 
-          TAG="${{ needs.prepare-release.outputs.tag }}"
-          while IFS= read -r MP3; do
-            [ -z "$MP3" ] && continue
-            echo "Uploading $MP3..."
-            LABEL="$(basename "$MP3")"
-            gh release upload "$TAG" "$MP3#$LABEL" --clobber
-          done < /tmp/success_list.txt
-
-      - name: Package complete MP3 archive
-        if: steps.convert.outputs.has_success == 'true'
+      - name: Assemble complete MP3 release assets
+        if: steps.changed.outputs.has_changes == 'false' || (steps.convert.outputs.has_success == 'true' && steps.convert.outputs.has_failures != 'true')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ needs.prepare-release.outputs.tag }}
@@ -239,31 +231,52 @@ jobs:
 
           ARCHIVE_DIR="archive-mp3"
           DOWNLOAD_DIR="previous-release-assets"
+          PREVIOUS_ARCHIVE_DIR="previous-release-archive"
           ARCHIVE_FILE="software-english-podcast-${TAG}-mp3.zip"
 
-          rm -rf "$ARCHIVE_DIR" "$DOWNLOAD_DIR"
-          mkdir -p "$ARCHIVE_DIR" "$DOWNLOAD_DIR"
+          rm -rf "$ARCHIVE_DIR" "$DOWNLOAD_DIR" "$PREVIOUS_ARCHIVE_DIR"
+          mkdir -p "$ARCHIVE_DIR" "$DOWNLOAD_DIR" "$PREVIOUS_ARCHIVE_DIR" release-assets
 
           if [ -n "$PREVIOUS_TAG" ]; then
             gh release download "$PREVIOUS_TAG" --pattern "*.mp3" --dir "$DOWNLOAD_DIR" || true
+            gh release download "$PREVIOUS_TAG" --pattern "software-english-podcast-${PREVIOUS_TAG}-mp3.zip" --dir "$DOWNLOAD_DIR" || true
+
+            PREVIOUS_ARCHIVE="$DOWNLOAD_DIR/software-english-podcast-${PREVIOUS_TAG}-mp3.zip"
+            if [ -f "$PREVIOUS_ARCHIVE" ]; then
+              python3 - "$PREVIOUS_ARCHIVE" "$PREVIOUS_ARCHIVE_DIR" <<'PY'
+          import sys
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          archive_file = Path(sys.argv[1])
+          output_dir = Path(sys.argv[2])
+
+          with ZipFile(archive_file) as zip_file:
+              zip_file.extractall(output_dir)
+          PY
+            fi
           fi
 
-          find "$DOWNLOAD_DIR" release-assets -maxdepth 1 -type f -name "*.mp3" -print0 | while IFS= read -r -d '' MP3; do
-            BASENAME="$(basename "$MP3")"
-            if [[ "$BASENAME" =~ ^Episode[.\ ]([0-9]{2})[.\ ] ]]; then
-              EPISODE_NUMBER="${BASH_REMATCH[1]}"
-              TRANSCRIPT="$(find transcripts -maxdepth 1 -type f -name "Episode ${EPISODE_NUMBER} - *.xml" | head -n 1)"
+          for SOURCE_DIR in "$DOWNLOAD_DIR" "$PREVIOUS_ARCHIVE_DIR" release-assets; do
+            [ -d "$SOURCE_DIR" ] || continue
 
-              if [ -n "$TRANSCRIPT" ]; then
-                TARGET_NAME="$(basename "${TRANSCRIPT%.xml}.mp3")"
+            find "$SOURCE_DIR" -type f -name "*.mp3" -print0 | while IFS= read -r -d '' MP3; do
+              BASENAME="$(basename "$MP3")"
+              if [[ "$BASENAME" =~ ^Episode[.\ ]([0-9]{2})[.\ ] ]]; then
+                EPISODE_NUMBER="${BASH_REMATCH[1]}"
+                TRANSCRIPT="$(find transcripts -maxdepth 1 -type f -name "Episode ${EPISODE_NUMBER} - *.xml" | head -n 1)"
+
+                if [ -n "$TRANSCRIPT" ]; then
+                  TARGET_NAME="$(basename "${TRANSCRIPT%.xml}.mp3")"
+                else
+                  TARGET_NAME="$BASENAME"
+                fi
               else
                 TARGET_NAME="$BASENAME"
               fi
-            else
-              TARGET_NAME="$BASENAME"
-            fi
 
-            cp "$MP3" "$ARCHIVE_DIR/$TARGET_NAME"
+              cp "$MP3" "$ARCHIVE_DIR/$TARGET_NAME"
+            done
           done
 
           while IFS= read -r TRANSCRIPT; do
@@ -288,11 +301,10 @@ jobs:
                   zip_file.write(mp3, arcname=mp3.name)
           PY
 
-          gh release upload "$TAG" "$ARCHIVE_FILE#Software English Podcast ${TAG} MP3.zip" --clobber
+          find "$ARCHIVE_DIR" -maxdepth 1 -type f -name "*.mp3" -print0 | sort -z | while IFS= read -r -d '' MP3; do
+            LABEL="$(basename "$MP3")"
+            echo "Uploading $LABEL..."
+            gh release upload "$TAG" "$MP3#$LABEL" --clobber
+          done
 
-      - name: Report failures
-        if: steps.convert.outputs.has_failures == 'true'
-        run: |
-          echo "❌ The following files failed to convert after 3 retries:"
-          cat /tmp/failed_list.txt
-          exit 1
+          gh release upload "$TAG" "$ARCHIVE_FILE#Software English Podcast ${TAG} MP3.zip" --clobber
