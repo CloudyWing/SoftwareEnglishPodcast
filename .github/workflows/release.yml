@@ -13,6 +13,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   prepare-release:
@@ -308,3 +310,47 @@ jobs:
           done
 
           gh release upload "$TAG" "$ARCHIVE_FILE#Software English Podcast ${TAG} MP3.zip" --clobber
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Build podcast feed
+        env:
+          FEED_OWNER_EMAIL: ${{ vars.FEED_OWNER_EMAIL }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$FEED_OWNER_EMAIL" ]; then
+            echo "Missing required repository variable: FEED_OWNER_EMAIL" >&2
+            exit 1
+          fi
+
+          mkdir -p pages
+          cp feed/cover.png pages/cover.png
+          pwsh scripts/Build-Feed.ps1 \
+            -TranscriptDir transcripts \
+            -Mp3Dir archive-mp3 \
+            -OutputFile pages/rss.xml \
+            -RepoOwner "${{ github.repository_owner }}" \
+            -RepoName "${{ github.event.repository.name }}" \
+            -FeedBaseUrl "https://cloudywing.github.io/software-english-podcast" \
+            -OwnerEmail "$FEED_OWNER_EMAIL"
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages
+
+  publish-pages:
+    needs: [generate-audio]
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

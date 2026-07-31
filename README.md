@@ -52,6 +52,17 @@ graph TD
 - **進階**：Cloud (AWS/Azure), Architecture, DevOps。
 - **軟實力**：溝通、開會、職涯發展。
 
+## 🎙️ 訂閱 Podcast
+
+Podcast RSS feed：<https://cloudywing.github.io/software-english-podcast/rss.xml>
+
+- Apple Podcasts：在資料庫中搜尋本節目；若尚未上架，可於支援 URL 訂閱的 Podcast App 貼上 RSS feed。
+- Spotify：在 Spotify 搜尋本節目，平台審核完成後即可追蹤。
+- YouTube／YouTube Music：頻道擁有者於 YouTube Studio 選「建立 → 新 Podcast → 提交 RSS feed」提交上述 feed，YouTube 會為每集自動產生「靜態封面＋音訊」影片並公開發布至 Channel，同一節目亦會出現在 YouTube Music。
+- 其他 Podcast App：選擇「透過 URL 加入」或「Add by RSS Feed」，再貼上上述 RSS feed。
+
+> YouTube Studio 提交屬公開上架（同時出現在 YouTube 與 YouTube Music）；YouTube Music App 內的「Add podcast by RSS feed」只把節目加入個人媒體庫，不等於公開發布。
+
 ## 🚀 How to Run
 
 ### 本機手動執行
