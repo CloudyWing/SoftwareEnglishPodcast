@@ -3,9 +3,9 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 NoSQL 與現代資料堆疊篇。現在是多模型資料庫的時代。
-        我們不再爭論 SQL 與 NoSQL 誰好，而是講求混合架構 (Polyglot Persistence)。
-        以前我們覺得 NoSQL 只是為了擴展性，現在更多時候是為了「特定形狀」的資料而生。
+        歡迎來到 <sub alias="No sequel">NoSQL</sub> 與現代資料堆疊篇。現在是多模型資料庫的時代。
+        我們不再爭論 <sub alias="sequel">SQL</sub> 與 <sub alias="No sequel">NoSQL</sub> 誰好，而是講求混合架構 (Polyglot Persistence)。
+        以前我們覺得 <sub alias="No sequel">NoSQL</sub> 只是為了擴展性，現在更多時候是為了「特定形狀」的資料而生。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -14,7 +14,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，比如說社群媒體的貼文，用 MongoDB 存 JSON 絕對比拆成十幾張 Table 爽快多了。
+          曉臻，比如說社群媒體的貼文，用 <sub alias="Mongo D B">MongoDB</sub> 存 <sub alias="J S O N">JSON</sub> 絕對比拆成十幾張 Table 爽快多了。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -32,11 +32,11 @@
 
   <voice name="en-US-PhoebeMultilingualNeural">
     Document Database...
-    MongoDB allows flexible schema design by storing data as documents.
+    <sub alias="Mongo D B">MongoDB</sub> allows flexible schema design by storing data as documents.
     When user-generated content has unpredictable fields, a document database adapts without schema migrations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    MongoDB 透過將資料儲存為文件，允許靈活的綱要設計。
+    <sub alias="Mongo D B">MongoDB</sub> 透過將資料儲存為文件，允許靈活的綱要設計。
     當使用者生成的內容具有不可預測的欄位時，文件資料庫無需綱要遷移即可自動適應。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -95,7 +95,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        既然用了 NoSQL，通常代表我們的資料量已經大到單機撐不住了。
+        既然用了 <sub alias="No sequel">NoSQL</sub>，通常代表我們的資料量已經大到單機撐不住了。
         Phoebe，在分散式系統中最讓人頭痛的是什麼？
       </prosody>
     </mstts:express-as>
@@ -113,22 +113,22 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這就是著名的 CAP 理論。
+        這就是著名的 <sub alias="cap">CAP</sub> 理論。
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 定理
+    <sub alias="cap">CAP</sub> 定理
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CAP Theorem...
-    CAP stands for Consistency, Availability, and Partition tolerance.
-    The CAP theorem states that you can only provide two of these three guarantees.
+    <sub alias="cap">CAP</sub> Theorem...
+    <sub alias="cap">CAP</sub> stands for Consistency, Availability, and Partition tolerance.
+    The <sub alias="cap">CAP</sub> theorem states that during a network partition, a distributed system cannot guarantee both Consistency and Availability.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 是 Consistency, Availability, and Partition tolerance 的縮寫。
-    CAP 定理指出，在一致性、可用性與分區容錯性中，你只能同時滿足其中兩項。
+    <sub alias="cap">CAP</sub> 是 Consistency, Availability, and Partition tolerance 的縮寫。
+    <sub alias="cap">CAP</sub> 定理指出，當網路分區發生時，分散式系統無法同時保證一致性與可用性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -163,11 +163,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Replica Set...
     A replica set ensures high Availability by maintaining multiple copies of your data.
-    In MongoDB, a replica set elects a primary node automatically when the current primary becomes unavailable.
+    In <sub alias="Mongo D B">MongoDB</sub>, a replica set elects a primary node automatically when the current primary becomes unavailable.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     複本集透過維護資料的多份複本來確保高可用性。
-    在 MongoDB 中，當目前的主節點變得不可用時，複本集會自動選出新的主節點。
+    在 <sub alias="Mongo D B">MongoDB</sub> 中，當目前的主節點變得不可用時，複本集會自動選出新的主節點。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -193,11 +193,11 @@
 
   <voice name="en-US-PhoebeMultilingualNeural">
     Supabase...
-    Supabase is an open-source alternative to Firebase, built on top of PostgreSQL.
+    Supabase is an open-source alternative to Firebase, built on top of <sub alias="post gres sequel">PostgreSQL</sub>.
     Supabase's Row Level Security lets you enforce access control directly in the database, not just in the application layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Supabase 是一個基於 PostgreSQL 之上的 Firebase 開源替代方案。
+    Supabase 是一個基於 <sub alias="post gres sequel">PostgreSQL</sub> 之上的 Firebase 開源替代方案。
     Supabase 的資料列層級安全性讓你可以直接在資料庫中強制執行存取控制，而不僅僅依賴應用程式層。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -230,28 +230,28 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Phoebe，既然 SQL 這麼強，為什麼我們還會需要 NoSQL？像是 Mongo 或 Redis？
+        Phoebe，既然 <sub alias="sequel">SQL</sub> 這麼強，為什麼我們還會需要 <sub alias="No sequel">NoSQL</sub>？像是 Mongo 或 Redis？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It's about trade-offs. If you need flexible schemas, a Document Database is better. For standard Caching, nothing beats a Key-Value Store. And for AI, Vector Databases are essential.
+        It's about trade-offs. If you need flexible schemas, a Document Database is better. For standard Caching, nothing beats a Key-Value Store. And for <sub alias="A I">AI</sub>, Vector Databases are essential.
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        所以是看場景決定，那 CAP Theorem 在這裡的角色是？
+        所以是看場景決定，那 <sub alias="cap">CAP</sub> Theorem 在這裡的角色是？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It guarantees that you can't have it all. You have to choose between Consistency and Availability, especially when using Sharding.
+        During a network partition, you have to choose whether the system preserves Consistency or continues serving every request with Availability.
       </prosody>
     </mstts:express-as>
   </voice>

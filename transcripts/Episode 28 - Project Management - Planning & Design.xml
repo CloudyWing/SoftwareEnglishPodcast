@@ -56,12 +56,12 @@
     產品需求文件
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    PRD...
-    PRD stands for Product Requirements Document.
-    The PRD outlines the purpose, features, and functionality of the product.
+    <sub alias="P R D">PRD</sub>...
+    <sub alias="P R D">PRD</sub> stands for Product Requirements Document.
+    The <sub alias="P R D">PRD</sub> outlines the purpose, features, and functionality of the product.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    PRD 是 Product Requirements Document 的縮寫。
+    <sub alias="P R D">PRD</sub> 是 Product Requirements Document 的縮寫。
     產品需求文件概述了產品的目的、特性和功能。
   </voice>
 
@@ -162,10 +162,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Acceptance Criteria...
-    The feature must meet all acceptance criteria before QA approves.
+    The feature must meet all acceptance criteria before <sub alias="Q A">QA</sub> approves.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    功能必須符合所有驗收標準，QA 才會核准。
+    功能必須符合所有驗收標準，<sub alias="Q A">QA</sub> 才會核准。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -185,13 +185,13 @@
     最小可行性產品
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    MVP...
-    MVP stands for Minimum Viable Product.
-    The MVP includes only the core features necessary to solve the user's problem.
+    <sub alias="M V P">MVP</sub>...
+    <sub alias="M V P">MVP</sub> stands for Minimum Viable Product.
+    The <sub alias="M V P">MVP</sub> includes only the core features necessary to solve the user's problem.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    MVP 是 Minimum Viable Product 的縮寫。
-    MVP 僅包含解決使用者問題所需的核心功能。
+    <sub alias="M V P">MVP</sub> 是 Minimum Viable Product 的縮寫。
+    <sub alias="M V P">MVP</sub> 僅包含解決使用者問題所需的核心功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -350,16 +350,16 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    OKR
+    <sub alias="O K R">OKR</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    O K R...
-    O K R stands for Objectives and Key Results.
-    The engineering team's O K R was to improve deployment frequency, measured by shipping to production at least ten times per week.
+    <sub alias="O K R">OKR</sub>...
+    <sub alias="O K R">OKR</sub> stands for Objectives and Key Results.
+    The engineering team's <sub alias="O K R">OKR</sub> was to improve deployment frequency, measured by shipping to production at least ten times per week.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    OKR 是 Objectives and Key Results 的縮寫。
-    工程團隊的 OKR 是提升部署頻率，以每週至少向正式環境發布十次來衡量。
+    <sub alias="O K R">OKR</sub> 是 Objectives and Key Results 的縮寫。
+    工程團隊的 <sub alias="O K R">OKR</sub> 是提升部署頻率，以每週至少向正式環境發布十次來衡量。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -379,7 +379,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        That's Scope Creep. You have to define the MVP strictly. Use a Roadmap to manage Stakeholder expectations.
+        That's Scope Creep. You have to define the <sub alias="M V P">MVP</sub> strictly. Use a Roadmap to manage Stakeholder expectations.
       </prosody>
     </mstts:express-as>
   </voice>

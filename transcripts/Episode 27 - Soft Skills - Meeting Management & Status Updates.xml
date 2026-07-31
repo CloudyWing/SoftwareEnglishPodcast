@@ -99,10 +99,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Loop In...
-    Please loop me in on the email chain regarding the A P I.
+    Please loop me in on the email chain regarding the <sub alias="A P I">API</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    請在關於 API 的郵件串中把我加入副本。
+    請在關於 <sub alias="A P I">API</sub> 的郵件串中把我加入副本。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -149,11 +149,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Alternative...
-    Do we have an alternative library for PDF generation?
+    Do we have an alternative library for <sub alias="P D F">PDF</sub> generation?
     If the vendor cannot meet the deadline, let's discuss alternatives so we are not blocked.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    我們有產生 PDF 的替代函式庫嗎？
+    我們有產生 <sub alias="P D F">PDF</sub> 的替代函式庫嗎？
     如果供應商無法在截止日期前完成，讓我們討論替代方案，這樣我們才不會被卡住。
   </voice>
 
@@ -192,7 +192,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          AI 輔助會議已經成為常態，像是自動產生逐字稿和錄影。
+          <sub alias="A I">AI</sub> 輔助會議已經成為常態，像是自動產生逐字稿和錄影。
         </lang>
       </prosody>
     </mstts:express-as>

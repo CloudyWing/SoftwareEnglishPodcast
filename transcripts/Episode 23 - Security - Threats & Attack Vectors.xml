@@ -35,7 +35,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        天啊，那就是我們今天要講的典型攻擊手法啊！這集我們將認識各種常見的威脅，特別是 AI 時代興起的新型攻擊。
+        天啊，那就是我們今天要講的典型攻擊手法啊！這集我們將認識各種常見的威脅，特別是 <sub alias="A I">AI</sub> 時代興起的新型攻擊。
         首先，攻擊者是怎麼找到縫隙鑽進來的？
       </prosody>
     </mstts:express-as>
@@ -159,7 +159,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，那是針對人的社交工程。但在 AI 時代，駭客甚至能用話術來騙過模型，這就是現在最棘手的問題。
+        沒錯，那是針對人的社交工程。但在 <sub alias="A I">AI</sub> 時代，駭客甚至能用話術來騙過模型，這就是現在最棘手的問題。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -169,11 +169,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Prompt Injection...
-    Prompt injection manipulates the AI model to ignore its safety rules.
+    Prompt injection manipulates the <sub alias="A I">AI</sub> model to ignore its safety rules.
     Review every prompt injection report as a security issue, not just a bad answer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    提示詞注入操弄 AI 模型以忽略其安全規則。
+    提示詞注入操弄 <sub alias="A I">AI</sub> 模型以忽略其安全規則。
     審查每一份提示詞注入報告時，應把它視為安全問題，而不只是回答品質不佳。
   </voice>
 
@@ -182,11 +182,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Indirect Prompt Injection...
-    Indirect prompt injection hides malicious instructions inside content the AI system reads.
+    Indirect prompt injection hides malicious instructions inside content the <sub alias="A I">AI</sub> system reads.
     The agent summarized a web page that secretly told it to send private ticket data to an attacker.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    間接提示詞注入把惡意指令藏在 AI 系統讀取的內容中。
+    間接提示詞注入把惡意指令藏在 <sub alias="A I">AI</sub> 系統讀取的內容中。
     代理人摘要一個網頁時，頁面暗中要求它把私人工單資料傳給攻擊者。
   </voice>
 
@@ -195,11 +195,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Jailbreak...
-    A jailbreak tries to bypass an AI system's safety instructions or policy limits.
+    A jailbreak tries to bypass an <sub alias="A I">AI</sub> system's safety instructions or policy limits.
     The red team wrote jailbreak prompts to test whether the support bot would reveal restricted procedures.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    越獄嘗試繞過 AI 系統的安全指令或政策限制。
+    越獄嘗試繞過 <sub alias="A I">AI</sub> 系統的安全指令或政策限制。
     紅隊撰寫越獄提示詞，測試客服機器人是否會透露受限流程。
   </voice>
 
@@ -243,11 +243,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Vector Store Poisoning...
     Vector store poisoning inserts malicious or misleading documents into a retrieval system.
-    Filter and review indexed documents so the AI assistant does not retrieve attacker-controlled instructions.
+    Filter and review indexed documents so the <sub alias="A I">AI</sub> assistant does not retrieve attacker-controlled instructions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     向量儲存投毒把惡意或誤導性文件插入檢索系統。
-    過濾並審查索引文件，避免 AI 助理檢索到攻擊者控制的指令。
+    過濾並審查索引文件，避免 <sub alias="A I">AI</sub> 助理檢索到攻擊者控制的指令。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -255,11 +255,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Tool Misuse...
-    Tool misuse happens when an AI system calls an approved tool for an unsafe or unintended purpose.
+    Tool misuse happens when an <sub alias="A I">AI</sub> system calls an approved tool for an unsafe or unintended purpose.
     Limit the refund tool so the agent can draft a request but cannot issue payment without approval.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    工具濫用指 AI 系統把已核准工具用在不安全或非預期目的上。
+    工具濫用指 <sub alias="A I">AI</sub> 系統把已核准工具用在不安全或非預期目的上。
     限制退款工具，讓代理人只能草擬申請，不能未經核准直接付款。
   </voice>
 
@@ -268,16 +268,16 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Excessive Agency...
-    Excessive agency gives an AI system more autonomy or permissions than the task requires.
+    Excessive agency gives an <sub alias="A I">AI</sub> system more autonomy or permissions than the task requires.
     Remove production write access from the agent if it only needs to summarize incident data.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    過度授權代理給 AI 系統超出任務需要的自主性或權限。
+    過度授權代理給 <sub alias="A I">AI</sub> 系統超出任務需要的自主性或權限。
     若代理人只需要摘要事件資料，就移除它的正式環境寫入權限。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    這些都是 AI 時代的新攻擊面。但別忘了，傳統的注入手法依然是排行榜上的常客。
+    這些都是 <sub alias="A I">AI</sub> 時代的新攻擊面。但別忘了，傳統的注入手法依然是排行榜上的常客。
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
@@ -304,33 +304,33 @@
     <sub alias="sequel">SQL</sub> injection occurs when malicious <sub alias="sequel">SQL</sub> statements are inserted into entry fields for execution.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    當惡意 SQL 語句被插入到輸入欄位執行時，就會發生 SQL 注入。
+    當惡意 <sub alias="sequel">SQL</sub> 語句被插入到輸入欄位執行時，就會發生 <sub alias="sequel">SQL</sub> 注入。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     跨站腳本
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    XSS...
-    XSS stands for Cross-Site Scripting.
-    Escape output content to prevent XSS attacks.
+    <sub alias="X S S">XSS</sub>...
+    <sub alias="X S S">XSS</sub> stands for Cross-Site Scripting.
+    Escape output content to prevent <sub alias="X S S">XSS</sub> attacks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    XSS 是 Cross-Site Scripting 的縮寫。
-    轉義輸出內容以防止 XSS 攻擊。
+    <sub alias="X S S">XSS</sub> 是 Cross-Site Scripting 的縮寫。
+    轉義輸出內容以防止 <sub alias="X S S">XSS</sub> 攻擊。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     跨站請求偽造
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CSRF...
-    CSRF stands for Cross-Site Request Forgery.
-    Use anti-CSRF tokens to verify the request origin.
+    <sub alias="C S R F">CSRF</sub>...
+    <sub alias="C S R F">CSRF</sub> stands for Cross-Site Request Forgery.
+    Use anti-<sub alias="C S R F">CSRF</sub> tokens to verify the request origin.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CSRF 是 Cross-Site Request Forgery 的縮寫。
-    使用抗 CSRF Token 來驗證請求來源。
+    <sub alias="C S R F">CSRF</sub> 是 Cross-Site Request Forgery 的縮寫。
+    使用抗 <sub alias="C S R F">CSRF</sub> Token 來驗證請求來源。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -407,11 +407,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Deepfake...
-    A deepfake uses AI to generate convincing fake audio or video of a real person, making them appear to say or do things they never did.
+    A deepfake uses <sub alias="A I">AI</sub> to generate convincing fake audio or video of a real person, making them appear to say or do things they never did.
     Attackers used a deepfake audio of a CEO's voice to authorize a fraudulent wire transfer of over two hundred thousand dollars.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    深度偽造使用 AI 生成一個真實人物令人信服的偽造音訊或影片，讓他們看起來說了或做了從未發生的事。
+    深度偽造使用 <sub alias="A I">AI</sub> 生成一個真實人物令人信服的偽造音訊或影片，讓他們看起來說了或做了從未發生的事。
     攻擊者使用執行長聲音的深度偽造音訊，授權了一筆超過二十萬美元的詐欺電匯。
   </voice>
 
@@ -441,7 +441,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Often it's simple things like unpatched Vulnerabilities or Phishing. But in code, <sub alias="sequel">SQL</sub> Injection and XSS are still surprisingly common.
+        Often it's simple things like unpatched Vulnerabilities or Phishing. But in code, <sub alias="sequel">SQL</sub> Injection and <sub alias="X S S">XSS</sub> are still surprisingly common.
       </prosody>
     </mstts:express-as>
   </voice>

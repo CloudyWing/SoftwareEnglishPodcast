@@ -4,8 +4,8 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到軟體品質保證篇。
-        即使 AI 能自動生成程式碼，寫出經過測試、穩固的邏輯仍是專業工程師的職責。
-        這集我們深入探討測試種類與 TDD 開發流程。
+        即使 <sub alias="A I">AI</sub> 能自動生成程式碼，寫出經過測試、穩固的邏輯仍是專業工程師的職責。
+        這集我們深入探討測試種類與 <sub alias="T D D">TDD</sub> 開發流程。
   </prosody></mstts:express-as></voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -57,12 +57,12 @@
     端對端測試
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    E2E Testing...
-    E2E stands for End-to-End.
-    E2E testing simulates a complete user journey, like a customer adding items to a cart and checking out.
+    <sub alias="E to E">E2E</sub> Testing...
+    <sub alias="E to E">E2E</sub> stands for End-to-End.
+    <sub alias="E to E">E2E</sub> testing simulates a complete user journey, like a customer adding items to a cart and checking out.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    E2E Testing 是 End-to-End Testing 的縮寫。
+    <sub alias="E to E">E2E</sub> Testing 是 End-to-End Testing 的縮寫。
     端對端測試模擬完整的使用者旅程，例如客戶將商品加入購物車並結帳。
   </voice>
 
@@ -124,7 +124,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        測試寫起來很累，AI 能不能幫幫忙？
+        測試寫起來很累，<sub alias="A I">AI</sub> 能不能幫幫忙？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -132,7 +132,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          說到 T D D，理論上大家都知道很棒，但趕時程的時候真的有人能嚴格遵守「紅燈、綠燈、重構」嗎？
+          說到 <sub alias="T D D">TDD</sub>，理論上大家都知道很棒，但趕時程的時候真的有人能嚴格遵守「紅燈、綠燈、重構」嗎？
         </lang>
       </prosody>
     </mstts:express-as>
@@ -149,12 +149,12 @@
     測試驅動開發
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    T D D...
-    T D D stands for Test-Driven Development.
-    T D D requires writing tests before writing code.
+    <sub alias="T D D">TDD</sub>...
+    <sub alias="T D D">TDD</sub> stands for Test-Driven Development.
+    <sub alias="T D D">TDD</sub> requires writing tests before writing code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    TDD 是 Test-Driven Development 的縮寫。
+    <sub alias="T D D">TDD</sub> 是 Test-Driven Development 的縮寫。
     測試驅動開發要求在寫程式碼前先寫測試。
   </voice>
 
@@ -162,24 +162,24 @@
     行為驅動開發
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    BDD...
-    BDD stands for Behavior-Driven Development.
-    BDD uses human-readable descriptions for test cases.
+    <sub alias="B D D">BDD</sub>...
+    <sub alias="B D D">BDD</sub> stands for Behavior-Driven Development.
+    <sub alias="B D D">BDD</sub> uses human-readable descriptions for test cases.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    BDD 是 Behavior-Driven Development 的縮寫。
+    <sub alias="B D D">BDD</sub> 是 Behavior-Driven Development 的縮寫。
     行為驅動開發使用人類可讀的描述來撰寫測試案例。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 驅動測試
+    <sub alias="A I">AI</sub> 驅動測試
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    AI-Driven Testing...
-    AI-driven testing automatically generates test cases based on user behavior.
+    <sub alias="A I">AI</sub>-Driven Testing...
+    <sub alias="A I">AI</sub>-driven testing automatically generates test cases based on user behavior.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 驅動測試根據使用者行為自動產生測試案例。
+    <sub alias="A I">AI</sub> 驅動測試根據使用者行為自動產生測試案例。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -187,10 +187,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Self-Healing Tests...
-    Self-healing tests automatically adjust selectors when the UI changes.
+    Self-healing tests automatically adjust selectors when the <sub alias="U I">UI</sub> changes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    當 UI 變更時，自我修復測試會自動調整選擇器。
+    當 <sub alias="U I">UI</sub> 變更時，自我修復測試會自動調整選擇器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -316,7 +316,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          我覺得 QA 工程師真的很有耐心，面對那些說「這是 Feature 不是 Bug」的開發者，還能保持冷靜真是不容易。
+          我覺得 <sub alias="Q A">QA</sub> 工程師真的很有耐心，面對那些說「這是 Feature 不是 Bug」的開發者，還能保持冷靜真是不容易。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -324,7 +324,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈，所以工程師要學著跟 QA 做朋友，他們可是我們最後的防線。接下來這些是 QA 日常工作的一部分。
+        哈，所以工程師要學著跟 <sub alias="Q A">QA</sub> 做朋友，他們可是我們最後的防線。接下來這些是 <sub alias="Q A">QA</sub> 日常工作的一部分。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -333,13 +333,13 @@
     品保
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    QA...
-    QA stands for Quality Assurance.
-    QA engineers are responsible for the overall quality of the release.
+    <sub alias="Q A">QA</sub>...
+    <sub alias="Q A">QA</sub> stands for Quality Assurance.
+    <sub alias="Q A">QA</sub> engineers are responsible for the overall quality of the release.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    QA 是 Quality Assurance 的縮寫。
-    QA 工程師負責發布版本的整體品質。
+    <sub alias="Q A">QA</sub> 是 Quality Assurance 的縮寫。
+    <sub alias="Q A">QA</sub> 工程師負責發布版本的整體品質。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -347,10 +347,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Acceptance...
-    User Acceptance Testing (UAT) is the final step before go-live.
+    User Acceptance Testing (<sub alias="U A T">UAT</sub>) is the final step before go-live.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    使用者驗收測試 (UAT) 是上線前的最後一步。
+    使用者驗收測試 (<sub alias="U A T">UAT</sub>) 是上線前的最後一步。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -380,18 +380,18 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Contract Testing...
-    Contract testing verifies that the A P I messages exchanged between services match a shared contract.
+    Contract testing verifies that the <sub alias="A P I">API</sub> messages exchanged between services match a shared contract.
     Tools like Pact run contract tests independently on each service so you can catch integration issues without a full staging environment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    合約測試驗證服務之間交換的 API 訊息是否符合共享合約。
+    合約測試驗證服務之間交換的 <sub alias="A P I">API</sub> 訊息是否符合共享合約。
     像 Pact 這樣的工具會在每個服務上獨立執行合約測試，讓你無需完整的預備環境即可找出整合問題。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我不管是寫 Unit Test 還是 E2E，最怕的就是那種有時候過、有時候不過的測試。
+        我不管是寫 Unit Test 還是 <sub alias="E to E">E2E</sub>，最怕的就是那種有時候過、有時候不過的測試。
       </prosody>
     </mstts:express-as>
   </voice>

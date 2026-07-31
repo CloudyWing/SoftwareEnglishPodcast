@@ -3,7 +3,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 UI/UX 設計與測試篇。當 AI 能自動產生介面時，設計師與工程師的價值就轉向了體驗的打磨。這集我們探討從構想到原型的現代設計流程。
+        歡迎來到 <sub alias="U I U X">UI/UX</sub> 設計與測試篇。當 <sub alias="A I">AI</sub> 能自動產生介面時，設計師與工程師的價值就轉向了體驗的打磨。這集我們探討從構想到原型的現代設計流程。
         設計流程通常從發想與定義使用者開始。
       </prosody>
     </mstts:express-as>
@@ -12,7 +12,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，工程師也要懂 UX 嗎？當然！不然做出來的功能如果沒人會用，那程式碼寫得再漂亮也沒意義啊。
+          曉臻，工程師也要懂 <sub alias="U X">UX</sub> 嗎？當然！不然做出來的功能如果沒人會用，那程式碼寫得再漂亮也沒意義啊。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -29,24 +29,24 @@
     使用者介面
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    UI...
-    UI stands for User Interface.
-    The UI should be intuitive and easy to navigate.
+    <sub alias="U I">UI</sub>...
+    <sub alias="U I">UI</sub> stands for User Interface.
+    The <sub alias="U I">UI</sub> should be intuitive and easy to navigate.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    UI 是 User Interface 的縮寫。使用者介面應該直覺且易於瀏覽。
+    <sub alias="U I">UI</sub> 是 User Interface 的縮寫。使用者介面應該直覺且易於瀏覽。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     使用者體驗
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    UX...
-    UX stands for User Experience.
-    Good UX design focuses on the user's journey and satisfaction.
+    <sub alias="U X">UX</sub>...
+    <sub alias="U X">UX</sub> stands for User Experience.
+    Good <sub alias="U X">UX</sub> design focuses on the user's journey and satisfaction.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    UX 是 User Experience 的縮寫。好的 UX 設計專注於使用者旅程與滿意度。
+    <sub alias="U X">UX</sub> 是 User Experience 的縮寫。好的 <sub alias="U X">UX</sub> 設計專注於使用者旅程與滿意度。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -101,11 +101,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Figma is a collaborative design tool used by our team.
-    Figma's component libraries and auto-layout features let designers build consistent UI systems that engineers can reference directly.
+    Figma's component libraries and auto-layout features let designers build consistent <sub alias="U I">UI</sub> systems that engineers can reference directly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Figma 是我們團隊使用的協作設計工具。
-    Figma 的元件庫和自動排版功能讓設計師能夠建立一致的 UI 系統，工程師可以直接參照使用。
+    Figma 的元件庫和自動排版功能讓設計師能夠建立一致的 <sub alias="U I">UI</sub> 系統，工程師可以直接參照使用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -142,20 +142,20 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    生成式 UI
+    生成式 <sub alias="U I">UI</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Generative UI...
-    Generative UI dynamically creates interfaces based on user intent.
+    Generative <sub alias="U I">UI</sub>...
+    Generative <sub alias="U I">UI</sub> dynamically creates interfaces based on user intent.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    生成式 UI 根據使用者意圖動態建立介面。
+    生成式 <sub alias="U I">UI</sub> 根據使用者意圖動態建立介面。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        為了確保介面的美觀與易用性。Phoebe，如果不統一規範，大家的 CSS 可能會打架打得很慘烈吧？
+        為了確保介面的美觀與易用性。Phoebe，如果不統一規範，大家的 <sub alias="C S S">CSS</sub> 可能會打架打得很慘烈吧？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -163,7 +163,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          沒錯，設計系統就像是前端的元件庫，如果沒有定義好，大家的 CSS 就會開始打架了。
+          沒錯，設計系統就像是前端的元件庫，如果沒有定義好，大家的 <sub alias="C S S">CSS</sub> 就會開始打架了。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -192,10 +192,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Color Palette...
-    Stick to the defined color palette for all UI elements.
+    Stick to the defined color palette for all <sub alias="U I">UI</sub> elements.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    所有 UI 元素都要堅守定義好的色票。
+    所有 <sub alias="U I">UI</sub> 元素都要堅守定義好的色票。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -236,16 +236,16 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Design Tokens...
-    Design Tokens store UI decisions like color and spacing in a platform-agnostic way.
+    Design Tokens store <sub alias="U I">UI</sub> decisions like color and spacing in a platform-agnostic way.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    設計 Token 以平台無關的方式儲存顏色與間距等 UI 決策。
+    設計 Token 以平台無關的方式儲存顏色與間距等 <sub alias="U I">UI</sub> 決策。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        除了設計系統，認識常見的 UI 元件也很重要，這些可是構成畫面的基本單位。
+        除了設計系統，認識常見的 <sub alias="U I">UI</sub> 元件也很重要，這些可是構成畫面的基本單位。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -435,7 +435,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Not really. If you understand the difference between a Wireframe and a high-fidelity Mockup, you can catch UX issues early. Plus, implementing Responsive Design requires engineering logic.
+        Not really. If you understand the difference between a Wireframe and a high-fidelity Mockup, you can catch <sub alias="U X">UX</sub> issues early. Plus, implementing Responsive Design requires engineering logic.
       </prosody>
     </mstts:express-as>
   </voice>

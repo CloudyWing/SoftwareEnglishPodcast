@@ -12,7 +12,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，CAP 定理告訴我們人生不能兩全其美，想要一致性又要高可用性，那分區容錯可能就要犧牲一點了。
+          曉臻，<sub alias="cap">CAP</sub> 定理告訴我們，網路分區發生時，系統無法同時保證一致性與可用性，必須依業務需求取捨。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -26,16 +26,16 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 定理
+    <sub alias="cap">CAP</sub> 定理
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CAP Theorem...
-    CAP stands for Consistency, Availability, Partition Tolerance.
-    The CAP theorem states you can only pick two: Consistency, Availability, Partition tolerance.
+    <sub alias="cap">CAP</sub> Theorem...
+    <sub alias="cap">CAP</sub> stands for Consistency, Availability, Partition Tolerance.
+    The <sub alias="cap">CAP</sub> theorem states that when a network partition occurs, a distributed system cannot guarantee both Consistency and Availability.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 是 Consistency, Availability, Partition Tolerance 的縮寫。
-    CAP 定理指出你只能三選二：一致性、可用性、分區容錯性。
+    <sub alias="cap">CAP</sub> 是 Consistency, Availability, Partition Tolerance 的縮寫。
+    <sub alias="cap">CAP</sub> 定理指出，當網路分區發生時，分散式系統無法同時保證一致性與可用性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -64,13 +64,13 @@
     命令查詢職責分離
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CQRS...
-    CQRS stands for Command Query Responsibility Segregation.
-    CQRS separates read and write operations into different models.
+    <sub alias="C Q R S">CQRS</sub>...
+    <sub alias="C Q R S">CQRS</sub> stands for Command Query Responsibility Segregation.
+    <sub alias="C Q R S">CQRS</sub> separates read and write operations into different models.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CQRS 是 Command Query Responsibility Segregation 的縮寫。
-    CQRS 將讀取與寫入操作分離成不同的模型。
+    <sub alias="C Q R S">CQRS</sub> 是 Command Query Responsibility Segregation 的縮寫。
+    <sub alias="C Q R S">CQRS</sub> 將讀取與寫入操作分離成不同的模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -87,7 +87,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        系統的擴展性決定了它能服務多少使用者，特別是在 AI 時代，我們有了新的儲存需求。
+        系統的擴展性決定了它能服務多少使用者，特別是在 <sub alias="A I">AI</sub> 時代，我們有了新的儲存需求。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -124,10 +124,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Scale Up...
-    Add more R A M or C P U to scale up the single server.
+    Add more <sub alias="R A M">RAM</sub> or <sub alias="C P U">CPU</sub> to scale up the single server.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    增加記憶體或 CPU 來垂直擴展單一伺服器。
+    增加記憶體或 <sub alias="C P U">CPU</sub> 來垂直擴展單一伺服器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -249,10 +249,36 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Message Queue...
-    Use a message queue like RabbitMQ to decouple services.
+    Use a message queue like <sub alias="Rabbit M Q">RabbitMQ</sub> to decouple services.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    使用像 RabbitMQ 這樣的訊息佇列來解耦服務。
+    使用像 <sub alias="Rabbit M Q">RabbitMQ</sub> 這樣的訊息佇列來解耦服務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    反向壓力
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Backpressure...
+    Backpressure lets a slower consumer signal that an upstream producer must reduce its delivery rate.
+    Apply backpressure before the queue grows without bounds and exhausts memory.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    反向壓力讓較慢的 Consumer 告知上游 Producer 降低傳送速率。
+    在 Queue 無限制增長並耗盡記憶體前，應啟動反向壓力機制。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    死信佇列
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Dead Letter Queue...
+    A <sub alias="D L Q">DLQ</sub> stores messages that could not be processed successfully after the configured delivery attempts.
+    Send a poison message to the <sub alias="D L Q">DLQ</sub> for investigation instead of retrying it forever.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <sub alias="D L Q">DLQ</sub> 是 Dead Letter Queue 的縮寫，用來保存超過設定傳遞次數後仍無法成功處理的訊息。
+    將 Poison Message 送入 <sub alias="D L Q">DLQ</sub> 等待調查，不要無限重試。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -294,13 +320,26 @@
     服務水準目標
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    S L O...
-    S L O stands for Service Level Objective.
-    Set an S L O of 99.9 percent availability and alert your on-call engineer whenever the error budget starts burning too fast.
+    <sub alias="S L O">SLO</sub>...
+    <sub alias="S L O">SLO</sub> stands for Service Level Objective.
+    Set an <sub alias="S L O">SLO</sub> of 99.9 percent availability and alert your on-call engineer whenever the error budget starts burning too fast.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SLO 是 Service Level Objective 的縮寫。
-    設定 99.9% 可用性的 SLO，並在錯誤預算消耗過快時向待命工程師發出警報。
+    <sub alias="S L O">SLO</sub> 是 Service Level Objective 的縮寫。
+    設定 99.9% 可用性的 <sub alias="S L O">SLO</sub>，並在錯誤預算消耗過快時向待命工程師發出警報。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    錯誤預算消耗率
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Burn Rate...
+    Burn rate measures how quickly a service consumes its error budget relative to the allowed rate.
+    Alert on both fast and slow burn rates so the team can detect outages without overreacting to brief noise.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Burn Rate 衡量服務消耗 Error Budget 的速度相對於允許速率有多快。
+    同時監控快速與緩慢的 Burn Rate，能偵測服務中斷，也能避免對短暫雜訊反應過度。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -313,7 +352,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Because in a distributed system, you have network partitions. You often have to accept Eventual Consistency. Using patterns like Saga or CQRS helps manage this complexity.
+        Because in a distributed system, you have network partitions. You often have to accept Eventual Consistency. Using patterns like Saga or <sub alias="C Q R S">CQRS</sub> helps manage this complexity.
       </prosody>
     </mstts:express-as>
   </voice>

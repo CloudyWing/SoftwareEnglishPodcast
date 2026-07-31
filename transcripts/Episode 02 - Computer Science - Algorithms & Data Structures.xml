@@ -3,7 +3,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到演算法與資料結構篇。這是電腦科學的靈魂，也是區分「寫程式」與「軟體工程」的分水嶺。無論是面試刷題，還是 AI 時代的系統設計，這些基礎都是你的內功。
+        歡迎來到演算法與資料結構篇。這是電腦科學的靈魂，也是區分「寫程式」與「軟體工程」的分水嶺。無論是面試刷題，還是 <sub alias="A I">AI</sub> 時代的系統設計，這些基礎都是你的內功。
         首先，我們要學會「衡量」。程式跑得快不快，不能只憑感覺，我們需要一把客觀的尺。
       </prosody>
     </mstts:express-as>
@@ -94,7 +94,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         懂了怎麼衡量，接下來我們要有工具。資料結構就是我們存放資料的容器。
-        Phoebe，在 AI 時代，我們對資料結構的選擇還是一樣嗎？
+        Phoebe，在 <sub alias="A I">AI</sub> 時代，我們對資料結構的選擇還是一樣嗎？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -102,7 +102,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          基本的還是一樣，但因為 AI 檢索的需求，有些以前冷門的結構現在變得很熱門喔。
+          基本的還是一樣，但因為 <sub alias="A I">AI</sub> 檢索的需求，有些以前冷門的結構現在變得很熱門喔。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -120,11 +120,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Stack...
-    A stack follows the First-In-Last-Out (LIFO) principle.
+    A stack follows the First-In-Last-Out (<sub alias="last in first out">LIFO</sub>) principle.
     Undo features in text editors are typically implemented using a stack.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    堆疊遵循先進後出 (LIFO) 原則。
+    堆疊遵循先進後出 (<sub alias="last in first out">LIFO</sub>) 原則。
     文字編輯器中的復原功能通常是使用堆疊實作的。
   </voice>
 
@@ -133,12 +133,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Queue...
-    A queue follows the First-In-First-Out (FIFO) principle.
-    Message brokers like RabbitMQ rely heavily on efficient queue structures.
+    A queue follows the First-In-First-Out (<sub alias="first in first out">FIFO</sub>) principle.
+    Message brokers like <sub alias="Rabbit M Q">RabbitMQ</sub> rely heavily on efficient queue structures.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    佇列遵循先進先出 (FIFO) 的原則。
-    像 RabbitMQ 這樣的訊息代理高度依賴高效的佇列結構。
+    佇列遵循先進先出 (<sub alias="first in first out">FIFO</sub>) 的原則。
+    像 <sub alias="Rabbit M Q">RabbitMQ</sub> 這樣的訊息代理高度依賴高效的佇列結構。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -160,11 +160,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Graph...
     Graphs are used to model social networks and map routes.
-    Kubernetes uses a directed acyclic graph to resolve the order of resource dependencies.
+    Apache Airflow models task dependencies as a directed acyclic graph to determine their execution order.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     圖被用來模擬社群網路與地圖路徑。
-    Kubernetes 使用有向無環圖來解析資源相依性的順序。
+    Apache Airflow 使用有向無環圖表示 Task 的上下游相依，並據此決定執行順序。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -206,7 +206,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        接下來這個是 AI 時代的新寵兒。為了讓電腦「理解」語意，我們需要一種能儲存高維度特徵的結構。
+        接下來這個是 <sub alias="A I">AI</sub> 時代的新寵兒。為了讓電腦「理解」語意，我們需要一種能儲存高維度特徵的結構。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -217,10 +217,10 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Vector Database...
     Vector databases are optimized for storing and querying high-dimensional vector embeddings.
-    This is the backbone of RAG systems for retrieving strict context for LLMs.
+    This is the backbone of <sub alias="rag">RAG</sub> systems for retrieving strict context for LLMs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    向量資料庫針對儲存與查詢高維度向量嵌入進行了最佳化。這是 RAG 系統為大型語言模型檢索精確上下文的骨幹。
+    向量資料庫針對儲存與查詢高維度向量嵌入進行了最佳化。這是 <sub alias="rag">RAG</sub> 系統為大型語言模型檢索精確上下文的骨幹。
     有了結構，最後我們需要演算法來驅動資料。
     資料結構是食材，演算法就是食譜。只有兩者搭配，才能端出好菜。
   </voice>
@@ -279,14 +279,14 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Phoebe，面試的時候常常被問 Time Complexity，但在 AI 時代，我們真的還需要手寫 Sorting 演算法嗎？
+        Phoebe，面試的時候常常被問 Time Complexity，但在 <sub alias="A I">AI</sub> 時代，我們真的還需要手寫 Sorting 演算法嗎？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Well, you might not write Quick Sort from scratch, but understanding Time Complexity is key to scalability. When you are retrieving context for a RAG system, choosing between a Hash Map and a Vector Database can make or break your query speed.
+        Well, you might not write Quick Sort from scratch, but understanding Time Complexity is key to scalability. When you are retrieving context for a <sub alias="rag">RAG</sub> system, choosing between a Hash Map and a Vector Database can make or break your query speed.
       </prosody>
     </mstts:express-as>
   </voice>

@@ -4,7 +4,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到行動開發篇。
-        手機不再只是通訊工具，而是最強大的邊緣 AI 運算裝置。
+        手機不再只是通訊工具，而是最強大的邊緣 <sub alias="A I">AI</sub> 運算裝置。
         這集我們比較 iOS 與 Android 生態系，以及如何利用本機算力。
         行動開發的世界主要由兩大陣營組成，但也多了跨平台的選擇，接下來我們先認識這幾個主要名詞。
       </prosody>
@@ -44,11 +44,11 @@
     Android
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Android's Jetpack Compose brings a declarative UI approach similar to React and SwiftUI.
+    Android's Jetpack Compose brings a declarative <sub alias="U I">UI</sub> approach similar to React and SwiftUI.
     Android development requires understanding the Activity lifecycle.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Android 的 Jetpack Compose 帶來了類似 React 和 SwiftUI 的宣告式 UI 方式。
+    Android 的 Jetpack Compose 帶來了類似 React 和 SwiftUI 的宣告式 <sub alias="U I">UI</sub> 方式。
     Android 開發需要理解 Activity 的生命週期。
   </voice>
 
@@ -92,11 +92,11 @@
     React Native
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    React Native uses JavaScript to create native mobile apps.
+    React Native uses <sub alias="Java Script">JavaScript</sub> to create native mobile apps.
     With React Native's Expo framework, you can prototype a mobile app and test it on your phone in minutes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    React Native 使用 JavaScript 來建立原生行動 App。
+    React Native 使用 <sub alias="Java Script">JavaScript</sub> 來建立原生行動 App。
     透過 React Native 的 Expo 框架，你可以在幾分鐘內原型化一個行動 App 並在手機上測試。
   </voice>
 
@@ -104,24 +104,24 @@
     SwiftUI
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SwiftUI is Apple's modern declarative UI framework that replaces UIKit for most new iOS apps.
-    SwiftUI's live preview in Xcode lets you see UI changes in real time without running the full simulator.
+    SwiftUI is Apple's modern declarative <sub alias="U I">UI</sub> framework that replaces UIKit for most new iOS apps.
+    SwiftUI's live preview in Xcode lets you see <sub alias="U I">UI</sub> changes in real time without running the full simulator.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SwiftUI 是 Apple 現代的宣告式 UI 框架，取代了 UIKit 用於大多數新 iOS App。
-    SwiftUI 在 Xcode 中的即時預覽讓你無需運行完整模擬器即可即時看到 UI 變更。
+    SwiftUI 是 Apple 現代的宣告式 <sub alias="U I">UI</sub> 框架，取代了 UIKit 用於大多數新 iOS App。
+    SwiftUI 在 Xcode 中的即時預覽讓你無需運行完整模擬器即可即時看到 <sub alias="U I">UI</sub> 變更。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Jetpack Compose
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Jetpack Compose is Android's modern declarative UI toolkit, the counterpart to SwiftUI on iOS.
-    Jetpack Compose lets you build screens with composable functions instead of XML layouts.
+    Jetpack Compose is Android's modern declarative <sub alias="U I">UI</sub> toolkit, the counterpart to SwiftUI on iOS.
+    Jetpack Compose lets you build screens with composable functions instead of <sub alias="X M L">XML</sub> layouts.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Jetpack Compose 是 Android 現代的宣告式 UI 工具組，對應 iOS 上的 SwiftUI。
-    Jetpack Compose 讓你用可組合函式來建構畫面，而不是用 XML 佈局。
+    Jetpack Compose 是 Android 現代的宣告式 <sub alias="U I">UI</sub> 工具組，對應 iOS 上的 SwiftUI。
+    Jetpack Compose 讓你用可組合函式來建構畫面，而不是用 <sub alias="X M L">XML</sub> 佈局。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -160,10 +160,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Activity...
-    An Activity serves as the entry point for user interaction, managing the window where the UI is drawn.
+    An Activity serves as the entry point for user interaction, managing the window where the <sub alias="U I">UI</sub> is drawn.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Activity 作為使用者互動的入口點，管理繪製 UI 的視窗。
+    Activity 作為使用者互動的入口點，管理繪製 <sub alias="U I">UI</sub> 的視窗。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -171,10 +171,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Fragment...
-    A Fragment represents a reusable portion of the UI.
+    A Fragment represents a reusable portion of the <sub alias="U I">UI</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Fragment 代表 UI 中可重複使用的部分。
+    Fragment 代表 <sub alias="U I">UI</sub> 中可重複使用的部分。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -246,22 +246,22 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Interface Builder...
-    Use Interface Builder to design the UI visually.
+    Use Interface Builder to design the <sub alias="U I">UI</sub> visually.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    使用 Interface Builder 以視覺化方式設計 UI。
+    使用 Interface Builder 以視覺化方式設計 <sub alias="U I">UI</sub>。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     軟體開發套件
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    S D K...
-    S D K stands for Software Development Kit.
-    Download the Android S D K to start developing.
+    <sub alias="S D K">SDK</sub>...
+    <sub alias="S D K">SDK</sub> stands for Software Development Kit.
+    Download the Android <sub alias="S D K">SDK</sub> to start developing.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SDK 是 Software Development Kit 的縮寫。下載 Android SDK 以開始開發。
+    <sub alias="S D K">SDK</sub> 是 Software Development Kit 的縮寫。下載 Android <sub alias="S D K">SDK</sub> 以開始開發。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -276,7 +276,7 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    隨著硬體進步，我們現在可以直接在手機上執行 AI 模型，這帶來了新的技術名詞。
+    隨著硬體進步，我們現在可以直接在手機上執行 <sub alias="A I">AI</sub> 模型，這帶來了新的技術名詞。
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
@@ -290,16 +290,16 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，Edge AI 是未來的趨勢，學會如何優化模型體積是關鍵。
+        沒錯，Edge <sub alias="A I">AI</sub> 是未來的趨勢，學會如何優化模型體積是關鍵。
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    裝置端 AI
+    裝置端 <sub alias="A I">AI</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    On-Device AI...
+    On-Device <sub alias="A I">AI</sub>...
     Run the model inference locally on the device for privacy and speed.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -307,15 +307,15 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Core ML
+    Core <sub alias="M L">ML</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Core ML integrates machine learning models into your iOS app.
-    Core ML runs models entirely on-device, so sensitive health data never leaves the user's iPhone.
+    Core <sub alias="M L">ML</sub> integrates machine learning models into your iOS app.
+    Core <sub alias="M L">ML</sub> runs models entirely on-device, so sensitive health data never leaves the user's iPhone.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Core ML 將機器學習模型整合進你的 iOS App。
-    Core ML 完全在裝置端執行模型，因此敏感的健康資料永遠不會離開使用者的 iPhone。
+    Core <sub alias="M L">ML</sub> 將機器學習模型整合進你的 iOS App。
+    Core <sub alias="M L">ML</sub> 完全在裝置端執行模型，因此敏感的健康資料永遠不會離開使用者的 iPhone。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -365,13 +365,13 @@
     除錯橋
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    A D B...
-    A D B stands for Android Debug Bridge.
-    Use A D B to install APKs manually.
+    <sub alias="A D B">ADB</sub>...
+    <sub alias="A D B">ADB</sub> stands for Android Debug Bridge.
+    Use <sub alias="A D B">ADB</sub> to install APKs manually.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ADB 是 Android Debug Bridge 的縮寫。
-    使用 ADB 手動安裝 APK。
+    <sub alias="A D B">ADB</sub> 是 Android Debug Bridge 的縮寫。
+    使用 <sub alias="A D B">ADB</sub> 手動安裝 <sub alias="A P K">APK</sub>。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

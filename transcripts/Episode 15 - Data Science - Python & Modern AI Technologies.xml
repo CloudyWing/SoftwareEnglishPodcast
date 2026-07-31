@@ -3,7 +3,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到資料科學與 AI 篇。
+        歡迎來到資料科學與 <sub alias="A I">AI</sub> 篇。
         隨著人工智慧的興起，Python 已成為不可或缺的語言。這集我們涵蓋資料科學以及機器學習的關鍵術語。
         Python 是資料科學的首選語言，掌握其基礎生態系是第一步，讓我們從基本詞彙開始。
       </prosody>
@@ -30,12 +30,12 @@
     Python
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Python is widely used for data analysis and AI development.
-    Python's extensive ecosystem of libraries like NumPy, Pandas, and PyTorch makes it the de facto language for machine learning.
+    Python is widely used for data analysis and <sub alias="A I">AI</sub> development.
+    Python's extensive ecosystem of libraries like <sub alias="Num Pie">NumPy</sub>, Pandas, and <sub alias="Pie Torch">PyTorch</sub> makes it the de facto language for machine learning.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Python 廣泛用於資料分析與 AI 開發。
-    Python 豐富的函式庫生態系，如 NumPy、Pandas 和 PyTorch，使其成為機器學習事實上的標準語言。
+    Python 廣泛用於資料分析與 <sub alias="A I">AI</sub> 開發。
+    Python 豐富的函式庫生態系，如 <sub alias="Num Pie">NumPy</sub>、Pandas 和 <sub alias="Pie Torch">PyTorch</sub>，使其成為機器學習事實上的標準語言。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -98,10 +98,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Pip...
-    Run 'pip install' to download the library from PyPI.
+    Run 'pip install' to download the library from <sub alias="Pie P I">PyPI</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    執行 'pip install' 從 PyPI 下載函式庫。
+    執行 'pip install' 從 <sub alias="Pie P I">PyPI</sub> 下載函式庫。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -145,10 +145,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Array...
-    NumPy arrays allow for efficient numerical computations.
+    <sub alias="Num Pie">NumPy</sub> arrays allow for efficient numerical computations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    NumPy 陣列允許進行高效的數值運算。
+    <sub alias="Num Pie">NumPy</sub> 陣列允許進行高效的數值運算。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -209,7 +209,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        機器學習是 AI 的核心。它不再是寫死的規則，而是讓電腦學會看數據。
+        機器學習是 <sub alias="A I">AI</sub> 的核心。它不再是寫死的規則，而是讓電腦學會看數據。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -246,10 +246,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Training...
-    The training process takes hours on a G P U.
+    The training process takes hours on a <sub alias="G P U">GPU</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    訓練過程在 GPU 上需要花費數小時。
+    訓練過程在 <sub alias="G P U">GPU</sub> 上需要花費數小時。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -301,36 +301,36 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Tensor...
-    Tensors are multi-dimensional arrays that serve as the fundamental data structure for AI models.
+    Tensors are multi-dimensional arrays that serve as the fundamental data structure for <sub alias="A I">AI</sub> models.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    張量是多維陣列，作為 AI 模型最基礎的資料結構。
+    張量是多維陣列，作為 <sub alias="A I">AI</sub> 模型最基礎的資料結構。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     低秩適應
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    LoRA...
-    LoRA stands for Low-Rank Adaptation.
-    LoRA fine-tunes a large model by training only a small set of additional weight matrices.
+    <sub alias="low rah">LoRA</sub>...
+    <sub alias="low rah">LoRA</sub> stands for Low-Rank Adaptation.
+    <sub alias="low rah">LoRA</sub> fine-tunes a large model by training only a small set of additional weight matrices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    LoRA 是 Low-Rank Adaptation 的縮寫。
-    LoRA 透過只訓練一小組額外的權重矩陣來微調大型模型。
+    <sub alias="low rah">LoRA</sub> 是 Low-Rank Adaptation 的縮寫。
+    <sub alias="low rah">LoRA</sub> 透過只訓練一小組額外的權重矩陣來微調大型模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     人類回饋強化學習
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    RLHF...
-    RLHF stands for Reinforcement Learning from Human Feedback.
-    RLHF is the technique used to align language models with human preferences.
+    <sub alias="R L H F">RLHF</sub>...
+    <sub alias="R L H F">RLHF</sub> stands for Reinforcement Learning from Human Feedback.
+    <sub alias="R L H F">RLHF</sub> is the technique used to align language models with human preferences.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    RLHF 是 Reinforcement Learning from Human Feedback 的縮寫。
-    RLHF 是用來讓語言模型與人類偏好對齊的技術。
+    <sub alias="R L H F">RLHF</sub> 是 Reinforcement Learning from Human Feedback 的縮寫。
+    <sub alias="R L H F">RLHF</sub> 是用來讓語言模型與人類偏好對齊的技術。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -339,11 +339,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Quantization...
     Quantization reduces model size by lowering the precision of its weights.
-    Use 4-bit quantization to run a 7B model on a consumer GPU.
+    Use 4-bit quantization to run a 7B model on a consumer <sub alias="G P U">GPU</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     量化透過降低模型權重的精度來縮小模型體積。
-    使用 4-bit 量化即可在消費級 GPU 上執行 70 億參數模型。
+    使用 4-bit 量化即可在消費級 <sub alias="G P U">GPU</sub> 上執行 70 億參數模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -362,7 +362,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        近年來，大型語言模型的發展引領了新一波的 AI 革命。
+        近年來，大型語言模型的發展引領了新一波的 <sub alias="A I">AI</sub> 革命。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -387,12 +387,12 @@
     自然語言處理
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    NLP...
-    NLP stands for Natural Language Processing.
-    NLP enables computers to understand human language.
+    <sub alias="N L P">NLP</sub>...
+    <sub alias="N L P">NLP</sub> stands for Natural Language Processing.
+    <sub alias="N L P">NLP</sub> enables computers to understand human language.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    NLP 是 Natural Language Processing 的縮寫。NLP 使電腦能夠理解人類語言。
+    <sub alias="N L P">NLP</sub> 是 Natural Language Processing 的縮寫。<sub alias="N L P">NLP</sub> 使電腦能夠理解人類語言。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -423,13 +423,13 @@
     大型語言模型
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    LLM...
-    LLM stands for Large Language Model.
-    GPT-4 is a powerful Large Language Model (LLM).
+    <sub alias="L L M">LLM</sub>...
+    <sub alias="L L M">LLM</sub> stands for Large Language Model.
+    <sub alias="G P T four">GPT-4</sub> is a powerful Large Language Model (<sub alias="L L M">LLM</sub>).
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    LLM 是 Large Language Model 的縮寫。
-    GPT-4 是一個強大的大型語言模型。
+    <sub alias="L L M">LLM</sub> 是 Large Language Model 的縮寫。
+    <sub alias="G P T four">GPT-4</sub> 是一個強大的大型語言模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -453,7 +453,7 @@
     LLMs process text in chunks called tokens.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    LLM 以被稱為 Token 的塊狀單位來處理文字。
+    <sub alias="L L M">LLM</sub> 以被稱為 Token 的塊狀單位來處理文字。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -472,18 +472,18 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Context Window...
-    The context window defines the maximum amount of text an LLM can process at once.
+    The context window defines the maximum amount of text an <sub alias="L L M">LLM</sub> can process at once.
     A larger context window lets the model reason over longer documents without losing track of earlier content.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    上下文視窗定義了 LLM 一次能處理的最大文字量。
+    上下文視窗定義了 <sub alias="L L M">LLM</sub> 一次能處理的最大文字量。
     更大的上下文視窗讓模型能對更長的文件進行推理，而不會遺忘前面的內容。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        除了技術本身，認識這些推動 AI 革命的關鍵巨頭與平台也是必要的。
+        除了技術本身，認識這些推動 <sub alias="A I">AI</sub> 革命的關鍵巨頭與平台也是必要的。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -505,45 +505,45 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    OpenAI
+    <sub alias="Open A I">OpenAI</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    OpenAI developed the GPT series and ChatGPT.
-    OpenAI's A P I allows developers to integrate large language models into their products with just a few lines of code.
+    <sub alias="Open A I">OpenAI</sub> developed the <sub alias="G P T">GPT</sub> series and <sub alias="Chat G P T">ChatGPT</sub>.
+    <sub alias="Open A I">OpenAI</sub>'s <sub alias="A P I">API</sub> allows developers to integrate large language models into their products with just a few lines of code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    OpenAI 開發了 GPT 系列與 ChatGPT。
-    OpenAI 的 API 讓開發者只需幾行程式碼就能將大型語言模型整合到他們的產品中。
+    <sub alias="Open A I">OpenAI</sub> 開發了 <sub alias="G P T">GPT</sub> 系列與 <sub alias="Chat G P T">ChatGPT</sub>。
+    <sub alias="Open A I">OpenAI</sub> 的 <sub alias="A P I">API</sub> 讓開發者只需幾行程式碼就能將大型語言模型整合到他們的產品中。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Anthropic
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Anthropic focuses on AI safety and developed the Claude models.
-    Anthropic's Constitutional AI training technique aims to make models more helpful, harmless, and honest.
+    Anthropic focuses on <sub alias="A I">AI</sub> safety and developed the Claude models.
+    Anthropic's Constitutional <sub alias="A I">AI</sub> training technique aims to make models more helpful, harmless, and honest.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Anthropic 專注於 AI 安全並開發了 Claude 模型。
-    Anthropic 的 Constitutional AI 訓練技術旨在使模型更有幫助、無害且誠實。
+    Anthropic 專注於 <sub alias="A I">AI</sub> 安全並開發了 Claude 模型。
+    Anthropic 的 Constitutional <sub alias="A I">AI</sub> 訓練技術旨在使模型更有幫助、無害且誠實。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Hugging Face
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Hugging Face is the leading platform for sharing open-source AI models.
+    Hugging Face is the leading platform for sharing open-source <sub alias="A I">AI</sub> models.
     You can download and run Hugging Face models locally with just a few lines using the Transformers library.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Hugging Face 是分享開源 AI 模型的領先平台。
+    Hugging Face 是分享開源 <sub alias="A I">AI</sub> 模型的領先平台。
     你只需幾行程式碼，使用 Transformers 函式庫即可在本機下載和執行 Hugging Face 上的模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        接下來是目前市場上最強大的幾個 AI 模型與服務。
+        接下來是目前市場上最強大的幾個 <sub alias="A I">AI</sub> 模型與服務。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -551,7 +551,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          Gemini 3 最近真的很紅，讀長文的能力超強。不過在寫 Code 方面，似乎還是有很多人習慣使用 ChatGPT。
+          Gemini 3 最近真的很紅，讀長文的能力超強。不過在寫 Code 方面，似乎還是有很多人習慣使用 <sub alias="Chat G P T">ChatGPT</sub>。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -565,15 +565,15 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    ChatGPT
+    <sub alias="Chat G P T">ChatGPT</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    ChatGPT by OpenAI has set the standard for conversational AI.
-    ChatGPT's custom instructions feature lets you set a persistent persona and behavior for all your conversations.
+    <sub alias="Chat G P T">ChatGPT</sub> by <sub alias="Open A I">OpenAI</sub> has set the standard for conversational <sub alias="A I">AI</sub>.
+    <sub alias="Chat G P T">ChatGPT</sub>'s custom instructions feature lets you set a persistent persona and behavior for all your conversations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    由 OpenAI 推出的 ChatGPT 樹立了對話式 AI 的標竿。
-    ChatGPT 的自訂指令功能讓你可以為所有對話設定持久的角色和行為。
+    由 <sub alias="Open A I">OpenAI</sub> 推出的 <sub alias="Chat G P T">ChatGPT</sub> 樹立了對話式 <sub alias="A I">AI</sub> 的標竿。
+    <sub alias="Chat G P T">ChatGPT</sub> 的自訂指令功能讓你可以為所有對話設定持久的角色和行為。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -581,11 +581,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Gemini is Google's most capable model, known for its massive context window and multimodal skills.
-    Gemini is natively integrated into Google Search and Workspace, bringing AI into the tools millions already use daily.
+    Gemini is natively integrated into Google Search and Workspace, bringing <sub alias="A I">AI</sub> into the tools millions already use daily.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Gemini 是 Google 最有能力的模型，以其龐大的上下文視窗與多模態能力聞名。
-    Gemini 原生整合在 Google Search 和 Workspace 中，將 AI 帶入數百萬人每天已在使用的工具裡。
+    Gemini 原生整合在 Google Search 和 Workspace 中，將 <sub alias="A I">AI</sub> 帶入數百萬人每天已在使用的工具裡。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -663,11 +663,11 @@
     Mistral
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Mistral is a European open-source LLM known for strong performance despite its compact size.
+    Mistral is a European open-source <sub alias="L L M">LLM</sub> known for strong performance despite its compact size.
     Mistral's mixture-of-experts architecture delivers high quality results with lower computational cost.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Mistral 是一個歐洲開源 LLM，以小體積高效能著稱。
+    Mistral 是一個歐洲開源 <sub alias="L L M">LLM</sub>，以小體積高效能著稱。
     Mistral 的混合專家架構以更低的運算成本提供高品質的輸出結果。
   </voice>
 
@@ -698,7 +698,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        最後，從使用者的角度，我們還需掌握這些與 AI 互動的策略。
+        最後，從使用者的角度，我們還需掌握這些與 <sub alias="A I">AI</sub> 互動的策略。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -706,7 +706,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          提示工程真的很重要，一樣的模型，問法不同，出來的答案可能天差地遠。還有要小心幻覺，不要 AI 說什麼都信喔。
+          提示工程真的很重要，一樣的模型，問法不同，出來的答案可能天差地遠。還有要小心幻覺，不要 <sub alias="A I">AI</sub> 說什麼都信喔。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -714,7 +714,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，保持批判性思考，把 AI 當作副駕駛而不是全權交給它。
+        沒錯，保持批判性思考，把 <sub alias="A I">AI</sub> 當作副駕駛而不是全權交給它。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -724,10 +724,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Prompt Engineering...
-    Good prompt engineering improves the AI's response quality.
+    Good prompt engineering improves the <sub alias="A I">AI</sub>'s response quality.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    良好的提示工程能改善 AI 的回應品質。
+    良好的提示工程能改善 <sub alias="A I">AI</sub> 的回應品質。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -735,16 +735,16 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Hallucination...
-    AI hallucinations can lead to confident but incorrect answers.
+    <sub alias="A I">AI</sub> hallucinations can lead to confident but incorrect answers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 幻覺可能導致自信但錯誤的答案。
+    <sub alias="A I">AI</sub> 幻覺可能導致自信但錯誤的答案。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        接著看模型如何取得資料。Embedding、檢索和快取，會影響 AI 回答的根據與成本。
+        接著看模型如何取得資料。Embedding、檢索和快取，會影響 <sub alias="A I">AI</sub> 回答的根據與成本。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -753,12 +753,12 @@
     檢索增強生成
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    RAG...
-    RAG stands for Retrieval-Augmented Generation.
-    RAG improves accuracy by retrieving relevant data before generating answers.
+    <sub alias="rag">RAG</sub>...
+    <sub alias="rag">RAG</sub> stands for Retrieval-Augmented Generation.
+    <sub alias="rag">RAG</sub> improves accuracy by retrieving relevant data before generating answers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    RAG 是 Retrieval-Augmented Generation 的縮寫。
+    <sub alias="rag">RAG</sub> 是 Retrieval-Augmented Generation 的縮寫。
     透過在生成答案前檢索相關資料來提升準確度。
   </voice>
 
@@ -767,11 +767,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Semantic Cache...
-    A semantic cache reuses previous AI responses when a new request has similar meaning.
+    A semantic cache reuses previous <sub alias="A I">AI</sub> responses when a new request has similar meaning.
     Add a semantic cache for repeated support questions to reduce latency and token usage.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    語意快取會在新請求語意相近時重用先前的 AI 回應。
+    語意快取會在新請求語意相近時重用先前的 <sub alias="A I">AI</sub> 回應。
     對重複出現的支援問題加入語意快取，可以降低延遲與 Token 使用量。
   </voice>
 
@@ -791,12 +791,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Multimodal...
-    A multimodal AI model can process and generate multiple types of data, such as text, images, and audio.
-    Multimodal models like GPT-4o can analyze a screenshot of your code and explain the bug directly.
+    A multimodal <sub alias="A I">AI</sub> model can process and generate multiple types of data, such as text, images, and audio.
+    Multimodal models like <sub alias="G P T">GPT</sub>-4o can analyze a screenshot of your code and explain the bug directly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    多模態 AI 模型可以處理和生成多種類型的資料，例如文字、圖像和音訊。
-    像 GPT-4o 這樣的多模態模型可以分析你程式碼的截圖並直接解釋 Bug。
+    多模態 <sub alias="A I">AI</sub> 模型可以處理和生成多種類型的資料，例如文字、圖像和音訊。
+    像 <sub alias="G P T">GPT</sub>-4o 這樣的多模態模型可以分析你程式碼的截圖並直接解釋 Bug。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -808,29 +808,29 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 代理人
+    <sub alias="A I">AI</sub> 代理人
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    A I Agent...
-    An A I agent uses a language model as its brain to reason, plan, and execute multi-step tasks autonomously.
-    A I agents can browse the web, write and run code, and call external APIs to complete complex goals without human intervention.
+    <sub alias="A I">AI</sub> Agent...
+    An <sub alias="A I">AI</sub> agent uses a language model as its brain to reason, plan, and execute multi-step tasks autonomously.
+    <sub alias="A I">AI</sub> agents can browse the web, write and run code, and call external APIs to complete complex goals without human intervention.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 代理人以語言模型作為大腦，自主地推理、規劃並執行多步驟任務。
-    AI 代理人可以瀏覽網頁、撰寫並執行程式碼，以及呼叫外部 API，無需人工介入即可完成複雜目標。
+    <sub alias="A I">AI</sub> 代理人以語言模型作為大腦，自主地推理、規劃並執行多步驟任務。
+    <sub alias="A I">AI</sub> 代理人可以瀏覽網頁、撰寫並執行程式碼，以及呼叫外部 <sub alias="A P I">API</sub>，無需人工介入即可完成複雜目標。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    代理式 AI
+    代理式 <sub alias="A I">AI</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Agentic AI...
-    Agentic AI describes systems that can plan, use tools, and take actions toward a goal.
-    Treat agentic AI as a junior teammate with clear permissions, checkpoints, and audit logs.
+    Agentic <sub alias="A I">AI</sub>...
+    Agentic <sub alias="A I">AI</sub> describes systems that can plan, use tools, and take actions toward a goal.
+    Treat agentic <sub alias="A I">AI</sub> as a junior teammate with clear permissions, checkpoints, and audit logs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    代理式 AI 指的是能夠規劃、使用工具，並朝目標採取行動的系統。
-    把代理式 AI 視為需要明確權限、檢查點與稽核紀錄的初階隊友。
+    代理式 <sub alias="A I">AI</sub> 指的是能夠規劃、使用工具，並朝目標採取行動的系統。
+    把代理式 <sub alias="A I">AI</sub> 視為需要明確權限、檢查點與稽核紀錄的初階隊友。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -846,12 +846,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     System Prompt...
-    A system prompt sets the AI's role, tone, and constraints before the conversation begins.
-    Use a system prompt to define the persona and output format for your AI-powered application.
+    A system prompt sets the <sub alias="A I">AI</sub>'s role, tone, and constraints before the conversation begins.
+    Use a system prompt to define the persona and output format for your <sub alias="A I">AI</sub>-powered application.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    系統提示詞在對話開始前設定 AI 的角色、語氣與限制條件。
-    使用系統提示詞來定義你的 AI 應用程式的角色人設與輸出格式。
+    系統提示詞在對話開始前設定 <sub alias="A I">AI</sub> 的角色、語氣與限制條件。
+    使用系統提示詞來定義你的 <sub alias="A I">AI</sub> 應用程式的角色人設與輸出格式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -873,11 +873,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Function Calling...
     Function calling allows a language model to trigger external tools or APIs based on user intent.
-    With function calling, the model decides when to call a weather API or a database query instead of answering from memory.
+    With function calling, the model decides when to call a weather <sub alias="A P I">API</sub> or a database query instead of answering from memory.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    函式呼叫讓語言模型能根據使用者意圖觸發外部工具或 API。
-    透過函式呼叫，模型能自行判斷何時呼叫天氣 API 或資料庫查詢，而不是憑記憶回答。
+    函式呼叫讓語言模型能根據使用者意圖觸發外部工具或 <sub alias="A P I">API</sub>。
+    透過函式呼叫，模型能自行判斷何時呼叫天氣 <sub alias="A P I">API</sub> 或資料庫查詢，而不是憑記憶回答。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -899,11 +899,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Structured Outputs...
     Structured outputs force the model response to follow a schema that your application can parse.
-    Ask for structured outputs when the model must return JSON for an automated workflow.
+    Ask for structured outputs when the model must return <sub alias="J S O N">JSON</sub> for an automated workflow.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     結構化輸出要求模型回應遵循應用程式可解析的 Schema。
-    當模型必須回傳 JSON 給自動化流程時，應要求結構化輸出。
+    當模型必須回傳 <sub alias="J S O N">JSON</sub> 給自動化流程時，應要求結構化輸出。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -915,16 +915,16 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    MCP
+    <sub alias="M C P">MCP</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    MCP...
-    MCP stands for Model Context Protocol.
-    MCP is an open standard that lets AI models securely connect to external data sources and tools through a unified interface.
+    <sub alias="M C P">MCP</sub>...
+    <sub alias="M C P">MCP</sub> stands for Model Context Protocol.
+    <sub alias="M C P">MCP</sub> is an open standard that lets <sub alias="A I">AI</sub> models securely connect to external data sources and tools through a unified interface.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    MCP 是 Model Context Protocol 的縮寫。
-    MCP 是一個開放標準，讓 AI 模型能透過統一介面安全地連接外部資料來源與工具。
+    <sub alias="M C P">MCP</sub> 是 Model Context Protocol 的縮寫。
+    <sub alias="M C P">MCP</sub> 是一個開放標準，讓 <sub alias="A I">AI</sub> 模型能透過統一介面安全地連接外部資料來源與工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -932,11 +932,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Evals...
-    Evals measure whether an AI system behaves correctly across representative test cases.
+    Evals measure whether an <sub alias="A I">AI</sub> system behaves correctly across representative test cases.
     Add evals before changing the prompt so you can catch regressions in answer quality.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    評測用代表性的測試案例衡量 AI 系統是否表現正確。
+    評測用代表性的測試案例衡量 <sub alias="A I">AI</sub> 系統是否表現正確。
     修改提示詞前先加入評測，才能抓到回答品質的退化。
   </voice>
 
@@ -945,25 +945,25 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Guardrails...
-    Guardrails constrain what an AI system can say or do in risky situations.
+    Guardrails constrain what an <sub alias="A I">AI</sub> system can say or do in risky situations.
     Use guardrails to block unsafe tool calls and require human approval for high-impact actions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    防護欄限制 AI 系統在高風險情境中能說什麼、做什麼。
+    防護欄限制 <sub alias="A I">AI</sub> 系統在高風險情境中能說什麼、做什麼。
     使用防護欄阻擋不安全的工具呼叫，並要求高影響行動先經人工核准。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        現在大家都在玩 LLM，那我們還需要學傳統的像是 Pandas 或是 Scikit-learn 嗎？
+        現在大家都在玩 <sub alias="L L M">LLM</sub>，那我們還需要學傳統的像是 Pandas 或是 Scikit-learn 嗎？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Yes. Before you perform Inference with an LLM, you often need to clean your data using Dataframes. Garbage in, garbage out.
+        Yes. Before you perform Inference with an <sub alias="L L M">LLM</sub>, you often need to clean your data using Dataframes. Garbage in, garbage out.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -985,7 +985,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        AI 正在改變世界，Python 是最好的入門工具。從資料清理到模型訓練，每一步都很重要。
+        <sub alias="A I">AI</sub> 正在改變世界，Python 是最好的入門工具。從資料清理到模型訓練，每一步都很重要。
         我是曉臻，下回見。
       </prosody>
     </mstts:express-as>

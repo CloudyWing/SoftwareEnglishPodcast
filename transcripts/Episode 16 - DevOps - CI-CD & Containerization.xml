@@ -4,8 +4,8 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到 DevOps 與雲端原生篇。
-        在這個 AI 輔助維運的時代，寫完程式只是第一步，如何將程式碼安全、自動化地部署到伺服器，是現代工程師的必修課。
-        這集我們將重點放在 MLOps、CI/CD 流程與容器化技術。
+        在這個 <sub alias="A I">AI</sub> 輔助維運的時代，寫完程式只是第一步，如何將程式碼安全、自動化地部署到伺服器，是現代工程師的必修課。
+        這集我們將重點放在 MLOps、<sub alias="C I C D">CI/CD</sub> 流程與容器化技術。
   </prosody></mstts:express-as></voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -18,7 +18,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，說到 C I / C D，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
+          曉臻，說到 <sub alias="C I C D">CI/CD</sub>，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -26,7 +26,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        別提了，"Deploy on Friday" 是 DevOps 界最大的禁忌話題，沒事千萬別嘗試。接下來我們來看看 CI/CD 的各個環節。
+        別提了，"Deploy on Friday" 是 DevOps 界最大的禁忌話題，沒事千萬別嘗試。接下來我們來看看 <sub alias="C I C D">CI/CD</sub> 的各個環節。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -278,10 +278,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Metric...
-    C P U usage is a key metric for scaling decisions.
+    <sub alias="C P U">CPU</sub> usage is a key metric for scaling decisions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CPU 使用率是決定擴展與否的關鍵指標。
+    <sub alias="C P U">CPU</sub> 使用率是決定擴展與否的關鍵指標。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -311,7 +311,7 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    生成式 AI 可觀測性
+    生成式 <sub alias="A I">AI</sub> 可觀測性
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     GenAI Observability...
@@ -319,7 +319,7 @@
     Monitor token usage and tool failures so the agent does not silently become expensive or unreliable.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    生成式 AI 可觀測性追蹤提示詞、模型回應、延遲、Token 使用量與工具呼叫。
+    生成式 <sub alias="A I">AI</sub> 可觀測性追蹤提示詞、模型回應、延遲、Token 使用量與工具呼叫。
     監控 Token 使用量與工具失敗，避免代理人默默變貴或變得不可靠。
   </voice>
 
@@ -499,10 +499,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Secret...
-    Store sensitive A P I keys in K8s secrets, not in plain text.
+    Store sensitive <sub alias="A P I">API</sub> keys in K8s secrets, not in plain text.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    將敏感的 API Key 儲存在 K8s Secrets 中，而非明文儲存。
+    將敏感的 <sub alias="A P I">API</sub> Key 儲存在 K8s Secrets 中，而非明文儲存。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -510,11 +510,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     KServe...
-    KServe is a Kubernetes-native platform for serving machine learning and generative AI models.
+    KServe is a Kubernetes-native platform for serving machine learning and generative <sub alias="A I">AI</sub> models.
     Use KServe when the team needs autoscaling, canary rollout, and standardized model inference on Kubernetes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    KServe 是 Kubernetes 原生的平台，用於服務機器學習與生成式 AI 模型。
+    KServe 是 Kubernetes 原生的平台，用於服務機器學習與生成式 <sub alias="A I">AI</sub> 模型。
     當團隊需要在 Kubernetes 上自動擴展、金絲雀釋出與標準化模型推論時，可以使用 KServe。
   </voice>
 
@@ -534,14 +534,14 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        以前部署都要手動 copy 檔案，現在有了 CI/CD Pipeline 真的方便很多。
+        以前部署都要手動 copy 檔案，現在有了 <sub alias="C I C D">CI/CD</sub> Pipeline 真的方便很多。
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Automation is freedom. A good C I / C D Pipeline ensures that your Artifact runs the same way in Staging as it does in Production. And with Containers, "it works on my machine" is no longer an excuse.
+        Automation is freedom. A good <sub alias="C I C D">CI/CD</sub> Pipeline ensures that your Artifact runs the same way in Staging as it does in Production. And with Containers, "it works on my machine" is no longer an excuse.
       </prosody>
     </mstts:express-as>
   </voice>

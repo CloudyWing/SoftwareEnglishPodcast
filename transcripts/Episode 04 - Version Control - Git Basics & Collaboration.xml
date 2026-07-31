@@ -13,7 +13,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，你是說 Repo 嗎？現在應該很少人會在本地 init 了，通常都是直接從 GitHub Clone 下來。
+          曉臻，你是說 Repo 嗎？現在應該很少人會在本地 init 了，通常都是直接從 <sub alias="Git Hub">GitHub</sub> Clone 下來。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -45,11 +45,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Clone...
     Clone the repository to your local machine to start working.
-    Nowadays, we prefer cloning via S S H or GitHub CLI for better security.
+    Nowadays, we prefer cloning via <sub alias="S S H">SSH</sub> or <sub alias="Git Hub">GitHub</sub> <sub alias="C L I">CLI</sub> for better security.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將儲存庫複製到你的本機以開始工作。
-    現在，我們偏好透過 SSH 或 GitHub CLI 進行複製，以獲得更好的安全性。
+    現在，我們偏好透過 <sub alias="S S H">SSH</sub> 或 <sub alias="Git Hub">GitHub</sub> <sub alias="C L I">CLI</sub> 進行複製，以獲得更好的安全性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -57,11 +57,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Remote...
-    The origin remote typically points to your GitHub repository.
+    The origin remote typically points to your <sub alias="Git Hub">GitHub</sub> repository.
     You can add multiple remotes to sync your fork with both the upstream project and your own server.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    origin 遠端通常指向你的 GitHub 檔案庫。
+    origin 遠端通常指向你的 <sub alias="Git Hub">GitHub</sub> 檔案庫。
     你可以新增多個遠端，讓你的 Fork 與上游專案和你自己的伺服器保持同步。
   </voice>
 
@@ -100,7 +100,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          有，拜託不要只寫 "fix bug"、"update code" 或 "done" 這種含糊的訊息。請使用完整的 Conventional Commits 格式，像是 "fix: 修正登入驗證錯誤"，這樣 AI 才能幫你自動生成 Changelog。
+          有，拜託不要只寫 "fix bug"、"update code" 或 "done" 這種含糊的訊息。請使用完整的 Conventional Commits 格式，像是 "fix: 修正登入驗證錯誤"，這樣 <sub alias="A I">AI</sub> 才能幫你自動生成 Changelog。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -226,13 +226,13 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Pull Request...
     Open a Pull Request to initiate a code review.
-    It's often abbreviated as PR.
-    Link the pull request to a related issue so the issue closes automatically when the PR is merged.
+    It's often abbreviated as <sub alias="P R">PR</sub>.
+    Link the pull request to a related issue so the issue closes automatically when the <sub alias="P R">PR</sub> is merged.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     開啟一個 Pull Request 來啟動程式碼審查。
-    它通常被縮寫為 PR。
-    將 Pull Request 連結到相關 Issue，這樣當 PR 合併時 Issue 就會自動關閉。
+    它通常被縮寫為 <sub alias="P R">PR</sub>。
+    將 Pull Request 連結到相關 Issue，這樣當 <sub alias="P R">PR</sub> 合併時 Issue 就會自動關閉。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

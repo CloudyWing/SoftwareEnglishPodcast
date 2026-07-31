@@ -97,26 +97,39 @@
     軟體物料清單
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SBOM...
-    SBOM stands for Software Bill of Materials.
-    An SBOM lists all components and dependencies in your software.
+    <sub alias="S B O M">SBOM</sub>...
+    <sub alias="S B O M">SBOM</sub> stands for Software Bill of Materials.
+    An <sub alias="S B O M">SBOM</sub> lists all components and dependencies in your software.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SBOM 是 Software Bill of Materials 的縮寫。
+    <sub alias="S B O M">SBOM</sub> 是 Software Bill of Materials 的縮寫。
     軟體物料清單列出了軟體中的所有元件與相依性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    SLSA
+    <sub alias="salsa">SLSA</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    S L S A...
-    S L S A is a framework for improving software supply chain integrity.
-    Use S L S A levels to explain how the build system protects source code, dependencies, and artifacts.
+    <sub alias="S L S A">SLSA</sub>...
+    <sub alias="S L S A">SLSA</sub> is a framework for improving software supply chain integrity.
+    Use <sub alias="S L S A">SLSA</sub> levels to explain how the build system protects source code, dependencies, and artifacts.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SLSA 是改善軟體供應鏈完整性的框架。
-    使用 SLSA 等級說明建置系統如何保護原始碼、相依性套件與成品。
+    <sub alias="salsa">SLSA</sub> 是改善軟體供應鏈完整性的框架。
+    使用 <sub alias="salsa">SLSA</sub> 等級說明建置系統如何保護原始碼、相依性套件與成品。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    證明聲明
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Attestation...
+    An attestation is a signed statement that records verifiable claims about an artifact, such as how and where it was built.
+    Verify the build attestation before promoting a container image to production.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Attestation 是記錄成品可驗證宣告的簽署聲明，例如成品如何產生及在哪裡建置。
+    將 Container Image 提升至 Production 前，應先驗證 Build Attestation。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -146,16 +159,29 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    政策即程式碼
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Policy as Code...
+    Policy as code expresses security and compliance rules in machine-evaluable files that can be reviewed and versioned.
+    Reject a deployment automatically when its policy evaluation finds a privileged container or an unsigned artifact.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Policy as Code 將安全與法遵規則寫成可由機器評估、審查及版本控制的檔案。
+    當 Policy Evaluation 發現 Privileged Container 或未簽署成品時，自動拒絕部署。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     傳輸層安全性
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    T L S...
-    T L S stands for Transport Layer Security.
-    T L S encrypts traffic over the internet, replacing S S L.
+    <sub alias="T L S">TLS</sub>...
+    <sub alias="T L S">TLS</sub> stands for Transport Layer Security.
+    <sub alias="T L S">TLS</sub> encrypts traffic over the internet, replacing <sub alias="S S L">SSL</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    TLS 是 Transport Layer Security 的縮寫。
-    TLS 加密網際網路上的流量，取代了 SSL。
+    <sub alias="T L S">TLS</sub> 是 Transport Layer Security 的縮寫。
+    <sub alias="T L S">TLS</sub> 加密網際網路上的流量，取代了 <sub alias="S S L">SSL</sub>。
     嚴格的存取控制能有效防止未經授權的行為。
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -245,13 +271,13 @@
     虛擬私人網路
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    VPN...
-    VPN stands for Virtual Private Network.
-    Use a VPN to access the internal corporate network securely.
+    <sub alias="V P N">VPN</sub>...
+    <sub alias="V P N">VPN</sub> stands for Virtual Private Network.
+    Use a <sub alias="V P N">VPN</sub> to access the internal corporate network securely.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    VPN 是 Virtual Private Network 的縮寫。
-    使用 VPN 安全地存取內部企業網路。
+    <sub alias="V P N">VPN</sub> 是 Virtual Private Network 的縮寫。
+    使用 <sub alias="V P N">VPN</sub> 安全地存取內部企業網路。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -269,13 +295,13 @@
     隔離區
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    DMZ...
-    DMZ stands for Demilitarized Zone.
-    Place public-facing servers in the DMZ for added security.
+    <sub alias="D M Z">DMZ</sub>...
+    <sub alias="D M Z">DMZ</sub> stands for Demilitarized Zone.
+    Place public-facing servers in the <sub alias="D M Z">DMZ</sub> for added security.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DMZ 是 Demilitarized Zone 的縮寫。
-    將面對公眾的伺服器放置在 DMZ 以增加安全性。
+    <sub alias="D M Z">DMZ</sub> 是 Demilitarized Zone 的縮寫。
+    將面對公眾的伺服器放置在 <sub alias="D M Z">DMZ</sub> 以增加安全性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -309,24 +335,24 @@
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
-    CIA Triad...
-    CIA stands for Confidentiality, Integrity, and Availability.
-    Security is often defined by the CIA triad: Confidentiality, Integrity, and Availability.
+    <sub alias="C I A">CIA</sub> Triad...
+    <sub alias="C I A">CIA</sub> stands for Confidentiality, Integrity, and Availability.
+    Security is often defined by the <sub alias="C I A">CIA</sub> triad: Confidentiality, Integrity, and Availability.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CIA 是 Confidentiality, Integrity, and Availability 的縮寫。
-    安全性通常由 CIA 三角來定義：機密性、完整性與可用性。
+    <sub alias="C I A">CIA</sub> 是 Confidentiality, Integrity, and Availability 的縮寫。
+    安全性通常由 <sub alias="C I A">CIA</sub> 三角來定義：機密性、完整性與可用性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 治理
+    <sub alias="A I">AI</sub> 治理
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    AI Governance...
-    AI governance ensures the ethical and secure use of artificial intelligence.
+    <sub alias="A I">AI</sub> Governance...
+    <sub alias="A I">AI</sub> governance ensures the ethical and secure use of artificial intelligence.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 治理確保人工智慧的道德與安全使用。
+    <sub alias="A I">AI</sub> 治理確保人工智慧的道德與安全使用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -334,10 +360,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Compliance...
-    We must ensure compliance with GDPR regulations.
+    We must ensure compliance with <sub alias="G D P R">GDPR</sub> regulations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    我們必須確保符合 GDPR 法規。
+    我們必須確保符合 <sub alias="G D P R">GDPR</sub> 法規。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -385,16 +411,16 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 紅隊演練
+    <sub alias="A I">AI</sub> 紅隊演練
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    AI Red Teaming...
-    AI red teaming tests how an AI system behaves under adversarial prompts and unsafe scenarios.
-    Run AI red teaming before launching an internal assistant that can access customer records.
+    <sub alias="A I">AI</sub> Red Teaming...
+    <sub alias="A I">AI</sub> red teaming tests how an <sub alias="A I">AI</sub> system behaves under adversarial prompts and unsafe scenarios.
+    Run <sub alias="A I">AI</sub> red teaming before launching an internal assistant that can access customer records.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 紅隊演練測試 AI 系統在對抗性提示詞與不安全情境下的行為。
-    具備客戶紀錄存取能力的內部助理上線前，應先執行 AI 紅隊演練。
+    <sub alias="A I">AI</sub> 紅隊演練測試 <sub alias="A I">AI</sub> 系統在對抗性提示詞與不安全情境下的行為。
+    具備客戶紀錄存取能力的內部助理上線前，應先執行 <sub alias="A I">AI</sub> 紅隊演練。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -414,11 +440,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Output Validation...
     Output validation checks generated content before another system acts on it.
-    Validate the AI response against a schema before sending it to the deployment workflow.
+    Validate the <sub alias="A I">AI</sub> response against a schema before sending it to the deployment workflow.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     輸出驗證會在另一個系統採取行動前檢查生成內容。
-    將 AI 回應送進部署流程前，先用 Schema 驗證格式。
+    將 <sub alias="A I">AI</sub> 回應送進部署流程前，先用 Schema 驗證格式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -426,18 +452,18 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Secret Management...
-    Secret management centralizes the storage, rotation, and access control of credentials, A P I keys, and certificates.
-    Tools like HashiCorp Vault and Azure Key Vault ensure that application secrets are never hardcoded in source code and are automatically rotated on schedule.
+    Secret management centralizes the storage, rotation, and access control of credentials, <sub alias="A P I">API</sub> keys, and certificates.
+    Tools like HashiCorp Vault and Azure Key Vault reduce the risk of hardcoded secrets and can automate rotation for supported secret types after rotation is configured.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    秘密管理集中處理憑證、API 金鑰和憑證的儲存、輪換和存取控制。
-    HashiCorp Vault 和 Azure Key Vault 等工具確保應用程式的機密資料永遠不會被硬編碼在原始碼中，並按計畫自動輪換。
+    秘密管理集中處理憑證、<sub alias="A P I">API</sub> 金鑰和憑證的儲存、輪換和存取控制。
+    HashiCorp Vault 和 Azure Key Vault 等工具可降低機密資料被硬編碼的風險，並能在支援的 Secret 類型完成設定後自動輪替。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        如果 AI 代理人能操作工具，防線就不能只停在密碼與金鑰，還要管它能做什麼、在哪裡做。
+        如果 <sub alias="A I">AI</sub> 代理人能操作工具，防線就不能只停在密碼與金鑰，還要管它能做什麼、在哪裡做。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -447,11 +473,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Tool Permission...
-    Tool permission defines which tools an AI agent can call and what actions it can perform.
+    Tool permission defines which tools an <sub alias="A I">AI</sub> agent can call and what actions it can perform.
     Give the support agent read-only ticket access until a human approves any customer-impacting change.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    工具權限定義 AI 代理人可以呼叫哪些工具，以及能執行哪些動作。
+    工具權限定義 <sub alias="A I">AI</sub> 代理人可以呼叫哪些工具，以及能執行哪些動作。
     在人工核准任何影響客戶的變更前，只給客服代理人唯讀工單存取權。
   </voice>
 
@@ -460,11 +486,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Agent Sandbox...
-    An agent sandbox isolates an AI agent's code execution, files, and network access.
+    An agent sandbox isolates an <sub alias="A I">AI</sub> agent's code execution, files, and network access.
     Run generated scripts inside an agent sandbox so a mistake cannot modify production systems.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    代理沙箱隔離 AI 代理人的程式碼執行、檔案與網路存取。
+    代理沙箱隔離 <sub alias="A I">AI</sub> 代理人的程式碼執行、檔案與網路存取。
     在代理沙箱內執行生成的腳本，避免錯誤修改正式系統。
   </voice>
 
@@ -497,7 +523,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        那 JWT Token 被偷走怎麼辦？
+        那 <sub alias="J W T">JWT</sub> Token 被偷走怎麼辦？
       </prosody>
     </mstts:express-as>
   </voice>

@@ -62,10 +62,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Zero-Knowledge Proof...
-    ZKP allows proving statement truth without revealing the information itself.
+    <sub alias="Z K P">ZKP</sub> allows proving statement truth without revealing the information itself.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    零知識證明 (ZKP) 允許在不揭露資訊本身的情況下證明陳述的真實性。
+    零知識證明 (<sub alias="Z K P">ZKP</sub>) 允許在不揭露資訊本身的情況下證明陳述的真實性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -188,10 +188,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Token...
-    ERC-20 is the standard for creating fungible tokens on Ethereum.
+    <sub alias="E R C twenty">ERC-20</sub> is the standard for creating fungible tokens on Ethereum.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ERC-20 是在以太坊上建立同質化代幣的標準。
+    <sub alias="E R C twenty">ERC-20</sub> 是在以太坊上建立同質化代幣的標準。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -211,13 +211,13 @@
     非同質化代幣
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    NFT...
-    NFT stands for Non-Fungible Token.
-    An NFT represents ownership of a unique digital item.
+    <sub alias="N F T">NFT</sub>...
+    <sub alias="N F T">NFT</sub> stands for Non-Fungible Token.
+    An <sub alias="N F T">NFT</sub> represents ownership of a unique digital item.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    NFT 是 Non-Fungible Token 的縮寫。
-    NFT 代表獨特數位物件的所有權。
+    <sub alias="N F T">NFT</sub> 是 Non-Fungible Token 的縮寫。
+    <sub alias="N F T">NFT</sub> 代表獨特數位物件的所有權。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -286,16 +286,16 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    DAO
+    <sub alias="D A O">DAO</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    DAO...
-    DAO stands for Decentralized Autonomous Organization.
-    A DAO is a Decentralized Autonomous Organization governed by code.
+    <sub alias="D A O">DAO</sub>...
+    <sub alias="D A O">DAO</sub> stands for Decentralized Autonomous Organization.
+    A <sub alias="D A O">DAO</sub> is a Decentralized Autonomous Organization governed by code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DAO 是 Decentralized Autonomous Organization 的縮寫。
-    DAO 是一個由程式碼治理的去中心化自治組織。
+    <sub alias="D A O">DAO</sub> 是 Decentralized Autonomous Organization 的縮寫。
+    <sub alias="D A O">DAO</sub> 是一個由程式碼治理的去中心化自治組織。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -337,12 +337,12 @@
     現實世界資產
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    R W A...
-    R W A stands for Real World Assets.
-    Tokenizing R W A like real estate or government bonds is one of the fastest-growing on-chain use cases in 2026.
+    <sub alias="R W A">RWA</sub>...
+    <sub alias="R W A">RWA</sub> stands for Real World Assets.
+    Tokenizing <sub alias="R W A">RWA</sub> like real estate or government bonds is one of the fastest-growing on-chain use cases in 2026.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    RWA 是 Real World Assets 的縮寫。
+    <sub alias="R W A">RWA</sub> 是 Real World Assets 的縮寫。
     把房地產或政府債券這類現實世界資產代幣化，是 2026 年鏈上成長最快的應用之一。
   </voice>
 

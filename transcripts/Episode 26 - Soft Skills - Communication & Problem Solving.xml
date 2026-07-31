@@ -364,12 +364,12 @@
     預計到達時間
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    ETA...
-    ETA stands for Estimated Time of Arrival.
-    What is the ETA for the bug fix?
+    <sub alias="E T A">ETA</sub>...
+    <sub alias="E T A">ETA</sub> stands for Estimated Time of Arrival.
+    What is the <sub alias="E T A">ETA</sub> for the bug fix?
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ETA 是 Estimated Time of Arrival 的縮寫。
+    <sub alias="E T A">ETA</sub> 是 Estimated Time of Arrival 的縮寫。
     Bug 修復預計什麼時候完成？
   </voice>
 
@@ -402,11 +402,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Summarize...
-    Can you use AI to summarize the key points of this thread?
+    Can you use <sub alias="A I">AI</sub> to summarize the key points of this thread?
     Please summarize the meeting decisions in the shared doc so everyone is aligned.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    你能用 AI 摘要這個討論串的重點嗎？
+    你能用 <sub alias="A I">AI</sub> 摘要這個討論串的重點嗎？
     請在共享文件中摘要會議決策，讓所有人保持一致。
   </voice>
 
@@ -489,7 +489,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        還有給 ETA 的時候，是不是都要預留一點 Buffer？
+        還有給 <sub alias="E T A">ETA</sub> 的時候，是不是都要預留一點 Buffer？
       </prosody>
     </mstts:express-as>
   </voice>

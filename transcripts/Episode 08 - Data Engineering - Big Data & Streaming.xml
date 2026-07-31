@@ -4,8 +4,8 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到資料工程篇。
-        在 AI 時代，資料工程師是 AI 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
-        以前我們常說 ETL，但現在更流行的是 E L T。Phoebe，為什麼順序變了？
+        在 <sub alias="A I">AI</sub> 時代，資料工程師是 <sub alias="A I">AI</sub> 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
+        以前我們常說 <sub alias="E T L">ETL</sub>，但現在更流行的是 <sub alias="E L T">ELT</sub>。Phoebe，為什麼順序變了？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,13 +30,13 @@
     擷取、載入、轉換
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    E L T...
-    E L T stands for Extract, Load, and Transform.
+    <sub alias="E L T">ELT</sub>...
+    <sub alias="E L T">ELT</sub> stands for Extract, Load, and Transform.
     We use tools like dbt to transform data inside the warehouse.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    E L T 是 Extract, Load, Transform 的縮寫。
-    E L T 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
+    <sub alias="E L T">ELT</sub> 是 Extract, Load, Transform 的縮寫。
+    <sub alias="E L T">ELT</sub> 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -154,11 +154,24 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Apache Airflow is a popular platform to programmatically author, schedule, and monitor workflows.
-    Airflow's DAG-based scheduling ensures each step of your data pipeline waits for its upstream dependencies to complete.
+    Airflow's <sub alias="dag">DAG</sub>-based scheduling ensures each step of your data pipeline waits for its upstream dependencies to complete.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Apache Airflow 是一個熱門的平台，讓你透過程式碼來撰寫、排程與監控工作流程。
     Airflow 基於有向無環圖的排程確保資料管線中的每個步驟都等待其上游相依性完成。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    變更資料擷取
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Change Data Capture...
+    <sub alias="C D C">CDC</sub> captures inserts, updates, and deletes from a source database so downstream systems can react to data changes.
+    Stream <sub alias="C D C">CDC</sub> events into a message broker instead of repeatedly scanning the entire orders table.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <sub alias="C D C">CDC</sub> 是 Change Data Capture 的縮寫，用來擷取來源資料庫中的新增、更新與刪除，讓下游系統能處理資料變更。
+    將 <sub alias="C D C">CDC</sub> 事件串流到 Message Broker，可避免反覆掃描整張訂單資料表。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -197,20 +210,20 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     資料網格將所有權去中心化，讓每個領域團隊把自己的資料當成產品發布。
-    資料網格只有在每個團隊都把自己的資料集當成有明確合約與 SLA 的產品時才行得通。
+    資料網格只有在每個團隊都把自己的資料集當成有明確合約與 <sub alias="S L A">SLA</sub> 的產品時才行得通。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    反向 ETL
+    反向 <sub alias="E T L">ETL</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Reverse E T L...
-    Reverse E T L pushes data from the warehouse back into operational tools like CRM and ad platforms.
-    Use reverse E T L to sync the cleaned customer segments from the warehouse into Salesforce.
+    Reverse <sub alias="E T L">ETL</sub>...
+    Reverse <sub alias="E T L">ETL</sub> pushes data from the warehouse back into operational tools like CRM and ad platforms.
+    Use reverse <sub alias="E T L">ETL</sub> to sync the cleaned customer segments from the warehouse into Salesforce.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    反向 ETL 把資料從倉儲推回 CRM、廣告平台這類營運工具。
-    用反向 ETL 把倉儲裡整理好的客戶分群同步到 Salesforce。
+    反向 <sub alias="E T L">ETL</sub> 把資料從倉儲推回 CRM、廣告平台這類營運工具。
+    用反向 <sub alias="E T L">ETL</sub> 把倉儲裡整理好的客戶分群同步到 Salesforce。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -223,7 +236,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It unifies them. You don't need to move data between a Lake and a Warehouse. You can run BI and AI workloads on the same data, often powered by Apache Spark.
+        It unifies them. You don't need to move data between a Lake and a Warehouse. You can run BI and <sub alias="A I">AI</sub> workloads on the same data, often powered by Apache Spark.
       </prosody>
     </mstts:express-as>
   </voice>

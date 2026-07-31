@@ -14,7 +14,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，真的，尤其是當 GUI 介面卡死還是要靠 S S H 進去救火的時候。
+          曉臻，真的，尤其是當 <sub alias="gooey">GUI</sub> 介面卡死還是要靠 <sub alias="S S H">SSH</sub> 進去救火的時候。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -32,8 +32,8 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Terminal...
-    The terminal provides a direct interface to the kernel, bypassing the graphical UI.
-    Most cloud servers have no GUI, so proficiency with the terminal is a non-negotiable skill for DevOps.
+    The terminal provides a direct interface to the kernel, bypassing the graphical <sub alias="U I">UI</sub>.
+    Most cloud servers have no <sub alias="gooey">GUI</sub>, so proficiency with the terminal is a non-negotiable skill for DevOps.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     終端機提供了通往核心的直接介面，繞過了圖形化介面。
@@ -69,15 +69,15 @@
     安全殼層
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    S S H...
-    S S H stands for Secure Shell.
-    Always use S S H keys instead of passwords for authentication to prevent brute-force attacks.
-    S S H key-based authentication is required by GitHub and most cloud providers to push code securely.
+    <sub alias="S S H">SSH</sub>...
+    <sub alias="S S H">SSH</sub> stands for Secure Shell.
+    Always use <sub alias="S S H">SSH</sub> keys instead of passwords for authentication to prevent brute-force attacks.
+    <sub alias="S S H">SSH</sub> key-based authentication is required by <sub alias="Git Hub">GitHub</sub> and most cloud providers to push code securely.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SSH 是 Secure Shell 的縮寫。
-    務必使用 SSH 金鑰而非密碼進行驗證，以防止暴力破解攻擊。
-    GitHub 和大多數雲端供應商要求使用 SSH 金鑰驗證來安全地推送程式碼。
+    <sub alias="S S H">SSH</sub> 是 Secure Shell 的縮寫。
+    務必使用 <sub alias="S S H">SSH</sub> 金鑰而非密碼進行驗證，以防止暴力破解攻擊。
+    <sub alias="Git Hub">GitHub</sub> 和大多數雲端供應商要求使用 <sub alias="S S H">SSH</sub> 金鑰驗證來安全地推送程式碼。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -165,10 +165,10 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Environment Variable...
     Environment variables store configuration values outside your source code.
-    Never hardcode A P I keys in scripts; use environment variables and inject them through a secrets manager.
+    Never hardcode <sub alias="A P I">API</sub> keys in scripts; use environment variables and inject them through a secrets manager.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    環境變數將設定值儲存在原始碼之外。切勿將 API 金鑰硬編碼在腳本中；應使用環境變數，並透過密鑰管理員注入。
+    環境變數將設定值儲存在原始碼之外。切勿將 <sub alias="A P I">API</sub> 金鑰硬編碼在腳本中；應使用環境變數，並透過密鑰管理員注入。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -236,14 +236,14 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        說實話，我都用 GUI 工具連線，到底為什麼一定要學 Linux Terminal 指令啊？
+        說實話，我都用 <sub alias="gooey">GUI</sub> 工具連線，到底為什麼一定要學 Linux Terminal 指令啊？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Because GUI tools can fail, but the Shell never lies. When you need to restart a stuck Daemon or fix a Permission issue on a remote server via S S H, the Terminal is your only friend.
+        Because <sub alias="gooey">GUI</sub> tools can fail, but the Shell never lies. When you need to restart a stuck Daemon or fix a Permission issue on a remote server via <sub alias="S S H">SSH</sub>, the Terminal is your only friend.
       </prosody>
     </mstts:express-as>
   </voice>

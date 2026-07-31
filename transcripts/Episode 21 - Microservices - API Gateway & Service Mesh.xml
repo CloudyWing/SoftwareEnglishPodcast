@@ -119,7 +119,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        API Gateway 就是那個稱職的導遊，幫我們把關所有請求。沒有它，這座迷宮可沒人走得出去。
+        <sub alias="A P I">API</sub> Gateway 就是那個稱職的導遊，幫我們把關所有請求。沒有它，這座迷宮可沒人走得出去。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -128,26 +128,26 @@
     前端專屬後端
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    BFF...
-    BFF stands for Backend for Frontend.
-    The BFF pattern optimizes the A P I response for mobile devices.
+    <sub alias="B F F">BFF</sub>...
+    <sub alias="B F F">BFF</sub> stands for Backend for Frontend.
+    The <sub alias="B F F">BFF</sub> pattern optimizes the <sub alias="A P I">API</sub> response for mobile devices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    BFF 是 Backend for Frontend 的縮寫。
-    BFF 模式為行動裝置最佳化 API 回應。
+    <sub alias="B F F">BFF</sub> 是 Backend for Frontend 的縮寫。
+    <sub alias="B F F">BFF</sub> 模式為行動裝置最佳化 <sub alias="A P I">API</sub> 回應。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    API 閘道器
+    <sub alias="A P I">API</sub> 閘道器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    A P I Gateway...
-    A P I stands for Application Programming Interface.
-    The A P I gateway handles routing, composition, and protocol translation for clients.
+    <sub alias="A P I">API</sub> Gateway...
+    <sub alias="A P I">API</sub> stands for Application Programming Interface.
+    The <sub alias="A P I">API</sub> gateway handles routing, composition, and protocol translation for clients.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    API 是 Application Programming Interface 的縮寫。
-    API 閘道器為客戶端處理路由、組合以及協定轉換。
+    <sub alias="A P I">API</sub> 是 Application Programming Interface 的縮寫。
+    <sub alias="A P I">API</sub> 閘道器為客戶端處理路由、組合以及協定轉換。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -246,12 +246,12 @@
     內部開發者平台
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    IDP...
-    IDP stands for Internal Developer Platform.
-    An IDP helps developers self-serve infrastructure and deployment.
+    <sub alias="I D P">IDP</sub>...
+    <sub alias="I D P">IDP</sub> stands for Internal Developer Platform.
+    An <sub alias="I D P">IDP</sub> helps developers self-serve infrastructure and deployment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    IDP 是 Internal Developer Platform 的縮寫。
+    <sub alias="I D P">IDP</sub> 是 Internal Developer Platform 的縮寫。
     內部開發者平台幫助開發者自助服務基礎設施與部署。
   </voice>
 
@@ -293,10 +293,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Health Check...
-    Kubernetes restarts pods that fail the health check.
+    Kubernetes restarts a container after repeated liveness probe failures, while a failed readiness probe removes the Pod from service traffic until it becomes ready again.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Kubernetes 會重啟未通過健康檢查的 Pod。
+    Kubernetes 會在 Liveness probe 連續失敗達門檻後重新啟動 Container；Readiness probe 失敗則會暫時停止將 Service 流量導向該 Pod。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -350,10 +350,23 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Idempotency...
-    Ensure the A P I is idempotent so retrying requests doesn't duplicate actions.
+    Ensure the <sub alias="A P I">API</sub> is idempotent so retrying requests doesn't duplicate actions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    確保 API 具冪等性，這樣重試請求就不會重複動作。
+    確保 <sub alias="A P I">API</sub> 具冪等性，這樣重試請求就不會重複動作。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    冪等性金鑰
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Idempotency Key...
+    An idempotency key lets the server recognize retries of the same logical operation and return the stored result instead of executing it twice.
+    Send a unique idempotency key with a payment request so a network retry does not create a duplicate charge.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Idempotency Key 讓伺服器辨識同一筆邏輯操作的重試，並回傳已保存的結果，而不是再次執行。
+    付款請求應攜帶唯一的 Idempotency Key，避免網路重試造成重複扣款。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -450,12 +463,38 @@
     OpenTelemetry
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    OpenTelemetry is the open-source standard for collecting traces, metrics, and logs from distributed systems.
-    By instrumenting your services with the OpenTelemetry S D K, you can send telemetry data to any backend, whether it is Jaeger, Prometheus, or Datadog.
+    OpenTelemetry is a vendor-neutral, open-source observability framework for generating, collecting, and exporting traces, metrics, and logs.
+    By instrumenting your services with the OpenTelemetry <sub alias="S D K">SDK</sub>, you can send telemetry data to any backend, whether it is Jaeger, Prometheus, or Datadog.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    OpenTelemetry 是從分散式系統收集追蹤、指標和日誌的開源標準。
-    透過使用 OpenTelemetry SDK 對你的服務進行監測，你可以將遙測資料傳送到任何後端，無論是 Jaeger、Prometheus 還是 Datadog。
+    OpenTelemetry 是 Vendor-neutral 的開源 Observability Framework，用於產生、收集及匯出 Trace、Metric 與 Log。
+    透過使用 OpenTelemetry <sub alias="S D K">SDK</sub> 對你的服務進行監測，你可以將遙測資料傳送到任何後端，無論是 Jaeger、Prometheus 還是 Datadog。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    基數
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Cardinality...
+    Cardinality is the number of unique values for a telemetry attribute or combination of attributes.
+    Do not use an unbounded user ID as a metric label because high cardinality increases memory and storage costs.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Cardinality 是遙測 Attribute 或 Attribute 組合中不重複值的數量。
+    不要把無上限的 User ID 當成 Metric Label，因為 High Cardinality 會增加記憶體與儲存成本。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    跨服務上下文
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Baggage...
+    OpenTelemetry Baggage propagates application-defined key-value context across service boundaries alongside a distributed request.
+    Keep secrets and sensitive personal data out of Baggage because downstream services can propagate it in request headers.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenTelemetry Baggage 會隨分散式請求跨越服務邊界，傳遞應用程式定義的 Key-Value Context。
+    不要把 Secret 或敏感個資放進 Baggage，因為下游服務可能繼續透過 Request Header 傳遞這些資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -468,7 +507,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        That's why Distributed Tracing and Observability are mandatory. You need a Service Mesh or at least a good A P I Gateway to track the traffic.
+        That's why Distributed Tracing and Observability are mandatory. You need a Service Mesh or at least a good <sub alias="A P I">API</sub> Gateway to track the traffic.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -489,7 +528,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        微服務架構帶來了靈活性，也帶來了複雜度。API Gateway 與 Service Mesh 能幫助我們管理這些複雜度。
+        微服務架構帶來了靈活性，也帶來了複雜度。<sub alias="A P I">API</sub> Gateway 與 Service Mesh 能幫助我們管理這些複雜度。
         我是曉臻，感謝收聽，我們下次見！
       </prosody>
     </mstts:express-as>

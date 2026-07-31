@@ -4,7 +4,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到現代電腦科學基礎篇。
-        在這個 AI 應用無所不在的時代，重新審視電腦底層運作與網路傳輸，是每一位開發者掌握效能瓶頸的關鍵。
+        在這個 <sub alias="A I">AI</sub> 應用無所不在的時代，重新審視電腦底層運作與網路傳輸，是每一位開發者掌握效能瓶頸的關鍵。
         今天我們不談電腦組裝，而是深入那些影響大規模運算的硬體架構與通訊協定。
         Phoebe，現在的硬體思維跟以前很不一樣了吧？
       </prosody>
@@ -16,8 +16,8 @@
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
           絕對不同，曉臻。
-          現在我們談論硬體，通常是在解決 AI 推論的延遲與吞吐量問題。
-          如果你的 Web A P I 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
+          現在我們談論硬體，通常是在解決 <sub alias="A I">AI</sub> 推論的延遲與吞吐量問題。
+          如果你的 Web <sub alias="A P I">API</sub> 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -34,20 +34,20 @@
     中央處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    C P U...
-    C P U stands for Central Processing Unit.
-    Even with AI accelerators, the C P U still orchestrates the entire control flow and business logic.
-    A high core-count C P U is essential for compiling large codebases and running containerized workloads simultaneously.
+    <sub alias="C P U">CPU</sub>...
+    <sub alias="C P U">CPU</sub> stands for Central Processing Unit.
+    Even with <sub alias="A I">AI</sub> accelerators, the <sub alias="C P U">CPU</sub> still orchestrates the entire control flow and business logic.
+    A high core-count <sub alias="C P U">CPU</sub> is essential for compiling large codebases and running containerized workloads simultaneously.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CPU 是 Central Processing Unit 的縮寫。即使有了 AI 加速器，CPU 仍然負責協調整個控制流程與商業邏輯。
-    高核心數的 CPU 對於同時編譯大型程式碼庫和執行容器化工作負載至關重要。
+    <sub alias="C P U">CPU</sub> 是 Central Processing Unit 的縮寫。即使有了 <sub alias="A I">AI</sub> 加速器，<sub alias="C P U">CPU</sub> 仍然負責協調整個控制流程與商業邏輯。
+    高核心數的 <sub alias="C P U">CPU</sub> 對於同時編譯大型程式碼庫和執行容器化工作負載至關重要。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        CPU 是系統的總指揮。但在 AI 時代，我們需要更強大的平行運算能力。
+        <sub alias="C P U">CPU</sub> 是系統的總指揮。但在 <sub alias="A I">AI</sub> 時代，我們需要更強大的平行運算能力。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -55,7 +55,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          沒錯，現在大家都在搶購 G P U。
+          沒錯，現在大家都在搶購 <sub alias="G P U">GPU</sub>。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -63,7 +63,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        真的，這可是現代 AI 的功臣。
+        真的，這可是現代 <sub alias="A I">AI</sub> 的功臣。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -72,18 +72,18 @@
     圖形處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    G P U...
-    G P U stands for Graphics Processing Unit.
+    <sub alias="G P U">GPU</sub>...
+    <sub alias="G P U">GPU</sub> stands for Graphics Processing Unit.
     We now abuse GPUs for parallel matrix multiplication in model training, not just for rendering graphics.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    GPU 是 Graphics Processing Unit 的縮寫。我們現在大量濫用 GPU 來進行模型訓練中的平行矩陣運算，而不僅僅是為了渲染圖形。
+    <sub alias="G P U">GPU</sub> 是 Graphics Processing Unit 的縮寫。我們現在大量濫用 <sub alias="G P U">GPU</sub> 來進行模型訓練中的平行矩陣運算，而不僅僅是為了渲染圖形。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        但 GPU 功耗高，所以在終端設備上，我們有了更專精的選擇，這是現代開發者的必修課。
+        但 <sub alias="G P U">GPU</sub> 功耗高，所以在終端設備上，我們有了更專精的選擇，這是現代開發者的必修課。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -92,24 +92,24 @@
     神經網路處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    NPU...
-    NPU stands for Neural Processing Unit.
-    Offloading local inference to the NPU extends battery life and frees up the main processor.
+    <sub alias="N P U">NPU</sub>...
+    <sub alias="N P U">NPU</sub> stands for Neural Processing Unit.
+    Offloading local inference to the <sub alias="N P U">NPU</sub> extends battery life and frees up the main processor.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    NPU 是 Neural Processing Unit 的縮寫。將本機推論工作卸載到 NPU 可以延長電池壽命，並釋放主處理器的資源。
+    <sub alias="N P U">NPU</sub> 是 Neural Processing Unit 的縮寫。將本機推論工作卸載到 <sub alias="N P U">NPU</sub> 可以延長電池壽命，並釋放主處理器的資源。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     張量處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    T P U...
-    T P U stands for Tensor Processing Unit.
-    Google designed T P U s to accelerate deep learning workloads in data centers.
+    <sub alias="T P U">TPU</sub>...
+    <sub alias="T P U">TPU</sub> stands for Tensor Processing Unit.
+    Google designed <sub alias="T P U">TPU</sub> s to accelerate deep learning workloads in data centers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    T P U 是 Tensor Processing Unit 的縮寫。Google 設計了 T P U 來加速資料中心的深度學習工作負載。
+    <sub alias="T P U">TPU</sub> 是 Tensor Processing Unit 的縮寫。Google 設計了 <sub alias="T P U">TPU</sub> 來加速資料中心的深度學習工作負載。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -144,14 +144,14 @@
     隨機存取記憶體
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    R A M...
-    R A M stands for Random Access Memory. Loading a 70 billion parameter model into R A M makes you really appreciate every gigabyte of memory.
-    Container memory limits prevent one noisy neighbor from consuming all available R A M.
+    <sub alias="R A M">RAM</sub>...
+    <sub alias="R A M">RAM</sub> stands for Random Access Memory. Loading a 70 billion parameter model into <sub alias="R A M">RAM</sub> makes you really appreciate every gigabyte of memory.
+    Container memory limits prevent one noisy neighbor from consuming all available <sub alias="R A M">RAM</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    RAM 是 Random Access Memory 的縮寫。
-    將一個 700 億參數的模型載入 RAM 會讓你真心感謝每一 GB 的記憶體空間。
-    容器記憶體限制可防止一個「吵鬧的鄰居」耗盡所有可用的 RAM。
+    <sub alias="R A M">RAM</sub> 是 Random Access Memory 的縮寫。
+    將一個 700 億參數的模型載入 <sub alias="R A M">RAM</sub> 會讓你真心感謝每一 GB 的記憶體空間。
+    容器記憶體限制可防止一個「吵鬧的鄰居」耗盡所有可用的 <sub alias="R A M">RAM</sub>。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -166,14 +166,14 @@
     固態硬碟
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    S S D...
-    S S D stands for Solid State Drive.
-    Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the C P U for massive asset loading.
-    Databases benefit from NVMe SSDs because random I/O latency drops to microseconds instead of milliseconds.
+    <sub alias="S S D">SSD</sub>...
+    <sub alias="S S D">SSD</sub> stands for Solid State Drive.
+    DirectStorage can use high-throughput <sub alias="N V M E">NVMe</sub> storage and <sub alias="G P U">GPU</sub> decompression to reduce <sub alias="C P U">CPU</sub> overhead during massive asset loading.
+    Databases benefit from <sub alias="N V M E">NVMe</sub> SSDs because random I/O latency drops to microseconds instead of milliseconds.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SSD 是 Solid State Drive 的縮寫。現代的 DirectStorage API 依賴快速的 NVMe SSD 來繞過 CPU 進行大量的資產載入。
-    資料庫受益於 NVMe SSD，因為隨機 I/O 延遲從毫秒降至微秒。
+    <sub alias="S S D">SSD</sub> 是 Solid State Drive 的縮寫。DirectStorage 可運用 <sub alias="N V M E">NVMe</sub> 的高吞吐量，並透過 <sub alias="G P U">GPU</sub> 解壓縮降低大量載入資產時的 <sub alias="C P U">CPU</sub> 負擔。
+    資料庫受益於 <sub alias="N V M E">NVMe</sub> <sub alias="S S D">SSD</sub>，因為隨機 I/O 延遲從毫秒降至微秒。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -249,14 +249,14 @@
     網域名稱系統
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    D N S...
-    D N S stands for Domain Name System. It's always D N S. If your microservices can't discover each other, check the internal D N S first.
-    D N S TTL values control how long clients cache resolved IP addresses.
+    <sub alias="D N S">DNS</sub>...
+    <sub alias="D N S">DNS</sub> stands for Domain Name System. It's always <sub alias="D N S">DNS</sub>. If your microservices can't discover each other, check the internal <sub alias="D N S">DNS</sub> first.
+    <sub alias="D N S">DNS</sub> TTL values control how long clients cache resolved IP addresses.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DNS 是 Domain Name System 的縮寫。
-    總是 DNS 的問題。如果你的微服務找不到彼此，先檢查內部 DNS。
-    DNS TTL 值控制客戶端快取解析出的 IP 位址的時間。
+    <sub alias="D N S">DNS</sub> 是 Domain Name System 的縮寫。
+    總是 <sub alias="D N S">DNS</sub> 的問題。如果你的微服務找不到彼此，先檢查內部 <sub alias="D N S">DNS</sub>。
+    <sub alias="D N S">DNS</sub> TTL 值控制客戶端快取解析出的 IP 位址的時間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -274,17 +274,17 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Port...
     Container orchestration typically maps ephemeral ports, so hardcoding port 80 is a relic of the past.
-    Port 443 is the standard for H T T P S traffic, while port 22 is reserved for S S H.
+    Port 443 is the standard for <sub alias="H T T P S">HTTPS</sub> traffic, while port 22 is reserved for <sub alias="S S H">SSH</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     容器調度通常會映射臨時連接埠，所以寫死 Port 80 已經是過去式了。
-    Port 443 是 HTTPS 流量的標準埠，而 Port 22 保留給 SSH 使用。
+    Port 443 是 <sub alias="H T T P S">HTTPS</sub> 流量的標準埠，而 Port 22 保留給 <sub alias="S S H">SSH</sub> 使用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        有時候我們需要的不只是一次性的請求，而是一條持續暢通的專線，特別是為了 AI Agent 的即時互動。
+        有時候我們需要的不只是一次性的請求，而是一條持續暢通的專線，特別是為了 <sub alias="A I">AI</sub> Agent 的即時互動。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -294,12 +294,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Socket...
-    WebSockets provide the persistent bi-directional link needed for real-time AI agents.
-    gRPC streaming relies on persistent socket connections to push updates from server to client.
+    <sub alias="Web Sockets">WebSockets</sub> provide the persistent bi-directional link needed for real-time <sub alias="A I">AI</sub> agents.
+    <sub alias="G R P C">gRPC</sub> streaming relies on persistent socket connections to push updates from server to client.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    WebSocket 提供了即時 AI 代理所需的持久雙向連結。
-    gRPC 串流依賴持久的 Socket 連線，將伺服器更新推送給客戶端。
+    <sub alias="Web Socket">WebSocket</sub> 提供了即時 <sub alias="A I">AI</sub> 代理所需的持久雙向連結。
+    <sub alias="G R P C">gRPC</sub> 串流依賴持久的 Socket 連線，將伺服器更新推送給客戶端。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -315,12 +315,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Protocol...
-    Choosing between gRPC and REST is a protocol decision that drastically impacts your A P I performance.
-    The H T T P/3 protocol uses QUIC instead of TCP to reduce connection setup latency.
+    Choosing between <sub alias="G R P C">gRPC</sub> and <sub alias="rest">REST</sub> is a protocol decision that drastically impacts your <sub alias="A P I">API</sub> performance.
+    The <sub alias="H T T P">HTTP</sub>/3 protocol uses <sub alias="quick">QUIC</sub> instead of <sub alias="T C P">TCP</sub> to reduce connection setup latency.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    在 gRPC 和 REST 之間做選擇，是個會劇烈影響 API 效能的協定決策。
-    HTTP/3 協定使用 QUIC 而非 TCP，以降低連線建立的延遲。
+    在 <sub alias="G R P C">gRPC</sub> 和 <sub alias="rest">REST</sub> 之間做選擇，是個會劇烈影響 <sub alias="A P I">API</sub> 效能的協定決策。
+    <sub alias="H T T P three">HTTP/3</sub> 協定使用 <sub alias="quick">QUIC</sub> 而非 <sub alias="T C P">TCP</sub>，以降低連線建立的延遲。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -341,10 +341,10 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Throughput...
     Throughput measures how much data is actually transferred in a given time period.
-    Benchmarking A P I throughput under peak load helps you plan capacity before launch.
+    Benchmarking <sub alias="A P I">API</sub> throughput under peak load helps you plan capacity before launch.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    吞吐量衡量在特定時間內實際傳輸了多少資料。在峰值負載下對 API 吞吐量進行基準測試，有助於在上線前規劃容量。
+    吞吐量衡量在特定時間內實際傳輸了多少資料。在峰值負載下對 <sub alias="A P I">API</sub> 吞吐量進行基準測試，有助於在上線前規劃容量。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -360,25 +360,25 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Latency...
-    For edge AI applications, network latency is the ultimate enemy of user experience.
+    For edge <sub alias="A I">AI</sub> applications, network latency is the ultimate enemy of user experience.
     P99 latency matters more than average latency because it reflects the worst user experience.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    對於邊緣 AI 應用程式來說，網路延遲是使用者體驗的終極敵人。
+    對於邊緣 <sub alias="A I">AI</sub> 應用程式來說，網路延遲是使用者體驗的終極敵人。
     P99 延遲比平均延遲更重要，因為它反映了最糟糕的使用者體驗。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Phoebe，我們今天講了這麼多硬體跟網路概念，但在處理高併發系統設計時，到底哪個才是瓶頸？是 CPU 還是網路延遲？
+        Phoebe，我們今天講了這麼多硬體跟網路概念，但在處理高併發系統設計時，到底哪個才是瓶頸？是 <sub alias="C P U">CPU</sub> 還是網路延遲？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It depends, but usually, it's a mix. If you have a high throughput requirement, you definitely need a powerful C P U and sufficient R A M to handle concurrent connections. But, if your Latency is high, no matter how fast your NPU or S S D is, the user will still feel the lag.
+        It depends, but usually, it's a mix. If you have a high throughput requirement, you definitely need a powerful <sub alias="C P U">CPU</sub> and sufficient <sub alias="R A M">RAM</sub> to handle concurrent connections. But, if your Latency is high, no matter how fast your <sub alias="N P U">NPU</sub> or <sub alias="S S D">SSD</sub> is, the user will still feel the lag.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -392,7 +392,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Exactly. That's why understanding the underlying Protocol and optimizing your D N S resolution is just as critical as upgrading your hardware specs.
+        Exactly. That's why understanding the underlying Protocol and optimizing your <sub alias="D N S">DNS</sub> resolution is just as critical as upgrading your hardware specs.
       </prosody>
     </mstts:express-as>
   </voice>

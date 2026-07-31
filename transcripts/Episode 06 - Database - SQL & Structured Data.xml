@@ -3,9 +3,9 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 SQL 與結構化資料篇。
-        雖然 NoSQL 在前幾年很紅，但到了今天，關聯式資料庫依然是金融與核心交易系統的霸主。
-        很多新人會問，為什麼不全部用 JSON 存就好？
+        歡迎來到 <sub alias="sequel">SQL</sub> 與結構化資料篇。
+        雖然 <sub alias="No sequel">NoSQL</sub> 在前幾年很紅，但到了今天，關聯式資料庫依然是金融與核心交易系統的霸主。
+        很多新人會問，為什麼不全部用 <sub alias="J S O N">JSON</sub> 存就好？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -49,8 +49,8 @@
     Composite primary keys should be avoided in favor of surrogate keys like UUIDs for better flexibility.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    我們使用 UUID 作為主鍵，而不是自動遞增的整數，以避免枚舉攻擊。
-    應避免使用複合主鍵，改用 UUID 等代理鍵以獲得更好的彈性。
+    我們使用 <sub alias="U U I D">UUID</sub> 作為主鍵，而不是自動遞增的整數，以避免枚舉攻擊。
+    應避免使用複合主鍵，改用 <sub alias="U U I D">UUID</sub> 等代理鍵以獲得更好的彈性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -81,7 +81,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        有了結構，接下來是操作。在現代開發中，我們更依賴 ORM，但原生的 SQL 優化能力還是很重要。
+        有了結構，接下來是操作。在現代開發中，我們更依賴 <sub alias="O R M">ORM</sub>，但原生的 <sub alias="sequel">SQL</sub> 優化能力還是很重要。
         Phoebe，對於查詢效能，你有什麼慘痛經驗嗎？
       </prosody>
     </mstts:express-as>
@@ -112,8 +112,8 @@
     Use parameterized queries to prevent <sub alias="sequel">SQL</sub> injection attacks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    一個最佳化良好的 SQL 查詢只擷取必要的資料，防止資料庫瓶頸。
-    使用參數化查詢可防止 SQL Injection 攻擊。
+    一個最佳化良好的 <sub alias="sequel">SQL</sub> 查詢只擷取必要的資料，防止資料庫瓶頸。
+    使用參數化查詢可防止 <sub alias="sequel">SQL</sub> Injection 攻擊。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -134,11 +134,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Index...
-    Adding an index can significantly speed up partial matching searches.
+    A <sub alias="B tree">B-tree</sub> index can accelerate prefix searches such as <sub alias="like foo percent">LIKE 'foo%'</sub>, but it generally cannot support a pattern with a leading wildcard such as <sub alias="like percent bar">LIKE '%bar'</sub>.
     Covering indexes include all the columns needed by a query, eliminating the need to access the main table.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    加上索引可以顯著加快部分比對搜尋的速度。
+    <sub alias="B tree">B-tree</sub> 索引可加速 <sub alias="like foo percent">LIKE foo percent</sub> 這類固定前綴搜尋，但通常無法支援 <sub alias="like percent bar">LIKE percent bar</sub> 這類以前置萬用字元開頭的條件。
     覆蓋索引包含查詢所需的所有欄位，省去了存取主資料表的需要。
   </voice>
 
@@ -159,13 +159,13 @@
     通用資料表運算式
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    C T E...
-    C T E stands for Common Table Expression.
-    Refactor that nested subquery into a C T E so the report query is readable in code review.
+    <sub alias="C T E">CTE</sub>...
+    <sub alias="C T E">CTE</sub> stands for Common Table Expression.
+    Refactor that nested subquery into a <sub alias="C T E">CTE</sub> so the report query is readable in code review.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CTE 是 Common Table Expression 的縮寫。
-    把巢狀子查詢改寫成 CTE，報表查詢在 Code Review 時就更好讀。
+    <sub alias="C T E">CTE</sub> 是 Common Table Expression 的縮寫。
+    把巢狀子查詢改寫成 <sub alias="C T E">CTE</sub>，報表查詢在 Code Review 時就更好讀。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -197,15 +197,15 @@
 
 
   <voice name="zh-TW-HsiaoChenNeural">
-    ACID
+    <sub alias="acid">ACID</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    A C I D...
-    A C I D stands for Atomicity, Consistency, Isolation, and Durability.
-    A C I D compliance is what separates true relational databases from simpler data stores when handling financial transactions.
+    <sub alias="A C I D">ACID</sub>...
+    <sub alias="A C I D">ACID</sub> stands for Atomicity, Consistency, Isolation, and Durability.
+    <sub alias="A C I D">ACID</sub> compliance is what separates true relational databases from simpler data stores when handling financial transactions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ACID 是 Atomicity, Consistency, Isolation, Durability 的縮寫。在處理金融交易時，ACID 合規性是真正的關聯式資料庫與更簡單的資料儲存之間的區別所在。
+    <sub alias="acid">ACID</sub> 是 Atomicity, Consistency, Isolation, Durability 的縮寫。在處理金融交易時，<sub alias="acid">ACID</sub> 合規性是真正的關聯式資料庫與更簡單的資料儲存之間的區別所在。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -239,11 +239,11 @@
 
   <voice name="en-US-PhoebeMultilingualNeural">
     Migration...
-    Database migrations should be automated in the C I / C D pipeline.
+    Database migrations should be automated in the <sub alias="C I C D">CI/CD</sub> pipeline.
     Always include a rollback script alongside every migration to minimize recovery time after a failed deployment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    資料庫遷移應該在 CI/CD 管線中自動化執行。
+    資料庫遷移應該在 <sub alias="C I C D">CI/CD</sub> 管線中自動化執行。
     每次遷移都應附上回滾腳本，以在部署失敗後縮短復原時間。
   </voice>
 
@@ -270,12 +270,12 @@
     Use views to simplify complex joins and hide implementation details from the application layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    檢視表是從已儲存的 SQL 查詢建立的虛擬資料表。使用檢視表可以簡化複雜的連結，並向應用程式層隱藏實作細節。
+    檢視表是從已儲存的 <sub alias="sequel">SQL</sub> 查詢建立的虛擬資料表。使用檢視表可以簡化複雜的連結，並向應用程式層隱藏實作細節。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        現在很多 ORM 都幫我們寫好 SQL 了，我們還需要懂怎麼寫 Join 嗎？
+        現在很多 <sub alias="O R M">ORM</sub> 都幫我們寫好 <sub alias="sequel">SQL</sub> 了，我們還需要懂怎麼寫 Join 嗎？
       </prosody>
     </mstts:express-as>
   </voice>

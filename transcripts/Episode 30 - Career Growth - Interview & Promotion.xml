@@ -27,7 +27,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          不是，我只是在練習用 AI 寫辭職信，以防萬一！
+          不是，我只是在練習用 <sub alias="A I">AI</sub> 寫辭職信，以防萬一！
         </lang>
       </prosody>
     </mstts:express-as>
@@ -67,10 +67,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Portfolio...
-    A strong GitHub portfolio can impress the interviewers.
+    A strong <sub alias="Git Hub">GitHub</sub> portfolio can impress the interviewers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    強大的 GitHub 作品集能讓面試官印象深刻。
+    強大的 <sub alias="Git Hub">GitHub</sub> 作品集能讓面試官印象深刻。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -247,7 +247,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        不過進入職場後，持續精進 AI 技能，才是走得長遠的關鍵。
+        不過進入職場後，持續精進 <sub alias="A I">AI</sub> 技能，才是走得長遠的關鍵。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -255,7 +255,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          AI 會取代我嗎？問一下我的朋友... 一個 AI 朋友。
+          <sub alias="A I">AI</sub> 會取代我嗎？問一下我的朋友... 一個 <sub alias="A I">AI</sub> 朋友。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -263,19 +263,19 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        別擔心，AI 是工具，不是敵人。學會駕馭它，你就能成為超級工程師。
+        別擔心，<sub alias="A I">AI</sub> 是工具，不是敵人。學會駕馭它，你就能成為超級工程師。
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 素養
+    <sub alias="A I">AI</sub> 素養
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    AI Literacy...
-    AI literacy is now an essential skill for modern developers.
+    <sub alias="A I">AI</sub> Literacy...
+    <sub alias="A I">AI</sub> literacy is now an essential skill for modern developers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    AI 素養現在是現代開發者必備的技能。
+    <sub alias="A I">AI</sub> 素養現在是現代開發者必備的技能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -372,10 +372,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Notice Period...
-    The standard notice period is one month.
+    Notice periods vary by local law and employment contract, so confirm the required period before resigning.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    標準通知期為一個月。
+    通知期依所在地法規與 Employment contract 而異，離職前應先確認適用期間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -434,13 +434,13 @@
     個人發展計畫
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    I D P...
-    I D P stands for Individual Development Plan.
-    Work with your manager to create an I D P that maps out the skills you need to develop over the next six months to reach the next engineering level.
+    <sub alias="I D P">IDP</sub>...
+    <sub alias="I D P">IDP</sub> stands for Individual Development Plan.
+    Work with your manager to create an <sub alias="I D P">IDP</sub> that maps out the skills you need to develop over the next six months to reach the next engineering level.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    IDP 是 Individual Development Plan 的縮寫。
-    與你的主管合作制定 IDP，規劃你在未來六個月內需要培養的技能，以達到下一個工程師等級。
+    <sub alias="I D P">IDP</sub> 是 Individual Development Plan 的縮寫。
+    與你的主管合作制定 <sub alias="I D P">IDP</sub>，規劃你在未來六個月內需要培養的技能，以達到下一個工程師等級。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

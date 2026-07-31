@@ -3,7 +3,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到前端生態系篇。現在的前端開發不只是刻畫面，更是建構流暢 AI 互動體驗的關鍵。
+        歡迎來到前端生態系篇。現在的前端開發不只是刻畫面，更是建構流暢 <sub alias="A I">AI</sub> 互動體驗的關鍵。
         從 Vercel 到 Next.js，我們來看看支撐現代 Web 的技術堆疊。
         開發網頁的第一步，是了解我們的戰場瀏覽器。
       </prosody>
@@ -39,25 +39,25 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    V8 引擎
+    <sub alias="V eight">V8</sub> 引擎
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    V8 Engine...
-    Node.js is built on Chrome's V8 JavaScript engine.
+    <sub alias="V eight">V8</sub> Engine...
+    Node.js is built on Chrome's <sub alias="V eight">V8</sub> <sub alias="Java Script">JavaScript</sub> engine.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Node.js 是建立在 Chrome 的 V8 JavaScript 引擎之上。
+    Node.js 是建立在 Chrome 的 <sub alias="V eight">V8</sub> <sub alias="Java Script">JavaScript</sub> 引擎之上。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Firefox
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Make sure to test the CSS layout on Firefox as well.
+    Make sure to test the <sub alias="C S S">CSS</sub> layout on Firefox as well.
     Firefox is the preferred browser for privacy testing because it implements the strictest third-party cookie policies.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    務必確認 CSS 版面配置在 Firefox 上也正常。
+    務必確認 <sub alias="C S S">CSS</sub> 版面配置在 Firefox 上也正常。
     Firefox 是隱私測試的首選瀏覽器，因為它實作了最嚴格的第三方 Cookie 政策。
   </voice>
 
@@ -78,10 +78,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     DevTools...
-    Open Chrome DevTools to inspect the HTML elements and console.
+    Open Chrome DevTools to inspect the <sub alias="H T M L">HTML</sub> elements and console.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    開啟 Chrome DevTools 來檢查 HTML 元素與控制台。
+    開啟 Chrome DevTools 來檢查 <sub alias="H T M L">HTML</sub> 元素與控制台。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -96,14 +96,14 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    WebAssembly
+    <sub alias="Web Assembly">WebAssembly</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    WebAssembly...
-    Often abbreviated as WASM. It allows high-performance code like C++ or Rust to run in the browser.
+    <sub alias="Web Assembly">WebAssembly</sub>...
+    Often abbreviated as <sub alias="wasm">WASM</sub>. It allows high-performance code like <sub alias="C plus plus">C++</sub> or Rust to run in the browser.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    WebAssembly 常縮寫為 WASM。它允許像 C++ 或 Rust 這樣的高效能程式碼在瀏覽器中執行。
+    <sub alias="Web Assembly">WebAssembly</sub> 常縮寫為 <sub alias="wasm">WASM</sub>。它允許像 <sub alias="C plus plus">C++</sub> 或 Rust 這樣的高效能程式碼在瀏覽器中執行。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -112,24 +112,24 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Web Components...
     Web Components let you build reusable custom elements that work in any framework, or none at all.
-    Package the design system as Web Components so React, Vue, and plain HTML pages can all share it.
+    Package the design system as Web Components so React, Vue, and plain <sub alias="H T M L">HTML</sub> pages can all share it.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Web Components 讓你建立可重複使用的自訂元素，在任何框架、甚至沒有框架時都能運作。
-    把設計系統包裝成 Web Components，React、Vue 和純 HTML 頁面就能共用。
+    把設計系統包裝成 Web Components，React、Vue 和純 <sub alias="H T M L">HTML</sub> 頁面就能共用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     漸進式網頁應用程式
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    P W A...
-    P W A stands for Progressive Web App.
-    A P W A can work offline and be installed to the home screen, blurring the line between web and native.
+    <sub alias="P W A">PWA</sub>...
+    <sub alias="P W A">PWA</sub> stands for Progressive Web App.
+    <sub alias="A P W A">APWA</sub> can work offline and be installed to the home screen, blurring the line between web and native.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    PWA 是 Progressive Web App 的縮寫。
-    PWA 可以離線運作並安裝到主畫面，模糊了 Web 與原生 App 的界線。
+    <sub alias="P W A">PWA</sub> 是 Progressive Web App 的縮寫。
+    <sub alias="P W A">PWA</sub> 可以離線運作並安裝到主畫面，模糊了 Web 與原生 App 的界線。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -143,7 +143,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          絕對是 TypeScript！一旦用過強型別，就回不去手寫原生 JS 的日子了。當然，還有像 Vite 這樣的極速打包工具。
+          絕對是 <sub alias="Type Script">TypeScript</sub>！一旦用過強型別，就回不去手寫原生 JS 的日子了。當然，還有像 Vite 這樣的極速打包工具。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -157,39 +157,39 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    TypeScript
+    <sub alias="Type Script">TypeScript</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    TypeScript adds static typing to JavaScript, reducing runtime errors.
-    TypeScript's strict mode catches null reference errors and unchecked type casts that would otherwise surface at runtime.
+    <sub alias="Type Script">TypeScript</sub> adds static typing to <sub alias="Java Script">JavaScript</sub>, reducing runtime errors.
+    <sub alias="Type Script">TypeScript</sub>'s strict mode catches null reference errors and unchecked type casts that would otherwise surface at runtime.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    TypeScript 為 JavaScript 增加了靜態型別，減少了執行階段錯誤。
-    TypeScript 的嚴格模式能夠捕捉 null 參考錯誤和未檢查的型別轉換，否則這些問題只會在執行時期才浮現。
+    <sub alias="Type Script">TypeScript</sub> 為 <sub alias="Java Script">JavaScript</sub> 增加了靜態型別，減少了執行階段錯誤。
+    <sub alias="Type Script">TypeScript</sub> 的嚴格模式能夠捕捉 null 參考錯誤和未檢查的型別轉換，否則這些問題只會在執行時期才浮現。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Node.js
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Node.js allows developers to use JavaScript for backend services, unifying the language stack.
+    Node.js allows developers to use <sub alias="Java Script">JavaScript</sub> for backend services, unifying the language stack.
     Node.js is the runtime that powers build tools like Vite and package managers like npm, even for projects that run in a browser.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Node.js 允許開發者使用 JavaScript 進行後端服務開發，統一了語言堆疊。
+    Node.js 允許開發者使用 <sub alias="Java Script">JavaScript</sub> 進行後端服務開發，統一了語言堆疊。
     Node.js 是驅動 Vite 等建置工具和 npm 等套件管理員的執行環境，即便是為瀏覽器執行的專案也不例外。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    NPM
+    <sub alias="N P M">NPM</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    NPM stands for Node Package Manager.
-    Install the package using NPM.
+    <sub alias="N P M">NPM</sub> stands for Node Package Manager.
+    Install the package using <sub alias="N P M">NPM</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    NPM 是 Node Package Manager 的縮寫。
-    使用 NPM 安裝這個套件。
+    <sub alias="N P M">NPM</sub> 是 Node Package Manager 的縮寫。
+    使用 <sub alias="N P M">NPM</sub> 安裝這個套件。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -197,10 +197,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Bundler...
-    Webpack is a module bundler that compiles your JavaScript.
+    Webpack is a module bundler that compiles your <sub alias="Java Script">JavaScript</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Webpack 是一個編譯你 JavaScript 的模組打包工具。
+    Webpack 是一個編譯你 <sub alias="Java Script">JavaScript</sub> 的模組打包工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -216,14 +216,14 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Tailwind CSS
+    Tailwind <sub alias="C S S">CSS</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Tailwind CSS is a utility-first CSS framework for rapid UI development.
+    Tailwind <sub alias="C S S">CSS</sub> is a utility-first <sub alias="C S S">CSS</sub> framework for rapid <sub alias="U I">UI</sub> development.
     Tailwind's PurgeCSS integration removes unused utility classes at build time, keeping production bundle sizes small.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Tailwind CSS 是一個功能優先的 CSS 框架，用於快速開發 UI。
+    Tailwind <sub alias="C S S">CSS</sub> 是一個功能優先的 <sub alias="C S S">CSS</sub> 框架，用於快速開發 <sub alias="U I">UI</sub>。
     Tailwind 的 PurgeCSS 整合在建置時移除未使用的工具類別，使正式環境的套件大小保持精簡。
   </voice>
 
@@ -255,12 +255,12 @@
     React
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    React uses a virtual DOM to optimize rendering performance.
-    React Server Components allow parts of the UI to render on the server, reducing JavaScript sent to the browser.
+    React uses a virtual <sub alias="dom">DOM</sub> to optimize rendering performance.
+    React Server Components allow parts of the <sub alias="U I">UI</sub> to render on the server, reducing <sub alias="Java Script">JavaScript</sub> sent to the browser.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    React 使用虛擬 DOM 來最佳化渲染效能。
-    React Server Components 讓部分 UI 在伺服器端渲染，減少傳送到瀏覽器的 JavaScript 量。
+    React 使用虛擬 <sub alias="dom">DOM</sub> 來最佳化渲染效能。
+    React Server Components 讓部分 <sub alias="U I">UI</sub> 在伺服器端渲染，減少傳送到瀏覽器的 <sub alias="Java Script">JavaScript</sub> 量。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -279,11 +279,11 @@
     Angular
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Angular provides a full-featured framework with built-in tools for routing, forms, and H T T P requests.
+    Angular provides a full-featured framework with built-in tools for routing, forms, and <sub alias="H T T P">HTTP</sub> requests.
     Angular's built-in dependency injection system makes it easy to swap services for testing without changing component code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Angular 提供了一個功能齊全的框架，內建了路由、表單與 HTTP 請求等工具。
+    Angular 提供了一個功能齊全的框架，內建了路由、表單與 <sub alias="H T T P">HTTP</sub> 請求等工具。
     Angular 內建的相依性注入系統讓你在測試時無需修改元件程式碼即可輕鬆替換服務。
   </voice>
 
@@ -292,11 +292,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Nuxt is the meta-framework for Vue that adds server-side rendering and file-based routing out of the box.
-    Migrating a Vue SPA to Nuxt improved SEO scores because search engines could now crawl fully rendered HTML.
+    Migrating a Vue <sub alias="S P A">SPA</sub> to Nuxt improved <sub alias="S E O">SEO</sub> scores because search engines could now crawl fully rendered <sub alias="H T M L">HTML</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Nuxt 是 Vue 的元框架，開箱即提供伺服器端渲染和基於檔案的路由。
-    將 Vue SPA 遷移到 Nuxt 提升了 SEO 分數，因為搜尋引擎現在可以爬取完整渲染的 HTML。
+    將 Vue <sub alias="S P A">SPA</sub> 遷移到 Nuxt 提升了 <sub alias="S E O">SEO</sub> 分數，因為搜尋引擎現在可以爬取完整渲染的 <sub alias="H T M L">HTML</sub>。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -316,11 +316,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Vercel is the platform for frontend frameworks and static sites, built by the creators of Next.js.
-    Vercel's preview deployments create a unique URL for every pull request, making it easy to share and review UI changes.
+    Vercel's preview deployments create a unique <sub alias="U R L">URL</sub> for every pull request, making it easy to share and review <sub alias="U I">UI</sub> changes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Vercel 是前端框架與靜態網站的平台，由 Next.js 的創作者打造。
-    Vercel 的預覽部署為每個 Pull Request 建立唯一的 URL，讓共用和審查 UI 變更變得輕鬆。
+    Vercel 的預覽部署為每個 Pull Request 建立唯一的 <sub alias="U R L">URL</sub>，讓共用和審查 <sub alias="U I">UI</sub> 變更變得輕鬆。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -328,11 +328,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Tree Shaking...
-    Tree shaking removes unused JavaScript code during the build process to reduce bundle size.
+    Tree shaking removes unused <sub alias="Java Script">JavaScript</sub> code during the build process to reduce bundle size.
     Importing only the functions you need from a utility library, rather than the whole package, gives tree shaking the best chance to eliminate dead code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    樹搖晃在建置過程中移除未使用的 JavaScript 程式碼，以減小套件大小。
+    樹搖晃在建置過程中移除未使用的 <sub alias="Java Script">JavaScript</sub> 程式碼，以減小套件大小。
     從工具函式庫中只匯入你需要的函式而不是整個套件，能給樹搖晃最好的機會來消除死碼。
   </voice>
 
@@ -344,7 +344,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          以前只有 CSR，現在為了 SEO 大家都轉向 SSR 了。不過最近 Island Architecture 也很紅喔。
+          以前只有 <sub alias="C S R">CSR</sub>，現在為了 <sub alias="S E O">SEO</sub> 大家都轉向 <sub alias="S S R">SSR</sub> 了。不過最近 Island Architecture 也很紅喔。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -361,36 +361,36 @@
     單頁應用程式
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SPA...
-    SPA stands for Single Page Application.
+    <sub alias="S P A">SPA</sub>...
+    <sub alias="S P A">SPA</sub> stands for Single Page Application.
     React is a popular framework for building interactive SPAs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SPA 是 Single Page Application 的縮寫。React 是建構互動式 SPA 的熱門框架。
+    <sub alias="S P A">SPA</sub> 是 Single Page Application 的縮寫。React 是建構互動式 <sub alias="S P A">SPA</sub> 的熱門框架。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     伺服器端渲染
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SSR...
-    SSR stands for Server-Side Rendering.
-    SSR improves SEO and initial load performance.
+    <sub alias="S S R">SSR</sub>...
+    <sub alias="S S R">SSR</sub> stands for Server-Side Rendering.
+    <sub alias="S S R">SSR</sub> improves <sub alias="S E O">SEO</sub> and initial load performance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SSR 是 Server-Side Rendering 的縮寫。SSR 改善了 SEO 和初始載入效能。
+    <sub alias="S S R">SSR</sub> 是 Server-Side Rendering 的縮寫。<sub alias="S S R">SSR</sub> 改善了 <sub alias="S E O">SEO</sub> 和初始載入效能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     客戶端渲染
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CSR...
-    CSR stands for Client-Side Rendering.
-    CSR offloads rendering work to the user's browser.
+    <sub alias="C S R">CSR</sub>...
+    <sub alias="C S R">CSR</sub> stands for Client-Side Rendering.
+    <sub alias="C S R">CSR</sub> offloads rendering work to the user's browser.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CSR 是 Client-Side Rendering 的縮寫。CSR 將渲染工作交給使用者的瀏覽器。
+    <sub alias="C S R">CSR</sub> 是 Client-Side Rendering 的縮寫。<sub alias="C S R">CSR</sub> 將渲染工作交給使用者的瀏覽器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -398,10 +398,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Hydration...
-    Hydration is the process of attaching event listeners to the server-rendered HTML.
+    Hydration is the process of attaching event listeners to the server-rendered <sub alias="H T M L">HTML</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    水合是將事件監聽器附加到伺服器渲染 HTML 上的過程。
+    水合是將事件監聽器附加到伺服器渲染 <sub alias="H T M L">HTML</sub> 上的過程。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -409,10 +409,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Island Architecture...
-    Island architecture reduces JavaScript bloat by only hydrating interactive components.
+    Island architecture reduces <sub alias="Java Script">JavaScript</sub> bloat by only hydrating interactive components.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    島嶼架構藉由只對互動元件進行水合來減少 JavaScript 的肥大。
+    島嶼架構藉由只對互動元件進行水合來減少 <sub alias="Java Script">JavaScript</sub> 的肥大。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -439,11 +439,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     React Server Components...
-    React Server Components render on the server and send zero JavaScript for the non-interactive parts.
+    React Server Components render on the server and send zero <sub alias="Java Script">JavaScript</sub> for the non-interactive parts.
     Move the data-heavy dashboard to React Server Components so the browser downloads far less code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    React 伺服器元件在伺服器上渲染，對非互動的部分送出零 JavaScript。
+    React 伺服器元件在伺服器上渲染，對非互動的部分送出零 <sub alias="Java Script">JavaScript</sub>。
     把資料量大的儀表板改成 React 伺服器元件，瀏覽器要下載的程式碼就少很多。
   </voice>
 
@@ -452,11 +452,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Signals...
-    A signal is a reactive value that automatically updates any part of the UI that reads it.
+    A signal is a reactive value that automatically updates any part of the <sub alias="U I">UI</sub> that reads it.
     Frameworks like Solid and Angular use signals for fine-grained updates without re-rendering the whole component.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    訊號是一種反應式的值，會自動更新所有讀取它的 UI 部分。
+    訊號是一種反應式的值，會自動更新所有讀取它的 <sub alias="U I">UI</sub> 部分。
     Solid 和 Angular 這類框架用訊號做細粒度更新，不必重新渲染整個元件。
   </voice>
 
@@ -466,11 +466,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Edge Rendering...
     Edge rendering runs your server-side rendering on edge nodes close to the user.
-    Move SSR to edge rendering so users in Asia and Europe get the first byte just as fast.
+    Move <sub alias="S S R">SSR</sub> to edge rendering so users in Asia and Europe get the first byte just as fast.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     邊緣渲染把伺服器端渲染放到靠近使用者的邊緣節點上執行。
-    把 SSR 改成邊緣渲染，亞洲和歐洲的使用者也能一樣快拿到第一個位元組。
+    把 <sub alias="S S R">SSR</sub> 改成邊緣渲染，亞洲和歐洲的使用者也能一樣快拿到第一個位元組。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -485,24 +485,24 @@
     伺服器發送事件
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SSE...
-    SSE stands for Server-Sent Events.
-    SSE allows the server to push updates to the client via H T T P.
+    <sub alias="S S E">SSE</sub>...
+    <sub alias="S S E">SSE</sub> stands for Server-Sent Events.
+    <sub alias="S S E">SSE</sub> allows the server to push updates to the client via <sub alias="H T T P">HTTP</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    SSE 是 Server-Sent Events 的縮寫。SSE 允許伺服器透過 HTTP 推送更新給客戶端。
+    <sub alias="S S E">SSE</sub> 是 Server-Sent Events 的縮寫。<sub alias="S S E">SSE</sub> 允許伺服器透過 <sub alias="H T T P">HTTP</sub> 推送更新給客戶端。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    WebSocket
+    <sub alias="Web Socket">WebSocket</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Use WebSockets for real-time features like chat applications.
-    Chat applications and collaborative editors use WebSocket to push updates from server to all connected clients in real time.
+    Use <sub alias="Web Sockets">WebSockets</sub> for real-time features like chat applications.
+    Chat applications and collaborative editors use <sub alias="Web Socket">WebSocket</sub> to push updates from server to all connected clients in real time.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    使用 WebSockets 開發如聊天應用程式等即時功能。
-    聊天應用程式和協作編輯器使用 WebSocket 即時將更新從伺服器推送到所有已連線的客戶端。
+    使用 <sub alias="Web Sockets">WebSockets</sub> 開發如聊天應用程式等即時功能。
+    聊天應用程式和協作編輯器使用 <sub alias="Web Socket">WebSocket</sub> 即時將更新從伺服器推送到所有已連線的客戶端。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -510,10 +510,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Cookie...
-    Cookies are small data sent with every H T T P request, mainly used for authentication.
+    Cookies are small data sent with every <sub alias="H T T P">HTTP</sub> request, mainly used for authentication.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Cookie 是隨每個 HTTP 請求發送的小型資料，主要用於身分驗證。
+    Cookie 是瀏覽器儲存的狀態資料，可用於 Session 與使用者偏好；只有符合 Domain、Path、Secure 與有效期限等條件時，瀏覽器才會隨 <sub alias="H T T P">HTTP</sub> 請求送出。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -542,7 +542,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          如果是做聊天軟體，WebSockets 絕對是必備的。不用一直重新整理就能看到訊息，體驗差很多！
+          如果是做聊天軟體，<sub alias="Web Sockets">WebSockets</sub> 絕對是必備的。不用一直重新整理就能看到訊息，體驗差很多！
         </lang>
       </prosody>
     </mstts:express-as>
@@ -558,14 +558,14 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        前端生態系變動好快，到底是 SPA 好還是 SSR 好？
+        前端生態系變動好快，到底是 <sub alias="S P A">SPA</sub> 好還是 <sub alias="S S R">SSR</sub> 好？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It's swinging back to SSR for better SEO and performance. But managing Hydration is tricky. That's why Island Architecture is gaining traction.
+        It's swinging back to <sub alias="S S R">SSR</sub> for better <sub alias="S E O">SEO</sub> and performance. But managing Hydration is tricky. That's why Island Architecture is gaining traction.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -579,7 +579,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        That's why tools are evolving. But knowing how the V8 Engine works and using DevTools effectively is still the best skill you can have.
+        That's why tools are evolving. But knowing how the <sub alias="V eight">V8</sub> Engine works and using DevTools effectively is still the best skill you can have.
       </prosody>
     </mstts:express-as>
   </voice>

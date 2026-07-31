@@ -258,7 +258,7 @@
     這是一個導致資料遺失的高嚴重性 Bug。
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        接下來我們看看 QA 相關的術語，品質保證與驗收是交付前的最後一哩路。
+        接下來我們看看 <sub alias="Q A">QA</sub> 相關的術語，品質保證與驗收是交付前的最後一哩路。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -266,7 +266,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          I love QA. They find the bugs so I don't have to fix them on the weekend.
+          I love <sub alias="Q A">QA</sub>. They find the bugs so I don't have to fix them on the weekend.
         </lang>
       </prosody>
     </mstts:express-as>
@@ -279,13 +279,13 @@
     使用者驗收測試
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    UAT...
-    UAT stands for User Acceptance Testing.
-    The client signed off after a successful UAT.
+    <sub alias="U A T">UAT</sub>...
+    <sub alias="U A T">UAT</sub> stands for User Acceptance Testing.
+    The client signed off after a successful <sub alias="U A T">UAT</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    UAT 是使用者驗收測試的縮寫。
-    客戶在成功的 UAT 後簽署了驗收。
+    <sub alias="U A T">UAT</sub> 是使用者驗收測試的縮寫。
+    客戶在成功的 <sub alias="U A T">UAT</sub> 後簽署了驗收。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -446,23 +446,23 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Cross-functional...
-    We work in a cross-functional team with designers and QA.
+    We work in a cross-functional team with designers and <sub alias="Q A">QA</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    我們與設計師和 QA 在跨功能團隊中工作。
+    我們與設計師和 <sub alias="Q A">QA</sub> 在跨功能團隊中工作。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    DORA 指標
+    <sub alias="D O R A">DORA</sub> 指標
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    D O R A...
-    D O R A stands for DevOps Research and Assessment.
-    The D O R A metrics track deployment frequency, lead time for changes, change failure rate, and time to restore service to measure engineering team performance.
+    <sub alias="D O R A">DORA</sub>...
+    <sub alias="D O R A">DORA</sub> stands for DevOps Research and Assessment.
+    The <sub alias="D O R A">DORA</sub> metrics track deployment frequency, lead time for changes, change failure rate, and time to restore service to measure engineering team performance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DORA 是 DevOps Research and Assessment 的縮寫。
-    DORA 指標追蹤部署頻率、變更前置時間、變更失敗率和服務恢復時間，以衡量工程團隊績效。
+    <sub alias="D O R A">DORA</sub> 是 DevOps Research and Assessment 的縮寫。
+    <sub alias="D O R A">DORA</sub> 指標追蹤部署頻率、變更前置時間、變更失敗率和服務恢復時間，以衡量工程團隊績效。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -475,7 +475,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Velocity is an estimation tool, not a KPI. Use the Retrospective to find out why. Maybe there were hidden technical debts?
+        Velocity is an estimation tool, not a <sub alias="K P I">KPI</sub>. Use the Retrospective to find out why. Maybe there were hidden technical debts?
       </prosody>
     </mstts:express-as>
   </voice>

@@ -4,7 +4,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到設計模式與原則篇。
-        儘管 AI 可以幫我們寫出大量程式碼，但決定系統體質的架構設計，依然是資深工程師的核心價值。
+        儘管 <sub alias="A I">AI</sub> 可以幫我們寫出大量程式碼，但決定系統體質的架構設計，依然是資深工程師的核心價值。
         這集我們挑戰軟體工程的基石。
       </prosody>
     </mstts:express-as>
@@ -12,7 +12,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        首先，我們從最經典的 SOLID 原則與其他設計心法開始。
+        首先，我們從最經典的 <sub alias="solid">SOLID</sub> 原則與其他設計心法開始。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -94,26 +94,26 @@
     不要重複自己
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    DRY...
-    DRY stands for Don't Repeat Yourself.
-    Refactor the code to adhere to the DRY principle.
+    <sub alias="dry">DRY</sub>...
+    <sub alias="dry">DRY</sub> stands for Don't Repeat Yourself.
+    Refactor the code to adhere to the <sub alias="dry">DRY</sub> principle.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DRY 是 Don't Repeat Yourself 的縮寫。
-    重構程式碼以遵守 DRY 原則。
+    <sub alias="dry">DRY</sub> 是 Don't Repeat Yourself 的縮寫。
+    重構程式碼以遵守 <sub alias="dry">DRY</sub> 原則。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     保持簡單
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    KISS...
-    KISS stands for Keep It Simple, Stupid.
-    Apply the KISS principle, don't overengineer the solution.
+    <sub alias="kiss">KISS</sub>...
+    <sub alias="kiss">KISS</sub> stands for Keep It Simple, Stupid.
+    Apply the <sub alias="kiss">KISS</sub> principle, don't overengineer the solution.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    KISS 是 Keep It Simple, Stupid 的縮寫。
-    應用 KISS 原則，不要過度設計解決方案。
+    <sub alias="kiss">KISS</sub> 是 Keep It Simple, Stupid 的縮寫。
+    應用 <sub alias="kiss">KISS</sub> 原則，不要過度設計解決方案。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -269,7 +269,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，不要為了用模式而用模式，KISS 原則永遠要放在心上。接下來我們從建立型與行為型模式看起。
+        沒錯，不要為了用模式而用模式，<sub alias="kiss">KISS</sub> 原則永遠要放在心上。接下來我們從建立型與行為型模式看起。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -448,10 +448,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Clean Architecture...
-    Clean architecture separates core business logic from frameworks and UI.
+    Clean architecture separates core business logic from frameworks and <sub alias="U I">UI</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    整潔架構將核心商業邏輯與框架及 UI 分離。
+    整潔架構將核心商業邏輯與框架及 <sub alias="U I">UI</sub> 分離。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -480,13 +480,13 @@
     網域驅動設計
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    DDD...
-    DDD stands for Domain-Driven Design.
-    DDD focuses on the core business logic and domain model.
+    <sub alias="D D D">DDD</sub>...
+    <sub alias="D D D">DDD</sub> stands for Domain-Driven Design.
+    <sub alias="D D D">DDD</sub> focuses on the core business logic and domain model.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    DDD 是 Domain-Driven Design 的縮寫。
-    DDD 專注於核心商業邏輯與領域模型。
+    <sub alias="D D D">DDD</sub> 是 Domain-Driven Design 的縮寫。
+    <sub alias="D D D">DDD</sub> 專注於核心商業邏輯與領域模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -508,11 +508,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Hexagonal Architecture...
     Hexagonal architecture isolates the core domain logic from external systems like databases and APIs using ports and adapters.
-    Because the business logic has no dependency on the database, you can swap from <sub alias="sequel">SQL</sub> Server to PostgreSQL with zero changes to the domain layer.
+    Because the business logic has no dependency on the database, you can swap from <sub alias="sequel">SQL</sub> Server to <sub alias="post gres sequel">PostgreSQL</sub> with zero changes to the domain layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    六角形架構使用連接埠和轉接器，將核心領域邏輯與資料庫和 API 等外部系統隔離。
-    因為業務邏輯不依賴資料庫，所以你可以從 SQL Server 換到 PostgreSQL，而不需要對領域層做任何更動。
+    六角形架構使用連接埠和轉接器，將核心領域邏輯與資料庫和 <sub alias="A P I">API</sub> 等外部系統隔離。
+    因為業務邏輯不依賴資料庫，所以你可以從 <sub alias="sequel">SQL</sub> Server 換到 <sub alias="post gres sequel">PostgreSQL</sub>，而不需要對領域層做任何更動。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -538,7 +538,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        You shouldn't force them. Patterns like Strategy or Observer solve specific problems. If you apply them everywhere, you might violate KISS (Keep It Simple, Stupid).
+        You shouldn't force them. Patterns like Strategy or Observer solve specific problems. If you apply them everywhere, you might violate <sub alias="kiss">KISS</sub> (Keep It Simple, Stupid).
       </prosody>
     </mstts:express-as>
   </voice>

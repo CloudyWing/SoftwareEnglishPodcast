@@ -3,8 +3,8 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 <sub alias="Dot Net">.NET</sub> C# 基礎篇。現在，<sub alias="Dot Net">.NET</sub> 是一個高效能、跨平台的開源框架。再也不是 Windows 的專利了。
-        以前我們寫 C# 總是要一層一層的 Namespace 加上 Class Program 加上 Main。Phoebe，現在還是這樣嗎？
+        歡迎來到 <sub alias="Dot Net">.NET</sub> <sub alias="C Sharp">C#</sub> 基礎篇。現在，<sub alias="Dot Net">.NET</sub> 是一個高效能、跨平台的開源框架。再也不是 Windows 的專利了。
+        以前我們寫 <sub alias="C Sharp">C#</sub> 總是要一層一層的 Namespace 加上 Class Program 加上 Main。Phoebe，現在還是這樣嗎？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -12,7 +12,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，早在 C# 10 就有了 Top-level statements 和 File-scoped namespaces。現在的程式碼乾淨多了，幾乎沒有 Boilerplate code。
+          曉臻，<sub alias="C Sharp">C#</sub> 9 引入了 Top-level statements，<sub alias="C Sharp">C#</sub> 10 接著加入 File-scoped namespaces。現在的程式碼能省下不少 Boilerplate code。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -31,11 +31,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Solution...
     A solution acts as a container for organizing multiple related projects and their dependencies.
-    A single solution can contain both the main A P I project and the unit test project, making it easy to run all tests with one command.
+    A single solution can contain both the main <sub alias="A P I">API</sub> project and the unit test project, making it easy to run all tests with one command.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     解決方案充當一個容器，用來組織多個相關的專案及其相依性。
-    一個解決方案可以同時包含主要 API 專案和單元測試專案，讓你只需一個命令就能執行所有測試。
+    一個解決方案可以同時包含主要 <sub alias="A P I">API</sub> 專案和單元測試專案，讓你只需一個命令就能執行所有測試。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -77,11 +77,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Record...
     Records are immutable reference types with value-based equality. Great for DTOs.
-    Use records for A P I response models because their built-in equality makes unit testing assertions much simpler.
+    Use records for <sub alias="A P I">API</sub> response models because their built-in equality makes unit testing assertions much simpler.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Records 是具有基於值相等性的不可變參考型別。非常適合用於資料傳輸物件 (DTO)。
-    將 Record 用於 API 回應模型，因為其內建的相等性使單元測試斷言更加簡單。
+    將 Record 用於 <sub alias="A P I">API</sub> 回應模型，因為其內建的相等性使單元測試斷言更加簡單。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -100,7 +100,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        最後是讓 C# 變得更安全、更簡潔的語法。Null Reference Exception 可是號稱價值十億美元的錯誤啊。
+        最後是讓 <sub alias="C Sharp">C#</sub> 變得更安全、更簡潔的語法。Null Reference Exception 可是號稱價值十億美元的錯誤啊。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -124,11 +124,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Pattern Matching...
     Pattern matching allows expressive logic in switch expressions.
-    The list pattern introduced in C# 11 lets you deconstruct collections directly in switch expressions.
+    The list pattern introduced in <sub alias="C Sharp">C#</sub> 11 lets switch expressions match the shape and elements of arrays or lists.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     模式比對允許在 switch 運算式中使用具表現力的邏輯。
-    C# 11 引入的清單模式讓你可以直接在 switch 運算式中解構集合。
+    <sub alias="C Sharp">C#</sub> 11 引入的 List pattern，讓 switch 運算式可以比對 Array 或 List 的形狀與元素。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -199,7 +199,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        用 C# 寫程式的時候，覺得 Nullable Reference Types 真的讓程式碼變得很嚴謹。
+        用 <sub alias="C Sharp">C#</sub> 寫程式的時候，覺得 Nullable Reference Types 真的讓程式碼變得很嚴謹。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -236,7 +236,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Modern C# is all about expressiveness and safety.
+        Modern <sub alias="C Sharp">C#</sub> is all about expressiveness and safety.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -244,7 +244,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        C# 的基礎有了，但要寫出好維護的系統，還有很多學問。下集我們再深入探討。
+        <sub alias="C Sharp">C#</sub> 的基礎有了，但要寫出好維護的系統，還有很多學問。下集我們再深入探討。
         我是主持人曉臻，感謝大家的陪伴。
       </prosody>
     </mstts:express-as>

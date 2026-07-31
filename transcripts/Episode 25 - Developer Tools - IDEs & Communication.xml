@@ -19,9 +19,9 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哇，Phoebe 現在這麼依賴 AI 啦？
-        這集我們就是要介紹編輯器、專案管理平台以及 AI 時代必備的輔助工具。
-        工欲善其事，必先利其器，我們先從編輯器與 IDE 開始。
+        哇，Phoebe 現在這麼依賴 <sub alias="A I">AI</sub> 啦？
+        這集我們就是要介紹編輯器、專案管理平台以及 <sub alias="A I">AI</sub> 時代必備的輔助工具。
+        工欲善其事，必先利其器，我們先從編輯器與 <sub alias="I D E">IDE</sub> 開始。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,13 +30,13 @@
     整合開發環境
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    IDE...
-    IDE stands for Integrated Development Environment.
-    An IDE combines code editing, debugging, and building tools in a single interface.
+    <sub alias="I D E">IDE</sub>...
+    <sub alias="I D E">IDE</sub> stands for Integrated Development Environment.
+    An <sub alias="I D E">IDE</sub> combines code editing, debugging, and building tools in a single interface.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    IDE 是 Integrated Development Environment 的縮寫。
-    IDE 將程式碼編輯、除錯和建置工具結合在單一介面中。
+    <sub alias="I D E">IDE</sub> 是 Integrated Development Environment 的縮寫。
+    <sub alias="I D E">IDE</sub> 將程式碼編輯、除錯和建置工具結合在單一介面中。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -44,11 +44,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Visual Studio Code is a lightweight but powerful source code editor.
-    Visual Studio Code's extensions marketplace has over thirty thousand extensions, covering everything from Git integration to AI-powered autocompletion.
+    Visual Studio Code's extensions marketplace has over thirty thousand extensions, covering everything from Git integration to <sub alias="A I">AI</sub>-powered autocompletion.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Visual Studio Code 是一個輕量但強大的原始碼編輯器。
-    Visual Studio Code 的擴充套件市集擁有超過三萬個擴充套件，涵蓋從 Git 整合到 AI 驅動自動補全的所有功能。
+    Visual Studio Code 的擴充套件市集擁有超過三萬個擴充套件，涵蓋從 Git 整合到 <sub alias="A I">AI</sub> 驅動自動補全的所有功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -115,7 +115,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          AI 助手！它們寫程式比我打字還快。
+          <sub alias="A I">AI</sub> 助手！它們寫程式比我打字還快。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -123,7 +123,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯！隨著 AI 技術進步，新一代的 AI 編輯器正在改變我們的開發模式。像現在很紅的這些工具。
+        沒錯！隨著 <sub alias="A I">AI</sub> 技術進步，新一代的 <sub alias="A I">AI</sub> 編輯器正在改變我們的開發模式。像現在很紅的這些工具。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -133,10 +133,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Cursor...
-    Cursor is an AI-first code editor built for pair programming with AI.
+    Cursor is an <sub alias="A I">AI</sub>-first code editor built for pair programming with <sub alias="A I">AI</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Cursor 是一個為了與 AI 結對程式設計而打造的 AI 優先程式碼編輯器。
+    Cursor 是一個為了與 <sub alias="A I">AI</sub> 結對程式設計而打造的 <sub alias="A I">AI</sub> 優先程式碼編輯器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -144,10 +144,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Windsurf...
-    Windsurf maintains deep context of your codebase to provide relevant AI assistance.
+    Windsurf maintains deep context of your codebase to provide relevant <sub alias="A I">AI</sub> assistance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Windsurf 維持對程式碼庫的深度上下文了解，以提供相關的 AI 協助。
+    Windsurf 維持對程式碼庫的深度上下文了解，以提供相關的 <sub alias="A I">AI</sub> 協助。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -155,10 +155,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Antigravity...
-    Antigravity is an AI coding agent that helps developers write code more efficiently.
+    Antigravity is an <sub alias="A I">AI</sub> coding agent that helps developers write code more efficiently.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Antigravity 是一個 AI 編碼代理，幫助開發者更有效率地撰寫程式碼。
+    Antigravity 是一個 <sub alias="A I">AI</sub> 編碼代理，幫助開發者更有效率地撰寫程式碼。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -166,33 +166,33 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Cline...
-    Cline is an open-source AI agent that handles complex coding tasks.
+    Cline is an open-source <sub alias="A I">AI</sub> agent that handles complex coding tasks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Cline 是一個處理複雜程式設計任務的開源 AI 代理。\n  </voice>
+    Cline 是一個處理複雜程式設計任務的開源 <sub alias="A I">AI</sub> 代理。\n  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     模型上下文協議
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    MCP...
-    MCP stands for Model Context Protocol.
-    MCP standardizes how AI models interact with external data and tools.
+    <sub alias="M C P">MCP</sub>...
+    <sub alias="M C P">MCP</sub> stands for Model Context Protocol.
+    <sub alias="M C P">MCP</sub> standardizes how <sub alias="A I">AI</sub> models interact with external data and tools.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    MCP 是 Model Context Protocol 的縮寫。
-    MCP 標准化了 AI 模型與外部資料和工具的戶動方式。
+    <sub alias="M C P">MCP</sub> 是 Model Context Protocol 的縮寫。
+    <sub alias="M C P">MCP</sub> 標准化了 <sub alias="A I">AI</sub> 模型與外部資料和工具的戶動方式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    GitHub Copilot
+    <sub alias="Git Hub">GitHub</sub> Copilot
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    GitHub Copilot...
-    GitHub Copilot uses AI to suggest code completions and entire functions as you type.
+    <sub alias="Git Hub">GitHub</sub> Copilot...
+    <sub alias="Git Hub">GitHub</sub> Copilot uses <sub alias="A I">AI</sub> to suggest code completions and entire functions as you type.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    GitHub Copilot 使用 AI 在你輸入時建議程式碼補全與完整的函式。
+    <sub alias="Git Hub">GitHub</sub> Copilot 使用 <sub alias="A I">AI</sub> 在你輸入時建議程式碼補全與完整的函式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -200,17 +200,17 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Vibe Coding...
-    Vibe Coding refers to a flow state where you focus on high-level logic while AI handles the implementation.
+    Vibe Coding refers to a flow state where you focus on high-level logic while <sub alias="A I">AI</sub> handles the implementation.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Vibe Coding 指的是一種專注於高層次邏輯，而將實作交給 AI 的心流狀態。
+    Vibe Coding 指的是一種專注於高層次邏輯，而將實作交給 <sub alias="A I">AI</sub> 的心流狀態。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          AI 工具很強大！但除了寫程式，日常開發還需要什麼？
+          <sub alias="A I">AI</sub> 工具很強大！但除了寫程式，日常開發還需要什麼？
         </lang>
       </prosody>
     </mstts:express-as>
@@ -218,7 +218,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        好問題！除了 AI，我們還需要各種實用的開發輔助工具。
+        好問題！除了 <sub alias="A I">AI</sub>，我們還需要各種實用的開發輔助工具。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -243,11 +243,11 @@
     Postman
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Use Postman to test the A P I endpoints before integrating them.
+    Use Postman to test the <sub alias="A P I">API</sub> endpoints before integrating them.
     Postman Collections let you group related requests and run them as automated tests in your C I pipeline.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    整合前先使用 Postman 測試 API 端點。
+    整合前先使用 Postman 測試 <sub alias="A P I">API</sub> 端點。
     Postman Collections 讓你將相關的請求分組，並在 CI 流水線中作為自動化測試執行。
   </voice>
 
@@ -291,10 +291,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Environment Variable...
-    Set the A P I key as an environment variable for security.
+    Set the <sub alias="A P I">API</sub> key as an environment variable for security.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    為了安全，將 API Key 設定為環境變數。
+    為了安全，將 <sub alias="A P I">API</sub> Key 設定為環境變數。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -312,12 +312,12 @@
     Markdown
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Write the README file using Markdown syntax.
-    Many documentation platforms like GitHub and Notion render Markdown in real time, making it the default format for developer docs.
+    Write the <sub alias="read me">README</sub> file using Markdown syntax.
+    Many documentation platforms like <sub alias="Git Hub">GitHub</sub> and Notion render Markdown in real time, making it the default format for developer docs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    使用 Markdown 語法撰寫 README 檔案。
-    許多文件平台如 GitHub 和 Notion 會即時渲染 Markdown，使其成為開發者文件的預設格式。
+    使用 Markdown 語法撰寫 <sub alias="read me">README</sub> 檔案。
+    許多文件平台如 <sub alias="Git Hub">GitHub</sub> 和 Notion 會即時渲染 Markdown，使其成為開發者文件的預設格式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -347,8 +347,8 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Developer Experience...
-    Developer experience, or D X, describes how productive and satisfied engineers feel when working with a tool, platform, or codebase.
-    Investing in D X by reducing onboarding time and improving local build speeds directly increases team velocity and reduces turnover.
+    Developer experience, or <sub alias="D X">DX</sub>, describes how productive and satisfied engineers feel when working with a tool, platform, or codebase.
+    Investing in <sub alias="D X">DX</sub> by reducing onboarding time and improving local build speeds directly increases team velocity and reduces turnover.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     開發者體驗，即 DX，描述工程師在使用工具、平台或程式碼庫時感受到的生產力和滿意度。
@@ -373,7 +373,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It can. Be selective. But tools like GitHub Copilot or Postman drastically improve productivity. And knowing your Hotkeys saves you seconds every minute.
+        It can. Be selective. But tools like <sub alias="Git Hub">GitHub</sub> Copilot or Postman drastically improve productivity. And knowing your Hotkeys saves you seconds every minute.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -395,7 +395,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        好的工具能讓開發效率倍增。IDE、Git、溝通工具都要熟練掌握。
+        好的工具能讓開發效率倍增。<sub alias="I D E">IDE</sub>、Git、溝通工具都要熟練掌握。
         我是主持人曉臻，感謝大家的陪伴，拜拜！
       </prosody>
     </mstts:express-as>

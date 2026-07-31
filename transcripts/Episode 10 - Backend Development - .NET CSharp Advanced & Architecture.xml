@@ -3,7 +3,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 <sub alias="Dot Net">.NET</sub> C# 進階篇。寫出會動的程式碼很容易，但要寫出高效能且好維護的架構，就是另一回事了。
+        歡迎來到 <sub alias="Dot Net">.NET</sub> <sub alias="C Sharp">C#</sub> 進階篇。寫出會動的程式碼很容易，但要寫出高效能且好維護的架構，就是另一回事了。
         在高效能開發中，我們追求的是 Zero Allocation（零配置）的高效能。
         以前我們常聽到的 Async Await，現在已經是基本功了。但 Phoebe，這幾年大家都在談論 Span，那是什麼？
       </prosody>
@@ -13,7 +13,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，Span 是高效能的秘密武器。它允許我們在不複製記憶體的情況下操作資料片段。這對於高流量的 A P I 服務器來說至關重要。
+          曉臻，Span 是高效能的秘密武器。它允許我們在不複製記憶體的情況下操作資料片段。這對於高流量的 <sub alias="A P I">API</sub> 服務器來說至關重要。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -21,7 +21,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我們來看看現代 C# 開發者必須知道的效能關鍵字。
+        我們來看看現代 <sub alias="C Sharp">C#</sub> 開發者必須知道的效能關鍵字。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -45,11 +45,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Span...
     Span of T provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory.
-    Parsing H T T P headers with Span instead of Substring eliminates heap allocations in the hot path.
+    Parsing <sub alias="H T T P">HTTP</sub> headers with Span instead of Substring eliminates heap allocations in the hot path.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Span of T 提供了任意連續記憶體區域的型別安全與記憶體安全表示。
-    使用 Span 而非 Substring 來解析 HTTP 標頭，可消除熱路徑中的堆積記憶體配置。
+    使用 Span 而非 Substring 來解析 <sub alias="H T T P">HTTP</sub> 標頭，可消除熱路徑中的堆積記憶體配置。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -58,24 +58,24 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Source Generators...
     Source Generators run during compilation to generate code, avoiding expensive runtime reflection.
-    System.Text.Json uses source generators to produce serialization code at compile time, improving startup performance.
+    System.Text.Json can use configured source generation to produce serialization metadata or optimized code at compile time, reducing runtime reflection and improving startup performance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     來源產生器在編譯期間執行以產生程式碼，避免了昂貴的執行時期反射。
-    System.Text.Json 使用來源產生器在編譯時產生序列化程式碼，提升啟動效能。
+    System.Text.Json 可在明確設定 Source Generation 後，於編譯時產生序列化中繼資料或最佳化程式碼，減少執行期反射並改善啟動效能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    原生 AOT 編譯
+    原生 <sub alias="A O T">AOT</sub> 編譯
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Native AOT...
-    Native AOT compiles your app to a single self-contained binary ahead of time, with no JIT at runtime.
-    We ship the CLI tool as Native AOT so it starts in milliseconds and needs no installed runtime.
+    Native <sub alias="A O T">AOT</sub>...
+    Native <sub alias="A O T">AOT</sub> compiles your app to a single self-contained binary ahead of time, with no <sub alias="jit">JIT</sub> at runtime.
+    We ship the <sub alias="C L I">CLI</sub> tool as Native <sub alias="A O T">AOT</sub> so it starts in milliseconds and needs no installed runtime.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    原生 AOT 會預先把應用程式編譯成單一的自包含二進位檔，執行時不再需要 JIT。
-    我們把這個 CLI 工具用原生 AOT 發布，啟動只要幾毫秒，也不需要預先安裝執行階段。
+    原生 <sub alias="A O T">AOT</sub> 會預先把應用程式編譯成單一的自包含二進位檔，執行時不再需要 <sub alias="jit">JIT</sub>。
+    我們把這個 <sub alias="C L I">CLI</sub> 工具用原生 <sub alias="A O T">AOT</sub> 發布，啟動只要幾毫秒，也不需要預先安裝執行階段。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -126,18 +126,18 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Middleware...
-    Middleware components form a pipeline to handle H T T P requests and responses.
+    Middleware components form a pipeline to handle <sub alias="H T T P">HTTP</sub> requests and responses.
     Add authentication middleware before authorization middleware so the user identity is established before checking permissions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    中介軟體元件形成一個管線來處理 HTTP 請求與回應。
+    中介軟體元件形成一個管線來處理 <sub alias="H T T P">HTTP</sub> 請求與回應。
     在授權中介軟體之前加入驗證中介軟體，確保在檢查權限之前已建立使用者身分。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        最後，C# 最讓人喜歡的，就是它那優雅簡潔的資料查詢語法。
+        最後，<sub alias="C Sharp">C#</sub> 最讓人喜歡的，就是它那優雅簡潔的資料查詢語法。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -148,11 +148,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <sub alias="link">LINQ</sub>...
     <sub alias="link">LINQ</sub> stands for Language Integrated Query.
-    <sub alias="link">LINQ</sub> allows you to query collections using a <sub alias="sequel">SQL</sub>-like syntax in C#.
+    <sub alias="link">LINQ</sub> allows you to query collections using a <sub alias="sequel">SQL</sub>-like syntax in <sub alias="C Sharp">C#</sub>.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <sub alias="link">LINQ</sub> 是 Language Integrated Query 的縮寫。
-    <sub alias="link">LINQ</sub> 允許你在 C# 中使用類似 SQL 的語法來查詢集合。
+    <sub alias="link">LINQ</sub> 允許你在 <sub alias="C Sharp">C#</sub> 中使用類似 <sub alias="sequel">SQL</sub> 的語法來查詢集合。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -187,23 +187,23 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     IAsyncEnumerable...
     IAsyncEnumerable lets you stream items asynchronously and consume them with await foreach.
-    Return IAsyncEnumerable from the repository so the A P I streams rows instead of buffering the whole result set.
+    Return IAsyncEnumerable from the repository so the <sub alias="A P I">API</sub> streams rows instead of buffering the whole result set.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     IAsyncEnumerable 讓你非同步地串流項目，並用 await foreach 逐一取用。
-    讓儲存庫回傳 IAsyncEnumerable，API 就能串流資料列，而不是把整個結果集都緩衝在記憶體。
+    讓儲存庫回傳 IAsyncEnumerable，<sub alias="A P I">API</sub> 就能串流資料列，而不是把整個結果集都緩衝在記憶體。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Minimal API
+    Minimal <sub alias="A P I">API</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Minimal APIs in <sub alias="A S P Dot Net">ASP.NET</sub> Core allow you to define H T T P endpoints with minimal boilerplate code.
-    Startup latency drops significantly when you replace a full MVC controller with a minimal A P I for lightweight microservices.
+    Minimal APIs in <sub alias="A S P Dot Net">ASP.NET</sub> Core allow you to define <sub alias="H T T P">HTTP</sub> endpoints with minimal boilerplate code.
+    Startup latency drops significantly when you replace a full MVC controller with a minimal <sub alias="A P I">API</sub> for lightweight microservices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    <sub alias="A S P Dot Net">ASP.NET</sub> Core 中的 Minimal API 讓你可以以最少的樣板程式碼定義 HTTP 端點。
-    對於輕量級微服務，將完整的 MVC Controller 替換為 Minimal API 能顯著降低啟動延遲。
+    <sub alias="A S P Dot Net">ASP.NET</sub> Core 中的 Minimal <sub alias="A P I">API</sub> 讓你可以以最少的樣板程式碼定義 <sub alias="H T T P">HTTP</sub> 端點。
+    對於輕量級微服務，將完整的 MVC Controller 替換為 Minimal <sub alias="A P I">API</sub> 能顯著降低啟動延遲。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -230,7 +230,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Async, Await is non-negotiable for web servers. It frees up threads so your A P I can handle high concurrency without blocking.
+        Async, Await is non-negotiable for web servers. It frees up threads so your <sub alias="A P I">API</sub> can handle high concurrency without blocking.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -238,7 +238,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        進階 C# 與架構設計能讓系統更穩健。寫出更好的程式碼，是我們共同的目標。
+        進階 <sub alias="C Sharp">C#</sub> 與架構設計能讓系統更穩健。寫出更好的程式碼，是我們共同的目標。
         我是曉臻，祝大家開發順利！
       </prosody>
     </mstts:express-as>

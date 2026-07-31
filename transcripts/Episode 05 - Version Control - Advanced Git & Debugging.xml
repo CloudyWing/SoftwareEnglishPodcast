@@ -98,7 +98,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        有時候開發過程很雜亂，全是 "WIP" 或 "Fypos"，這樣能推出去嗎？
+        有時候開發過程很雜亂，全是 "<sub alias="W I P">WIP</sub>" 或 "Fypos"，這樣能推出去嗎？
       </prosody>
     </mstts:express-as>
   </voice>

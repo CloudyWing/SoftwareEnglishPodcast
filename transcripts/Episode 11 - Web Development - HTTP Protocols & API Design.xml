@@ -4,9 +4,9 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         歡迎來到 Web 開發基礎篇。
-        在這個萬物互聯的 AI 時代，API 不只是前後端的橋樑，更是 AI Agent 感知世界的觸手。
-        弄懂 HTTP 與現代協定，是每一位開發者的必修課。
-        我們從一次完整的 HTTP 互動開始，包含請求與回應。
+        在這個萬物互聯的 <sub alias="A I">AI</sub> 時代，<sub alias="A P I">API</sub> 不只是前後端的橋樑，更是 <sub alias="A I">AI</sub> Agent 感知世界的觸手。
+        弄懂 <sub alias="H T T P">HTTP</sub> 與現代協定，是每一位開發者的必修課。
+        我們從一次完整的 <sub alias="H T T P">HTTP</sub> 互動開始，包含請求與回應。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -32,10 +32,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Request...
-    An H T T P request contains the method, headers, and body needed to ask the server for a resource.
+    An <sub alias="H T T P">HTTP</sub> request contains the method, headers, and body needed to ask the server for a resource.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    HTTP 請求包含了向伺服器請求資源所需的方法、標頭與主體。
+    <sub alias="H T T P">HTTP</sub> 請求包含了向伺服器請求資源所需的方法、標頭與主體。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -50,7 +50,7 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    要告訴伺服器做什麼動作，我們需要使用正確的 HTTP 方法與參數設定。
+    要告訴伺服器做什麼動作，我們需要使用正確的 <sub alias="H T T P">HTTP</sub> 方法與參數設定。
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
@@ -74,10 +74,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Method...
-    GET and POST are the most common H T T P methods used in APIs.
+    GET and POST are the most common <sub alias="H T T P">HTTP</sub> methods used in APIs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    GET 和 POST 是 API 中最常用的 HTTP 方法。
+    GET 和 POST 是 <sub alias="A P I">API</sub> 中最常用的 <sub alias="H T T P">HTTP</sub> 方法。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -107,16 +107,16 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Query String...
-    Pass the search filters in the URL query string.
+    Pass the search filters in the <sub alias="U R L">URL</sub> query string.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    在 URL 查詢字串中傳遞搜尋篩選條件。
+    在 <sub alias="U R L">URL</sub> 查詢字串中傳遞搜尋篩選條件。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        除了傳統的 REST，現在還有更多選擇。
+        除了傳統的 <sub alias="rest">REST</sub>，現在還有更多選擇。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -124,7 +124,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          你是說像 <sub alias="graph cue el">GraphQL</sub> 嗎？前端工程師的最愛，終於不用為了拿一個欄位呼叫五個 A P I 了。
+          你是說像 <sub alias="graph cue el">GraphQL</sub> 嗎？前端工程師的最愛，終於不用為了拿一個欄位呼叫五個 <sub alias="A P I">API</sub> 了。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -145,63 +145,63 @@
     <sub alias="graph cue el">GraphQL</sub> is a query language for APIs that allows clients to request exactly what they need.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    <sub alias="graph cue el">GraphQL</sub> 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
+    <sub alias="graph cue el">GraphQL</sub> 是一種 <sub alias="A P I">API</sub> 查詢語言，允許客戶端只請求他們需要的資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    gRPC
+    <sub alias="G R P C">gRPC</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    gRPC...
-    gRPC stands for gRPC Remote Procedure Call.
-    gRPC is a high-performance RPC framework that uses Protocol Buffers.
+    <sub alias="G R P C">gRPC</sub>...
+    <sub alias="G R P C">gRPC</sub> stands for <sub alias="G R P C">gRPC</sub> Remote Procedure Call.
+    <sub alias="G R P C">gRPC</sub> is a high-performance RPC framework that uses Protocol Buffers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    gRPC 是 gRPC Remote Procedure Call 的縮寫。
-    gRPC 是一個使用 Protocol Buffers 的高效能 RPC 框架。
+    <sub alias="G R P C">gRPC</sub> 是 <sub alias="G R P C">gRPC</sub> Remote Procedure Call 的縮寫。
+    <sub alias="G R P C">gRPC</sub> 是一個使用 Protocol Buffers 的高效能 RPC 框架。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    MQTT
+    <sub alias="M Q T T">MQTT</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    MQTT...
-    MQTT stands for Message Queuing Telemetry Transport.
+    <sub alias="M Q T T">MQTT</sub>...
+    <sub alias="M Q T T">MQTT</sub> stands for Message Queuing Telemetry Transport.
     It is a lightweight publish-subscribe protocol, perfect for IoT devices with limited bandwidth.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    MQTT 是 Message Queuing Telemetry Transport 的縮寫。
+    <sub alias="M Q T T">MQTT</sub> 是 Message Queuing Telemetry Transport 的縮寫。
     它是一種輕量的發布訂閱協定，非常適合頻寬有限的物聯網裝置。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    HTTP/3
+    <sub alias="H T T P three">HTTP/3</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    H T T P/3...
-    H T T P/3 runs on QUIC to reduce latency over unreliable networks.
+    <sub alias="H T T P">HTTP</sub>/3...
+    <sub alias="H T T P">HTTP</sub>/3 runs on <sub alias="quick">QUIC</sub> to reduce latency over unreliable networks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    HTTP/3 運作在 QUIC 之上，以減少不穩定網路中的延遲。
+    <sub alias="H T T P three">HTTP/3</sub> 運作在 <sub alias="quick">QUIC</sub> 之上，以減少不穩定網路中的延遲。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    WebSocket
+    <sub alias="Web Socket">WebSocket</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    WebSocket...
-    WebSocket opens a persistent, two-way connection so the server can push data to the client instantly.
-    Use WebSocket for a live chat or trading dashboard where polling would be too slow and wasteful.
+    <sub alias="Web Socket">WebSocket</sub>...
+    <sub alias="Web Socket">WebSocket</sub> opens a persistent, two-way connection so the server can push data to the client instantly.
+    Use <sub alias="Web Socket">WebSocket</sub> for a live chat or trading dashboard where polling would be too slow and wasteful.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    WebSocket 開啟一條持久的雙向連線，讓伺服器可以即時把資料推送給客戶端。
-    即時聊天或交易看板適合用 WebSocket，因為輪詢會太慢又浪費資源。
+    <sub alias="Web Socket">WebSocket</sub> 開啟一條持久的雙向連線，讓伺服器可以即時把資料推送給客戶端。
+    即時聊天或交易看板適合用 <sub alias="Web Socket">WebSocket</sub>，因為輪詢會太慢又浪費資源。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        HTTP 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
+        <sub alias="H T T P">HTTP</sub> 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -249,10 +249,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Payload...
-    The JSON payload includes the user ID and email address.
+    The <sub alias="J S O N">JSON</sub> payload includes the user ID and email address.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    JSON 酬載包含了使用者 ID 與電子郵件地址。
+    <sub alias="J S O N">JSON</sub> 酬載包含了使用者 ID 與電子郵件地址。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -330,22 +330,22 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Nginx is widely used as a reverse proxy and load balancer due to its high performance and event-driven architecture.
-    Nginx terminates T L S at the edge and forwards plain H T T P to application servers, simplifying certificate management.
+    Nginx terminates <sub alias="T L S">TLS</sub> at the edge and forwards plain <sub alias="H T T P">HTTP</sub> to application servers, simplifying certificate management.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Nginx 因其高效能與事件驅動架構，被廣泛用作反向代理與負載平衡器。
-    Nginx 在邊緣終止 TLS 並將純 HTTP 轉發給應用程式伺服器，從而簡化憑證管理。
+    Nginx 在邊緣終止 <sub alias="T L S">TLS</sub> 並將純 <sub alias="H T T P">HTTP</sub> 轉發給應用程式伺服器，從而簡化憑證管理。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     Apache
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Apache H T T P Server.
+    Apache <sub alias="H T T P">HTTP</sub> Server.
     One of the oldest web servers, known for its flexibility with .htaccess files.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Apache HTTP Server。
+    Apache <sub alias="H T T P">HTTP</sub> Server。
     最古老的網頁伺服器之一，以 .htaccess 檔案的靈活性聞名。
   </voice>
 
@@ -353,45 +353,97 @@
     跨來源資源共用
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    C O R S...
-    C O R S stands for Cross-Origin Resource Sharing.
-    Browsers block cross-origin requests by default; configure CORS headers on your A P I server to allow specific domains.
+    <sub alias="C O R S">CORS</sub>...
+    <sub alias="C O R S">CORS</sub> stands for Cross-Origin Resource Sharing.
+    Browsers block cross-origin requests by default; configure CORS headers on your <sub alias="A P I">API</sub> server to allow specific domains.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CORS 是 Cross-Origin Resource Sharing 的縮寫。
-    瀏覽器預設會封鎖跨來源請求；在 API 伺服器上設定 CORS 標頭，以允許特定的網域。
+    瀏覽器預設會封鎖跨來源請求；在 <sub alias="A P I">API</sub> 伺服器上設定 CORS 標頭，以允許特定的網域。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    JSON Web Token
+    <sub alias="J S O N">JSON</sub> Web Token
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    J W T...
-    J W T stands for JSON Web Token.
-    Use J W T s to pass authenticated user claims between services without hitting the database on every request.
+    <sub alias="J W T">JWT</sub>...
+    <sub alias="J W T">JWT</sub> stands for <sub alias="J S O N">JSON</sub> Web Token.
+    Use <sub alias="J W T">JWT</sub> s to pass authenticated user claims between services without hitting the database on every request.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    JWT 是 JSON Web Token 的縮寫。
-    使用 JWT 在服務之間傳遞已驗證的使用者宣告，無需在每次請求時查詢資料庫。
+    <sub alias="J W T">JWT</sub> 是 <sub alias="J S O N">JSON</sub> Web Token 的縮寫。
+    使用 <sub alias="J W T">JWT</sub> 在服務之間傳遞已驗證的使用者宣告，無需在每次請求時查詢資料庫。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    OAuth 2.0
+    <sub alias="Oh Auth">OAuth</sub> 2.0
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    OAuth 2.0...
-    OAuth 2.0 is an authorization framework that lets an app access resources on behalf of a user without seeing their password.
-    Use OAuth 2.0 so users can log in with Google instead of creating yet another password.
+    <sub alias="Oh Auth">OAuth</sub> 2.0...
+    <sub alias="Oh Auth">OAuth</sub> 2.0 is an authorization framework that lets an app access resources on behalf of a user without receiving their password.
+    Use <sub alias="Oh Auth">OAuth</sub> 2.0 to let a calendar app access selected events without receiving the user's password.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    OAuth 2.0 是一套授權框架，讓 App 能代表使用者存取資源，而不會看到他們的密碼。
-    用 OAuth 2.0 讓使用者能用 Google 登入，而不必再建立一組新密碼。
+    <sub alias="Oh Auth">OAuth</sub> 2.0 是一套授權框架，讓 App 能代表使用者存取資源，而不必取得使用者密碼。
+    使用 <sub alias="Oh Auth">OAuth</sub> 2.0，讓 Calendar App 能存取使用者選定的 Event，而不必取得使用者密碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenID Connect
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <sub alias="O I D C">OIDC</sub>...
+    <sub alias="O I D C">OIDC</sub> stands for OpenID Connect, an identity layer built on top of <sub alias="Oh Auth">OAuth</sub> 2.0 for authenticating users and receiving identity claims.
+    Validate the <sub alias="O I D C">OIDC</sub> <sub alias="I D">ID</sub> token's issuer, audience, signature, and expiration before creating a user session.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <sub alias="O I D C">OIDC</sub> 是 OpenID Connect 的縮寫，是建構於 <sub alias="Oh Auth">OAuth</sub> 2.0 之上的身分層，用於驗證使用者並取得身分宣告。
+    建立使用者 Session 前，應驗證 <sub alias="O I D C">OIDC</sub> <sub alias="I D">ID</sub> Token 的 Issuer、Audience、Signature 與有效期限。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Proof Key for Code Exchange
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <sub alias="pixie">PKCE</sub>...
+    <sub alias="pixie">PKCE</sub> stands for Proof Key for Code Exchange and protects the <sub alias="Oh Auth">OAuth</sub> authorization code flow against authorization code interception.
+    The client sends a code challenge first and proves possession of the matching code verifier when exchanging the authorization code.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <sub alias="pixie">PKCE</sub> 是 Proof Key for Code Exchange 的縮寫，用來降低 <sub alias="Oh Auth">OAuth</sub> Authorization Code 遭攔截後被冒用的風險。
+    Client 先送出 Code Challenge，兌換 Authorization Code 時再提出相符的 Code Verifier。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Web Authentication
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <sub alias="Web Auth N">WebAuthn</sub>...
+    <sub alias="Web Auth N">WebAuthn</sub> is a browser <sub alias="A P I">API</sub> for creating and using public-key credentials scoped to a relying party.
+    Use <sub alias="Web Auth N">WebAuthn</sub> so the server verifies a signed challenge instead of receiving a reusable password.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <sub alias="Web Auth N">WebAuthn</sub> 是瀏覽器用來建立與使用 Public Key Credential 的 <sub alias="A P I">API</sub>，每組 Credential 都綁定特定的 Relying Party。
+    使用 <sub alias="Web Auth N">WebAuthn</sub> 後，伺服器驗證的是已簽署的 Challenge，而不是接收可重複使用的密碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    通行密鑰
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Passkey...
+    A passkey is a discoverable public-key credential that can support passwordless sign-in with user verification.
+    Register a passkey so the user can sign in with a device <sub alias="P I N">PIN</sub> or biometric check without sending a password to the server.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Passkey 是可探索的 Public Key Credential，可搭配 User Verification 完成無密碼登入。
+    註冊 Passkey 後，使用者可透過裝置 <sub alias="P I N">PIN</sub> 或生物辨識登入，不必把密碼傳送給伺服器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        最後，設計良好的 API 不僅好用，還有各種機制保護系統。
+        最後，設計良好的 <sub alias="A P I">API</sub> 不僅好用，還有各種機制保護系統。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -399,7 +451,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          還有文件也很重要！沒人想要猜你的 A P I 到底要傳什麼參數。Swagger 是你的好朋友。
+          還有文件也很重要！沒人想要猜你的 <sub alias="A P I">API</sub> 到底要傳什麼參數。Swagger 是你的好朋友。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -407,20 +459,20 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，文件化與限流都是 API 設計的一環。
+        沒錯，文件化與限流都是 <sub alias="A P I">API</sub> 設計的一環。
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    RESTful API
+    RESTful <sub alias="A P I">API</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    RESTful A P I...
-    RESTful A P I follows standard H T T P methods and resource-based URLs.
+    RESTful <sub alias="A P I">API</sub>...
+    RESTful <sub alias="A P I">API</sub> follows standard <sub alias="H T T P">HTTP</sub> methods and resource-based URLs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    RESTful API 遵循標準 HTTP 方法與基於資源的 URL。
+    RESTful <sub alias="A P I">API</sub> 遵循標準 <sub alias="H T T P">HTTP</sub> 方法與基於資源的 <sub alias="U R L">URL</sub>。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -439,10 +491,10 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Rate Limiting...
-    Implement rate limiting to prevent A P I abuse.
+    Implement rate limiting to prevent <sub alias="A P I">API</sub> abuse.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    實作速率限制以防止 API 濫用。
+    實作速率限制以防止 <sub alias="A P I">API</sub> 濫用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -461,23 +513,23 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Versioning...
-    A P I versioning helps maintain backward compatibility for existing clients.
+    <sub alias="A P I">API</sub> versioning helps maintain backward compatibility for existing clients.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    API 版本控制有助於為現有客戶端維持向後相容性。
+    <sub alias="A P I">API</sub> 版本控制有助於為現有客戶端維持向後相容性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    OpenAPI
+    <sub alias="Open A P I">OpenAPI</sub>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    OpenAPI...
-    OpenAPI is a standard, language-agnostic specification that describes your REST A P I.
-    Generate the client SDK straight from the OpenAPI document so the frontend always matches the backend.
+    <sub alias="Open A P I">OpenAPI</sub>...
+    <sub alias="Open A P I">OpenAPI</sub> is a standard, language-agnostic specification that describes your <sub alias="rest">REST</sub> <sub alias="A P I">API</sub>.
+    Generate the client <sub alias="S D K">SDK</sub> straight from the <sub alias="Open A P I">OpenAPI</sub> document so the frontend always matches the backend.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    OpenAPI 是一套標準、與語言無關的規格，用來描述你的 REST API。
-    直接從 OpenAPI 文件產生用戶端 SDK，前端就能永遠與後端保持一致。
+    <sub alias="Open A P I">OpenAPI</sub> 是一套標準、與語言無關的規格，用來描述你的 <sub alias="rest">REST</sub> <sub alias="A P I">API</sub>。
+    直接從 <sub alias="Open A P I">OpenAPI</sub> 文件產生用戶端 <sub alias="S D K">SDK</sub>，前端就能永遠與後端保持一致。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -485,32 +537,32 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Webhook...
-    A webhook lets one system notify another by sending an H T T P request when an event happens.
+    A webhook lets one system notify another by sending an <sub alias="H T T P">HTTP</sub> request when an event happens.
     Register a webhook so your service reacts the moment a payment succeeds, instead of polling the gateway.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    Webhook 讓一個系統在事件發生時，透過發送 HTTP 請求來通知另一個系統。
+    Webhook 讓一個系統在事件發生時，透過發送 <sub alias="H T T P">HTTP</sub> 請求來通知另一個系統。
     註冊一個 Webhook，付款一成功你的服務就立即反應，而不必一直輪詢金流閘道。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我們設計 API 的時候，到底要選 REST 還是 <sub alias="graph cue el">GraphQL</sub>？
+        我們設計 <sub alias="A P I">API</sub> 的時候，到底要選 <sub alias="rest">REST</sub> 還是 <sub alias="graph cue el">GraphQL</sub>？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        If you have a complex frontend that needs specific data fields, <sub alias="graph cue el">GraphQL</sub> helps avoid over-fetching. But for standard microservices, RESTful A P I or gRPC might be simpler and faster.
+        If you have a complex frontend that needs specific data fields, <sub alias="graph cue el">GraphQL</sub> helps avoid over-fetching. But for standard microservices, RESTful <sub alias="A P I">API</sub> or <sub alias="G R P C">gRPC</sub> might be simpler and faster.
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        那如果 API 被打爆了怎麼辦？
+        那如果 <sub alias="A P I">API</sub> 被打爆了怎麼辦？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -525,7 +577,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        HTTP 協定與 API 設計是 Web 開發的基石。RESTful 要語意清楚，版本控制要做好。
+        <sub alias="H T T P">HTTP</sub> 協定與 <sub alias="A P I">API</sub> 設計是 Web 開發的基石。RESTful 要語意清楚，版本控制要做好。
         我是曉臻，我們下次繼續聊。
       </prosody>
     </mstts:express-as>
