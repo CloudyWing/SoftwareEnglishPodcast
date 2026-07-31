@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.2.1 (2026-08-01)
+
+### Bug Fixes
+
+- 修正 Podcast RSS 音檔連結與 GitHub Release 資產名稱不一致，避免播放時回傳 404。
+
 ## v2.2.0 (2026-08-01)
 
 ### New Features

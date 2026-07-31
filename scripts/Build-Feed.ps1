@@ -52,6 +52,16 @@ function Invoke-NativeCommand {
     ($output | Out-String).Trim()
 }
 
+function Get-ReleaseAssetName {
+    param(
+        [Parameter(Mandatory)]
+        [string]$FileName
+    )
+
+    $normalizedName = [regex]::Replace($FileName, '[^A-Za-z0-9._-]+', '.')
+    [regex]::Replace($normalizedName, '\.+', '.')
+}
+
 function Get-EpisodeDuration {
     param(
         [Parameter(Mandatory)]
@@ -130,7 +140,8 @@ try {
         }
 
         $publicationDate = Get-PublicationDate -RepositoryRoot $repositoryRoot -TranscriptPath $transcript.FullName
-        $encodedFileName = [Uri]::EscapeDataString("$($transcript.BaseName).mp3")
+        $releaseAssetName = Get-ReleaseAssetName -FileName "$($transcript.BaseName).mp3"
+        $encodedFileName = [Uri]::EscapeDataString($releaseAssetName)
 
         [pscustomobject]@{
             EpisodeNumber = $episodeNumber
