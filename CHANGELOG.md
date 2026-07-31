@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.2.0 (2026-08-01)
+
+### New Features
+
+- 新增 Podcast RSS feed 發布流程，將節目資訊與封面圖部署至 GitHub Pages。
+- 補充 30 集現代技術詞彙，校正技術內容並加入縮寫與易誤讀單字的 SSML 發音標記。
+
 ## v2.0.0
 
 ### New Features
